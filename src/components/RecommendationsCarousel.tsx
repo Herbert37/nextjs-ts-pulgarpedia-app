@@ -10,14 +10,19 @@ import type { Place } from "../types/place";
 
 type Props = {
   maxSlides?: number;
+  categoryId?: string; // Nuevo: filtrar por categoría
 };
 
 /**
  * Carrusel de recomendaciones responsivo.
  * - Usa Swiper para swipe en móvil y flechas en desktop
  * - Autoplay y lazy loading activados
+ * - Si se proporciona categoryId, muestra solo lugares de esa categoría
  */
-const RecommendationsCarousel: React.FC<Props> = ({ maxSlides = 6 }) => {
+const RecommendationsCarousel: React.FC<Props> = ({
+  maxSlides = 6,
+  categoryId,
+}) => {
   const { places, isLoading, isReady } = usePulgarpediaContent();
   const [recommended, setRecommended] = useState<Place[]>([]);
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -35,11 +40,17 @@ const RecommendationsCarousel: React.FC<Props> = ({ maxSlides = 6 }) => {
 
   useEffect(() => {
     if (!isReady) return;
-    const picks = sampleRandom(places, maxSlides);
+
+    // Filtrar por categoría solo si se proporciona un categoryId válido
+    const filteredPlaces = categoryId
+      ? places.filter((place) => place.categoryId === categoryId)
+      : places;
+
+    const picks = sampleRandom(filteredPlaces, maxSlides);
     setRecommended(picks);
     // regenerate only when places change (session-level uniqueness handled by state)
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [isReady, places, maxSlides]);
+  }, [isReady, places, maxSlides, categoryId]);
 
   const slides = useMemo(() => recommended, [recommended]);
 
