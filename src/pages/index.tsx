@@ -1,6 +1,7 @@
 import React from "react";
 // Next.js y MUI
 import Head from "next/head";
+import { useRouter } from "next/router";
 import {
   Container,
   Grid,
@@ -12,7 +13,6 @@ import {
 import FilterAltOffIcon from "@mui/icons-material/FilterAltOff";
 // Componentes
 import Header from "../components/Header";
-import Menu from "../components/Menu";
 import SearchBar from "../components/SearchBar";
 import CategoryFilter from "../components/CategoryFilter";
 import PlaceCard from "../components/PlaceCard";
@@ -23,6 +23,7 @@ import { useFilteredPlaces } from "../hooks/useFilteredPlaces";
 import { useInfiniteScroll } from "../hooks/useInfiniteScroll";
 
 const Home: React.FC = () => {
+  const router = useRouter();
   const {
     searchQuery,
     selectedCategory,
@@ -36,6 +37,52 @@ const Home: React.FC = () => {
     totalResults,
     categories,
   } = useFilteredPlaces();
+
+  // Sincronizar categoría desde URL solo al cargar (una vez)
+  React.useEffect(() => {
+    const categoryFromUrl = router.query.category as string | undefined;
+
+    if (!isReady || !router.isReady) return;
+
+    // Si hay un query param de categoría
+    if (categoryFromUrl) {
+      // Validar que la categoría existe
+      const categoryExists = categories.some((c) => c.id === categoryFromUrl);
+
+      if (categoryExists) {
+        // Categoría válida: establecerla SOLO si aún no se ha establecido
+        setSelectedCategory(categoryFromUrl);
+      } else if (!categoryExists) {
+        // Categoría inválida: remover el query param y redirigir a /
+        router.replace("/", undefined, { shallow: true });
+      }
+    }
+    // Solo ejecutar cuando cambie el query param de la URL o cuando se cargue
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [router.query.category, router.isReady, isReady]);
+
+  // Función wrapper para cambiar categoría y actualizar URL
+  const handleCategoryChange = React.useCallback(
+    (categoryId: string) => {
+      setSelectedCategory(categoryId);
+
+      // Actualizar URL
+      if (categoryId === "all") {
+        // Remover query param si es "all"
+        router.push("/", undefined, { shallow: true });
+      } else {
+        // Agregar/actualizar query param
+        router.push(`/?category=${categoryId}`, undefined, { shallow: true });
+      }
+    },
+    [setSelectedCategory, router]
+  );
+
+  // Función wrapper para resetear filtros y limpiar URL
+  const handleResetFilters = React.useCallback(() => {
+    resetFilters();
+    router.push("/", undefined, { shallow: true });
+  }, [resetFilters, router]);
 
   // Infinite scroll para los resultados
   const { displayedItems, hasMore, isLoadingMore, observerTarget } =
@@ -77,6 +124,33 @@ const Home: React.FC = () => {
     categories,
     totalResults,
   ]);
+
+  // Mostrar estado de carga si el contenido no está listo
+  if (!isReady) {
+    return (
+      <>
+        <Head>
+          <title>Cargando... | Pulgarpedia</title>
+        </Head>
+        <Header />
+        <Box
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+            minHeight: "calc(100vh - 200px)",
+            gap: 2,
+          }}
+        >
+          <CircularProgress size={60} />
+          <Typography variant='body1' color='text.secondary'>
+            Cargando lugares chivos...
+          </Typography>
+        </Box>
+      </>
+    );
+  }
 
   return (
     <>
@@ -132,11 +206,12 @@ const Home: React.FC = () => {
         />
         <meta httpEquiv='Content-Language' content='es' />
       </Head>
-      <Menu />
       <Header />
       <Container maxWidth='lg' sx={{ mt: 4, mb: 8 }}>
-        {/* Carrusel de recomendaciones */}
-        <RecommendationsCarousel />
+        {/* Carrusel de recomendaciones - filtra por categoría si hay una seleccionada */}
+        <RecommendationsCarousel
+          categoryId={selectedCategory !== "all" ? selectedCategory : undefined}
+        />
         {/* Sección de categorías - Siempre visible */}
         {isReady && (
           <Box
@@ -153,7 +228,7 @@ const Home: React.FC = () => {
               categories={categories}
               placeCounts={placeCounts}
               onCategoryClick={(categoryId) => {
-                setSelectedCategory(categoryId);
+                handleCategoryChange(categoryId);
                 // Scroll suave hacia los resultados
                 const element = document.getElementById("results-section");
                 if (element) {
@@ -185,7 +260,7 @@ const Home: React.FC = () => {
               <CategoryFilter
                 categories={categories}
                 selectedCategory={selectedCategory}
-                onCategoryChange={setSelectedCategory}
+                onCategoryChange={handleCategoryChange}
                 placeCounts={placeCounts}
               />
             </Grid>
@@ -215,7 +290,7 @@ const Home: React.FC = () => {
                 <Button
                   size='small'
                   startIcon={<FilterAltOffIcon />}
-                  onClick={resetFilters}
+                  onClick={handleResetFilters}
                   sx={{ textTransform: "none" }}
                 >
                   Limpiar filtros
@@ -288,7 +363,7 @@ const Home: React.FC = () => {
             {hasActiveFilters && (
               <Button
                 variant='contained'
-                onClick={resetFilters}
+                onClick={handleResetFilters}
                 sx={{
                   mt: 2,
                   transition: "all 0.2s ease",
