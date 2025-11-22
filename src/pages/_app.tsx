@@ -10,6 +10,7 @@ import "../styles/styles.css";
 import createEmotionCache from "../utils/createEmotionCache";
 import { useContentStore } from "../stores/contentStore";
 import ErrorModal from "../components/ErrorModal";
+import Menu from "../components/Menu";
 
 // Client-side cache, shared for the whole session of the user in the browser.
 const clientSideEmotionCache = createEmotionCache();
@@ -75,8 +76,11 @@ export default function MyApp(props: MyAppProps) {
           onRetry={retryLoad}
         />
 
-        {/* Renderizar la aplicación solo si hay contenido cargado */}
-        {content && <Component {...pageProps} />}
+        {/* Renderizar Menu siempre (necesario para estructura HTML correcta) */}
+        <Menu />
+
+        {/* Renderizar la página (Component se renderiza siempre, pero con contenido condicional) */}
+        <Component {...pageProps} />
       </ThemeProvider>
     </CacheProvider>
   );
