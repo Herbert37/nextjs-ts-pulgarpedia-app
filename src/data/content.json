@@ -1,0 +1,3077 @@
+{
+  "categories": [
+    {
+      "id": "nature-adventure",
+      "name": "Naturaleza y Aventura",
+      "icon": "🏞️",
+      "description": "Volcanes, lagos, cascadas, parques nacionales y rutas de senderismo"
+    },
+    {
+      "id": "beaches-coast",
+      "name": "Playas y Costa",
+      "icon": "🏖️",
+      "description": "Playas, surf spots, puertos y manglares costeros"
+    },
+    {
+      "id": "cities-towns",
+      "name": "Ciudades y Pueblos",
+      "icon": "🌆",
+      "description": "Pueblos coloniales, ciudades turísticas y rutas urbanas"
+    },
+    {
+      "id": "gastronomy",
+      "name": "Gastronomía",
+      "icon": "🍴",
+      "description": "Restaurantes típicos, rutas del café y mercados gastronómicos"
+    },
+    {
+      "id": "festivals-events",
+      "name": "Festividades y Eventos",
+      "icon": "🎉",
+      "description": "Fiestas patronales, eventos culturales y celebraciones tradicionales"
+    }
+  ],
+  "places": [
+    {
+      "placeId": "NA-001",
+      "categoryId": "nature-adventure",
+      "header": {
+        "title": "Volcán de Santa Ana (Ilamatepec)",
+        "category": "Naturaleza y Aventura",
+        "mainImageURL": "/images/volcan-santa-ana-1.jpg",
+        "subtitle": "Conquista el techo de El Salvador y maravíllate con su laguna esmeralda."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/volcan-santa-ana-2.jpg",
+          "alt": "Vista del cráter con laguna esmeralda"
+        },
+        {
+          "imageUrl": "/images/volcan-santa-ana-3.jpg",
+          "alt": "Sendero de ascenso"
+        },
+        {
+          "imageUrl": "/images/volcan-santa-ana-4.jpg",
+          "alt": "Vista panorámica desde la cima"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "El Volcán Ilamatepec, conocido popularmente como Volcán de Santa Ana, es el pico más alto de El Salvador, alcanzando los 2,381 metros sobre el nivel del mar. Es famoso por su cráter activo que alberga una impresionante laguna de color turquesa-esmeralda, un espectáculo natural que lo convierte en la ruta de senderismo más popular del país.",
+        "historyCulture": "Parte del Parque Nacional Los Volcanes, su actividad ha sido histórica, siendo su última erupción significativa en 2005. Es un estratovolcán de gran complejidad. Su nombre náhuatl, Ilamatepec, significa 'Cerro de la Abuela'. Su ubicación privilegiada permite observar el Lago de Coatepeque, el Volcán de Izalco y el Cerro Verde.",
+        "locationClimate": {
+          "address": "Parque Nacional Cerro Verde, Departamento de Santa Ana, El Salvador.",
+          "coordinates": {
+            "latitude": 13.8569,
+            "longitude": -89.6385
+          },
+          "mapUrl": "https://maps.google.com/?q=13.8569,-89.6385",
+          "typicalHours": "Acceso al sendero de 8:00 AM a 11:00 AM (obligatorio con guía). El parque cierra a las 4:00 PM.",
+          "bestSeason": "Noviembre a Abril (temporada seca) para mejores vistas. Evitar la época de lluvias intensas."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Información sobre cómo llegar, costos y facilidades disponibles.",
+        "howToGetThere": [
+          {
+            "option": "Bus Público",
+            "details": "Ruta 248 desde Santa Ana (Terminal Vencedora). Sale solo por la mañana hacia Cerro Verde."
+          },
+          {
+            "option": "Transporte Privado",
+            "details": "Toma la carretera CA-1 (Panamericana) y luego desvíate hacia el desvío a Cerro Verde. Tiempo estimado desde San Salvador: 2.5 horas."
+          },
+          {
+            "option": "Tours",
+            "details": "Múltiples agencias de turismo ofrecen transporte directo desde San Salvador o La Libertad, incluyendo guía."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Entrada al Parque Nacional",
+            "price": "USD 3.00 (locales), USD 6.00 (extranjeros)"
+          },
+          {
+            "item": "Parqueo (Cerro Verde)",
+            "price": "USD 2.00"
+          },
+          {
+            "item": "Guía Turístico (Obligatorio)",
+            "price": "Aporte voluntario de USD 1.00 por persona (se recomienda más)."
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": false,
+          "localGuides": true,
+          "notes": "Los guías y la policía de turismo acompañan el ascenso por seguridad (sale en caravana a las 11:00 AM)."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": true,
+        "premiumTitle": "La Guía Secreta del Ilamatepec: Consejos de Montañistas Locales",
+        "contentSnippet": "Descubre las rutas alternativas menos concurridas, el mejor punto para acampar legalmente y el proveedor de comida más auténtico al bajar del volcán.",
+        "callToAction": "Desbloquea esta información y más con Pulgarpedia Premium",
+        "premiumRecommendations": [
+          {
+            "id": 1,
+            "type": "tip",
+            "headline": "Ruta Secreta de Descenso",
+            "body": "Para evitar la fila de regreso, toma el desvío detrás del refugio de emergencia. Te lleva a una plantación de café, pero debes negociar la salida con el dueño del terreno (generalmente solicitan $5 USD)."
+          },
+          {
+            "id": 2,
+            "type": "food",
+            "headline": "El Puesto de 'Doña Berta'",
+            "body": "Está ubicado 2 km antes de llegar al desvío del Parque Cerro Verde. Sus pupusas de arroz con loroco son las mejores de toda la zona volcánica. Solo abre los sábados y domingos a partir de las 3 PM."
+          },
+          {
+            "id": 3,
+            "type": "tip",
+            "headline": "Mejor Horario para la Foto",
+            "body": "La luz perfecta sobre la laguna esmeralda se da entre las 9:30 AM y 10:00 AM, justo antes de que el sol esté directamente sobre el cráter. ¡Planea el ascenso para llegar en ese lapso!"
+          },
+          {
+            "id": 4,
+            "type": "tip",
+            "headline": "Alquiler de Equipo",
+            "body": "Si olvidas tu bastón de senderismo, no lo alquiles en la entrada del parque. Hay un señor local en la gasolinera de Santa Ana que los renta por la mitad del precio."
+          }
+        ]
+      }
+    },
+    {
+      "placeId": "NA-002",
+      "categoryId": "nature-adventure",
+      "header": {
+        "title": "Volcán de Izalco",
+        "category": "Naturaleza y Aventura",
+        "mainImageURL": "/images/volcan-izalco-1.jpg",
+        "subtitle": "El 'Faro del Pacífico' con su imponente cono negro de ceniza volcánica."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/volcan-izalco-2.jpg",
+          "alt": "Vista del cono volcánico"
+        },
+        {
+          "imageUrl": "/images/volcan-izalco-3.jpg",
+          "alt": "Cráter del volcán"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "El Volcán de Izalco es uno de los volcanes más jóvenes de América, con su formación comenzando en 1770. Su actividad constante durante casi 200 años lo hizo visible desde el océano Pacífico, ganándose el apodo de 'Faro del Pacífico'. Su última erupción fue en 1966.",
+        "historyCulture": "Nació de una fisura en el flanco del Volcán de Santa Ana. Durante décadas, su actividad era tan predecible que los barcos lo usaban como punto de referencia en el Pacífico. Su cono perfecto de 1,950 metros de altura es resultado de erupciones explosivas constantes.",
+        "locationClimate": {
+          "address": "Parque Nacional Cerro Verde, Departamento de Sonsonate, El Salvador.",
+          "coordinates": {
+            "latitude": 13.8133,
+            "longitude": -89.6331
+          },
+          "mapUrl": "https://maps.google.com/?q=13.8133,-89.6331",
+          "typicalHours": "Acceso desde Cerro Verde, 8:00 AM a 2:00 PM.",
+          "bestSeason": "Noviembre a Marzo (temporada seca). Muy ventoso en cualquier época."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "El acceso es a través del Parque Nacional Cerro Verde.",
+        "howToGetThere": [
+          {
+            "option": "Desde Cerro Verde",
+            "details": "Camino de 2 horas desde el mirador de Cerro Verde. Requiere guía obligatorio."
+          },
+          {
+            "option": "Tours organizados",
+            "details": "Muchas agencias combinan Santa Ana + Izalco en un solo tour de día completo."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Entrada al Parque",
+            "price": "USD 3.00 (locales), USD 6.00 (extranjeros)"
+          },
+          {
+            "item": "Guía",
+            "price": "Incluido en el tour del parque"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": false,
+          "localGuides": true,
+          "notes": "Sendero más difícil que Santa Ana. Superficie de ceniza resbaladiza."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": true,
+        "premiumTitle": "Secretos del Faro del Pacífico",
+        "contentSnippet": "Descubre el mejor momento para visitar y evitar las multitudes, técnicas para subir la ceniza volcánica y vistas secretas.",
+        "callToAction": "Desbloquea con Pulgarpedia Premium",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "NA-003",
+      "categoryId": "nature-adventure",
+      "header": {
+        "title": "Cerro Verde",
+        "category": "Naturaleza y Aventura",
+        "mainImageURL": "/images/cerro-verde-1.jpg",
+        "subtitle": "Parque nacional con las mejores vistas panorámicas de los tres volcanes."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/cerro-verde-2.jpg",
+          "alt": "Mirador panorámico"
+        },
+        {
+          "imageUrl": "/images/cerro-verde-3.jpg",
+          "alt": "Sendero forestal"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "Cerro Verde es un volcán extinto de 2,030 metros de altura, convertido en parque nacional. Su nombre proviene de la densa vegetación que lo cubre. Es el punto de partida para explorar el complejo volcánico Santa Ana-Izalco-Cerro Verde.",
+        "historyCulture": "Declarado Parque Nacional en 1987. Anteriormente fue una zona de bosque nebuloso con abundante flora y fauna. Cuenta con senderos interpretativos y miradores que ofrecen vistas espectaculares del Lago de Coatepeque y los volcanes vecinos.",
+        "locationClimate": {
+          "address": "Carretera a Cerro Verde, Km 72, Departamento de Santa Ana, El Salvador.",
+          "coordinates": {
+            "latitude": 13.8394,
+            "longitude": -89.6228
+          },
+          "mapUrl": "https://maps.google.com/?q=13.8394,-89.6228",
+          "typicalHours": "8:00 AM a 4:00 PM todos los días.",
+          "bestSeason": "Todo el año. Temperatura promedio de 18°C."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Parque con infraestructura completa para visitantes.",
+        "howToGetThere": [
+          {
+            "option": "Transporte Privado",
+            "details": "Desde San Salvador, tomar CA-1 hacia Sonsonate, desvío en Km 72. 2 horas aprox."
+          },
+          {
+            "option": "Bus Público",
+            "details": "Ruta 248 desde Santa Ana hacia Cerro Verde."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Entrada al Parque",
+            "price": "USD 3.00 (locales), USD 6.00 (extranjeros)"
+          },
+          {
+            "item": "Parqueo",
+            "price": "USD 2.00"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": true,
+          "localGuides": true,
+          "notes": "Cuenta con restaurante, miradores accesibles, y centro de visitantes."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": false,
+        "premiumTitle": "Guía Completa de Cerro Verde",
+        "contentSnippet": "Acceso gratuito a recomendaciones básicas.",
+        "callToAction": "",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "NA-004",
+      "categoryId": "nature-adventure",
+      "header": {
+        "title": "Lago de Coatepeque",
+        "category": "Naturaleza y Aventura",
+        "mainImageURL": "/images/lago-coatepeque-1.jpg",
+        "subtitle": "Laguna de cráter volcánico con aguas cristalinas color turquesa."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/lago-coatepeque-2.jpg",
+          "alt": "Vista aérea del lago"
+        },
+        {
+          "imageUrl": "/images/lago-coatepeque-3.jpg",
+          "alt": "Atardecer en el lago"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "El Lago de Coatepeque es una impresionante laguna de cráter volcánico de 26 km² y hasta 115 metros de profundidad. Sus aguas cristalinas color azul turquesa lo convierten en uno de los lagos más hermosos de Centroamérica.",
+        "historyCulture": "Formado hace aproximadamente 72,000 años tras una erupción volcánica masiva. Su nombre náhuatl significa 'Cerro de Culebras'. En la época precolombina era considerado sagrado. Hoy es un destino turístico de alto nivel con restaurantes y hoteles boutique.",
+        "locationClimate": {
+          "address": "Santa Ana, El Salvador (múltiples puntos de acceso alrededor del lago).",
+          "coordinates": {
+            "latitude": 13.8694,
+            "longitude": -89.5553
+          },
+          "mapUrl": "https://maps.google.com/?q=13.8694,-89.5553",
+          "typicalHours": "Acceso público las 24 horas. Restaurantes y servicios operan de 8:00 AM a 8:00 PM.",
+          "bestSeason": "Todo el año. Los fines de semana y festivos hay más movimiento turístico."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Zona con excelente infraestructura turística.",
+        "howToGetThere": [
+          {
+            "option": "Transporte Privado",
+            "details": "Desde San Salvador por CA-1 hacia Santa Ana, desvío hacia el lago. 1.5 horas."
+          },
+          {
+            "option": "Bus",
+            "details": "Buses desde Santa Ana hacia El Congo, bajarse en el desvío del lago."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Acceso al lago",
+            "price": "Gratuito (algunas áreas privadas cobran consumo mínimo)"
+          },
+          {
+            "item": "Alquiler de kayak",
+            "price": "USD 10-15 por hora"
+          },
+          {
+            "item": "Tour en lancha",
+            "price": "USD 30-50 (grupo)"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": true,
+          "localGuides": false,
+          "notes": "Múltiples restaurantes, hoteles y áreas recreativas alrededor del lago."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": true,
+        "premiumTitle": "Los Secretos de Coatepeque",
+        "contentSnippet": "Mejores restaurantes locales, playas escondidas y el tour privado más económico.",
+        "callToAction": "Desbloquea con Pulgarpedia Premium",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "NA-005",
+      "categoryId": "nature-adventure",
+      "header": {
+        "title": "Parque Nacional El Imposible",
+        "category": "Naturaleza y Aventura",
+        "mainImageURL": "/images/el-imposible-1.jpg",
+        "subtitle": "Bosque tropical con biodiversidad excepcional y senderos desafiantes."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/el-imposible-2.jpg",
+          "alt": "Sendero en el bosque"
+        },
+        {
+          "imageUrl": "/images/el-imposible-3.jpg",
+          "alt": "Cascada interior"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "El Parque Nacional El Imposible es la mayor área natural protegida de El Salvador con 5,000 hectáreas de bosque tropical. Debe su nombre a un antiguo paso montañoso extremadamente peligroso usado por arrieros de café.",
+        "historyCulture": "Declarado parque nacional en 1989 para proteger uno de los últimos bosques tropicales del país. Alberga más de 500 especies de árboles, 100 especies de mamíferos y 300 especies de aves. Es un hotspot de biodiversidad en Mesoamérica.",
+        "locationClimate": {
+          "address": "Cantón San Benito, Municipio de Tacuba, Departamento de Ahuachapán, El Salvador.",
+          "coordinates": {
+            "latitude": 13.8286,
+            "longitude": -89.9853
+          },
+          "mapUrl": "https://maps.google.com/?q=13.8286,-89.9853",
+          "typicalHours": "8:00 AM a 4:00 PM. Cerrado los lunes.",
+          "bestSeason": "Diciembre a Abril (temporada seca) para mejor acceso a senderos."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Parque con infraestructura básica, ideal para ecoturismo.",
+        "howToGetThere": [
+          {
+            "option": "Transporte Privado",
+            "details": "Desde San Salvador tomar CA-1 hacia Sonsonate, luego hacia Ahuachapán y desvío a Tacuba. 3 horas aprox."
+          },
+          {
+            "option": "Bus",
+            "details": "Bus hasta Tacuba, luego contratar pickup local hasta la entrada (USD 10-15)."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Entrada",
+            "price": "USD 6.00 (extranjeros), USD 3.00 (locales)"
+          },
+          {
+            "item": "Guía obligatorio",
+            "price": "USD 25-35 por grupo"
+          },
+          {
+            "item": "Hospedaje en el parque",
+            "price": "USD 10-20 por noche (cabañas básicas)"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": false,
+          "localGuides": true,
+          "notes": "Cuenta con cabañas para hospedaje, áreas de camping y centro de visitantes."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": true,
+        "premiumTitle": "Secretos de El Imposible",
+        "contentSnippet": "Mejores senderos, avistamiento de fauna y guías más experimentados.",
+        "callToAction": "Desbloquea con Pulgarpedia Premium",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "NA-008",
+      "categoryId": "nature-adventure",
+      "header": {
+        "title": "Laguna de Alegría",
+        "category": "Naturaleza y Aventura",
+        "mainImageURL": "/images/laguna-alegria-1.jpg",
+        "subtitle": "Laguna de cráter con aguas sulfurosas de colores cambiantes."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/laguna-alegria-2.jpg",
+          "alt": "Vista de la laguna"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "La Laguna de Alegría es una laguna de cráter volcánico situada a 1,200 metros de altura en el Volcán Tecapa. Sus aguas cambian de color del verde esmeralda al turquesa debido a su alto contenido de azufre.",
+        "historyCulture": "El cráter tiene aproximadamente 1 km de diámetro. La laguna es conocida por sus propiedades termales y sulfurosas. El pueblo cercano de Alegría celebra anualmente el Festival del Maíz.",
+        "locationClimate": {
+          "address": "Municipio de Alegría, Departamento de Usulután, El Salvador.",
+          "coordinates": {
+            "latitude": 13.5069,
+            "longitude": -88.4714
+          },
+          "mapUrl": "https://maps.google.com/?q=13.5069,-88.4714",
+          "typicalHours": "7:00 AM a 5:00 PM todos los días.",
+          "bestSeason": "Noviembre a Marzo (clima más fresco). Puede estar nublado en temporada lluviosa."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Fácil acceso desde el pueblo de Alegría.",
+        "howToGetThere": [
+          {
+            "option": "Desde Alegría",
+            "details": "Caminata de 15-20 minutos desde el pueblo por sendero señalizado."
+          },
+          {
+            "option": "Transporte público",
+            "details": "Buses desde San Salvador o San Miguel hasta Alegría."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Entrada",
+            "price": "USD 1.00"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": false,
+          "localGuides": true,
+          "notes": "No está permitido nadar en la laguna debido al azufre."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": false,
+        "premiumTitle": "",
+        "contentSnippet": "",
+        "callToAction": "",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "NA-010",
+      "categoryId": "nature-adventure",
+      "header": {
+        "title": "Parque Nacional Montecristo",
+        "category": "Naturaleza y Aventura",
+        "mainImageURL": "/images/montecristo-1.jpg",
+        "subtitle": "Bosque nuboso en el punto donde convergen tres países."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/montecristo-2.jpg",
+          "alt": "Bosque nuboso"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "El Parque Nacional Montecristo es la zona boscosa más alta de El Salvador, ubicada en el punto trifinio donde se unen las fronteras de El Salvador, Guatemala y Honduras. Su pico alcanza los 2,418 metros sobre el nivel del mar.",
+        "historyCulture": "Declarado Reserva de la Biosfera por UNESCO. Es hogar de especies endémicas y en peligro de extinción. El bosque nuboso mantiene una humedad constante del 100% durante gran parte del año.",
+        "locationClimate": {
+          "address": "Municipio de Metapán, Departamento de Santa Ana, El Salvador.",
+          "coordinates": {
+            "latitude": 14.4167,
+            "longitude": -89.3667
+          },
+          "mapUrl": "https://maps.google.com/?q=14.4167,-89.3667",
+          "typicalHours": "8:00 AM a 3:00 PM. Cerrado de Mayo a Octubre por temporada de reproducción de fauna.",
+          "bestSeason": "Noviembre a Abril (temporada seca y cuando está abierto al público)."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Acceso controlado con permiso previo.",
+        "howToGetThere": [
+          {
+            "option": "Desde Metapán",
+            "details": "Vehículo 4x4 recomendado. 1.5 horas desde Metapán por camino de terracería."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Entrada",
+            "price": "USD 6.00"
+          },
+          {
+            "item": "Permiso especial",
+            "price": "Tramitar con anticipación en oficinas del MARN"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": false,
+          "localGuides": true,
+          "notes": "Acceso limitado y regulado. Reservar con semanas de anticipación."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": true,
+        "premiumTitle": "Guía para Montecristo",
+        "contentSnippet": "Cómo obtener permisos rápido, mejores senderos y contactos de guías especializados.",
+        "callToAction": "Desbloquea con Pulgarpedia Premium",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "NA-012",
+      "categoryId": "nature-adventure",
+      "header": {
+        "title": "Parque Nacional El Boquerón",
+        "category": "Naturaleza y Aventura",
+        "mainImageURL": "/images/el-boqueron-1.jpg",
+        "subtitle": "Cráter del Volcán de San Salvador con vistas panorámicas de la capital."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/el-boqueron-2.jpg",
+          "alt": "Vista del cráter"
+        },
+        {
+          "imageUrl": "/images/el-boqueron-3.jpg",
+          "alt": "Sendero circular"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "El Parque Nacional El Boquerón protege el cráter del Volcán de San Salvador, de 1,893 metros de altura. El cráter tiene 1.5 km de diámetro y 543 metros de profundidad. En su interior se formó un cráter secundario llamado Boqueroncito.",
+        "historyCulture": "Su última erupción importante fue en 1917. El parque ofrece un sendero circular alrededor del borde del cráter con vistas espectaculares de San Salvador y el océano Pacífico en días despejados.",
+        "locationClimate": {
+          "address": "Cantón El Boquerón, Municipio de San Salvador, El Salvador.",
+          "coordinates": {
+            "latitude": 13.7358,
+            "longitude": -89.2856
+          },
+          "mapUrl": "https://maps.google.com/?q=13.7358,-89.2856",
+          "typicalHours": "8:00 AM a 5:00 PM todos los días.",
+          "bestSeason": "Noviembre a Febrero (menos lluvias y mejor visibilidad)."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Fácil acceso desde San Salvador, ideal para medio día.",
+        "howToGetThere": [
+          {
+            "option": "Desde San Salvador",
+            "details": "Subir por carretera hacia Plan de La Laguna y continuar hacia El Boquerón. 30 minutos."
+          },
+          {
+            "option": "Transporte público",
+            "details": "Bus #103 desde el centro de San Salvador hasta Plan de La Laguna, luego taxi o caminata."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Entrada",
+            "price": "USD 1.00"
+          },
+          {
+            "item": "Parqueo",
+            "price": "USD 1.00"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": false,
+          "localGuides": true,
+          "notes": "Vendedores de artesanías y comida típica en la entrada. Puede hacer mucho viento y frío."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": false,
+        "premiumTitle": "",
+        "contentSnippet": "",
+        "callToAction": "",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "BC-001",
+      "categoryId": "beaches-coast",
+      "header": {
+        "title": "Playa El Tunco",
+        "category": "Playas y Costa",
+        "mainImageURL": "/images/playa-el-tunco-1.jpg",
+        "subtitle": "El destino de surf más famoso de El Salvador con vibrante vida nocturna."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/playa-el-tunco-2.jpg",
+          "alt": "Formación rocosa El Tunco"
+        },
+        {
+          "imageUrl": "/images/playa-el-tunco-3.jpg",
+          "alt": "Surfistas en acción"
+        },
+        {
+          "imageUrl": "/images/playa-el-tunco-4.jpg",
+          "alt": "Vida nocturna en El Tunco"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "Playa El Tunco es el epicentro del surf salvadoreño y un destino de playa cosmopolita. Su nombre proviene de una formación rocosa con forma de cerdo ('tunco' en lenguaje coloquial) que se encuentra en la playa. Con olas consistentes todo el año, se ha convertido en un imán para surfistas internacionales y mochileros.",
+        "historyCulture": "Originalmente un pueblo de pescadores, El Tunco se transformó en los años 90 cuando surfistas descubrieron sus olas de clase mundial. Hoy es un pueblo bohemio con hostales, restaurantes internacionales, bares, y una comunidad vibrante de expatriados y locales. Es el corazón de la cultura surf de El Salvador.",
+        "locationClimate": {
+          "address": "Municipio de Tamanique, Departamento de La Libertad, El Salvador.",
+          "coordinates": {
+            "latitude": 13.4917,
+            "longitude": -89.3944
+          },
+          "mapUrl": "https://maps.google.com/?q=13.4917,-89.3944",
+          "typicalHours": "Playa 24/7. La mayoría de negocios operan de 7:00 AM a 11:00 PM.",
+          "bestSeason": "Marzo a Octubre para las mejores olas. Temporada alta en Semana Santa y verano."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Infraestructura turística completa con opciones para todos los presupuestos.",
+        "howToGetThere": [
+          {
+            "option": "Transporte Privado",
+            "details": "Desde San Salvador tomar Carretera del Litoral hacia La Libertad, desvío hacia El Tunco. 45 minutos."
+          },
+          {
+            "option": "Bus Público",
+            "details": "Bus #102 desde San Salvador a La Libertad, luego bus #192 o #287 hacia El Tunco."
+          },
+          {
+            "option": "Shuttle",
+            "details": "Múltiples hostales ofrecen servicio de pickup desde San Salvador o aeropuerto (USD 15-25)."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Acceso a la playa",
+            "price": "Gratuito"
+          },
+          {
+            "item": "Alquiler de tabla de surf",
+            "price": "USD 10-15 por día"
+          },
+          {
+            "item": "Clase de surf (2 horas)",
+            "price": "USD 25-35 por persona"
+          },
+          {
+            "item": "Hostal (dormitorio compartido)",
+            "price": "USD 10-20 por noche"
+          },
+          {
+            "item": "Hotel privado",
+            "price": "USD 40-150 por noche"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": false,
+          "localGuides": true,
+          "notes": "Múltiples hostales, restaurantes, bares, tiendas de surf, cajeros automáticos, y servicios médicos básicos."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": true,
+        "premiumTitle": "La Guía Insider de El Tunco",
+        "contentSnippet": "Los mejores spots de surf secretos, restaurantes locales económicos, y cómo evitar las multitudes en temporada alta.",
+        "callToAction": "Desbloquea con Pulgarpedia Premium",
+        "premiumRecommendations": [
+          {
+            "id": 1,
+            "type": "tip",
+            "headline": "Surf Spot Secreto",
+            "body": "A 10 minutos caminando al oeste está 'La Bocana', un beach break menos conocido perfecto para principiantes e intermedios. Casi nunca hay gente."
+          },
+          {
+            "id": 2,
+            "type": "food",
+            "headline": "Comedor Doña María",
+            "body": "Escondido detrás de la calle principal, este comedor familiar ofrece desayunos salvadoreños por USD 3.00. Pregunta por el 'desayuno típico completo'."
+          },
+          {
+            "id": 3,
+            "type": "tip",
+            "headline": "Mejor Horario para Surf",
+            "body": "Las mejores olas son en la mañana temprano (6-9 AM) cuando el viento offshore está calmado. Después del mediodía el viento onshore puede arruinar las olas."
+          }
+        ]
+      }
+    },
+    {
+      "placeId": "BC-002",
+      "categoryId": "beaches-coast",
+      "header": {
+        "title": "Playa El Sunzal",
+        "category": "Playas y Costa",
+        "mainImageURL": "/images/playa-el-sunzal-1.jpg",
+        "subtitle": "Olas de clase mundial favoritas de surfistas profesionales."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/playa-el-sunzal-2.jpg",
+          "alt": "Ola perfecta en El Sunzal"
+        },
+        {
+          "imageUrl": "/images/playa-el-sunzal-3.jpg",
+          "alt": "Vista desde el acantilado"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "El Sunzal es considerada una de las mejores olas de Centroamérica, con un punto break de derecha que puede alcanzar varios metros de altura. Es más tranquila y menos desarrollada que El Tunco, atrayendo a surfistas más experimentados y familias que buscan un ambiente relajado.",
+        "historyCulture": "Ha sido sede de competencias internacionales de surf. Su ola derecha constante y larga la hace ideal para longboard y shortboard. La comunidad es más pequeña y enfocada en el surf de alto nivel.",
+        "locationClimate": {
+          "address": "Municipio de La Libertad, Departamento de La Libertad, El Salvador.",
+          "coordinates": {
+            "latitude": 13.4975,
+            "longitude": -89.4069
+          },
+          "mapUrl": "https://maps.google.com/?q=13.4975,-89.4069",
+          "typicalHours": "Playa accesible 24/7.",
+          "bestSeason": "Marzo a Octubre para swells más grandes. Funciona todo el año."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Ambiente más tranquilo con servicios enfocados en surfistas.",
+        "howToGetThere": [
+          {
+            "option": "Desde El Tunco",
+            "details": "Caminata de 10 minutos por la playa o carretera. También puedes ir en tuk-tuk (USD 2)."
+          },
+          {
+            "option": "Desde San Salvador",
+            "details": "Carretera del Litoral, mismo acceso que El Tunco pero 1 km antes."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Acceso a la playa",
+            "price": "Gratuito"
+          },
+          {
+            "item": "Alquiler de tabla",
+            "price": "USD 10-15 por día"
+          },
+          {
+            "item": "Clase de surf",
+            "price": "USD 30-40 por persona"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": false,
+          "localGuides": true,
+          "notes": "Algunos restaurantes frente al mar, menos opciones de hospedaje que El Tunco."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": true,
+        "premiumTitle": "Secretos de El Sunzal",
+        "contentSnippet": "Mejores horarios según las mareas, dónde ver el atardecer y el mejor instructor local.",
+        "callToAction": "Desbloquea con Pulgarpedia Premium",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "BC-003",
+      "categoryId": "beaches-coast",
+      "header": {
+        "title": "Playa El Cuco",
+        "category": "Playas y Costa",
+        "mainImageURL": "/images/playa-el-cuco-1.jpg",
+        "subtitle": "Playa familiar en el oriente con arena oscura y ambiente tranquilo."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/playa-el-cuco-2.jpg",
+          "alt": "Playa amplia en El Cuco"
+        },
+        {
+          "imageUrl": "/images/playa-el-cuco-3.jpg",
+          "alt": "Atardecer en El Cuco"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "Playa El Cuco es el destino de playa más popular de la zona oriental de El Salvador. Con varios kilómetros de arena volcánica oscura, es ideal para familias y visitantes que buscan un ambiente más relajado que las playas surferas del occidente. Cuenta con olas moderadas perfectas para nadar.",
+        "historyCulture": "Tradicionalmente un pueblo de pescadores, El Cuco ha crecido como destino turístico local. Los fines de semana y feriados se llena de familias salvadoreñas. Mantiene un ambiente auténtico con vendedores de mariscos frescos en la playa.",
+        "locationClimate": {
+          "address": "Municipio de Chirilagua, Departamento de San Miguel, El Salvador.",
+          "coordinates": {
+            "latitude": 13.2833,
+            "longitude": -88.0833
+          },
+          "mapUrl": "https://maps.google.com/?q=13.2833,-88.0833",
+          "typicalHours": "Playa accesible 24/7. Restaurantes de 8:00 AM a 8:00 PM.",
+          "bestSeason": "Diciembre a Abril (temporada seca) para clima soleado."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Infraestructura turística local con opciones económicas.",
+        "howToGetThere": [
+          {
+            "option": "Desde San Miguel",
+            "details": "Bus #320 desde San Miguel hacia El Cuco. 1 hora de viaje."
+          },
+          {
+            "option": "Transporte Privado",
+            "details": "Desde San Miguel por Ruta Militar, luego hacia Chirilagua. Desde San Salvador: 3 horas."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Acceso a la playa",
+            "price": "Gratuito"
+          },
+          {
+            "item": "Rancho en la playa",
+            "price": "USD 5-10 por día"
+          },
+          {
+            "item": "Hotel económico",
+            "price": "USD 25-50 por noche"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": false,
+          "localGuides": false,
+          "notes": "Múltiples restaurantes de mariscos, hospedajes básicos, y servicios de playa."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": true,
+        "premiumTitle": "Guía Local de El Cuco",
+        "contentSnippet": "Los mejores restaurantes de mariscos, playas cercanas menos conocidas y tours de pesca.",
+        "callToAction": "Desbloquea con Pulgarpedia Premium",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "BC-004",
+      "categoryId": "beaches-coast",
+      "header": {
+        "title": "Playa Costa del Sol",
+        "category": "Playas y Costa",
+        "mainImageURL": "/images/costa-del-sol-1.jpg",
+        "subtitle": "Península con playa amplia, manglares y desarrollo turístico de alto nivel."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/costa-del-sol-2.jpg",
+          "alt": "Playa amplia de Costa del Sol"
+        },
+        {
+          "imageUrl": "/images/costa-del-sol-3.jpg",
+          "alt": "Canales de manglar"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "Costa del Sol es una península de 15 km de largo que separa el Océano Pacífico del estuario Jaltepeque. Ofrece playas amplias con arena oscura, olas moderadas y acceso a manglares y esteros. Es uno de los desarrollos turísticos más importantes del país con resorts, condominios y restaurantes de alta gama.",
+        "historyCulture": "Desarrollada como zona turística en los años 70, Costa del Sol ha evolucionado con hoteles boutique y residencias de lujo. El estero de Jaltepeque es un ecosistema vital con manglares que albergan diversas especies de aves y vida marina.",
+        "locationClimate": {
+          "address": "Municipio de San Luis La Herradura, Departamento de La Paz, El Salvador.",
+          "coordinates": {
+            "latitude": 13.3333,
+            "longitude": -88.9167
+          },
+          "mapUrl": "https://maps.google.com/?q=13.3333,-88.9167",
+          "typicalHours": "Acceso 24/7. Servicios operan según establecimiento.",
+          "bestSeason": "Todo el año. Diciembre a Abril para menos lluvias."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Zona turística con excelente infraestructura y servicios.",
+        "howToGetThere": [
+          {
+            "option": "Desde San Salvador",
+            "details": "Carretera CA-2 hacia el sur, desvío en Comalapa. 1 hora de viaje."
+          },
+          {
+            "option": "Bus Público",
+            "details": "Bus #495 desde Terminal del Sur en San Salvador."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Acceso a playas públicas",
+            "price": "Gratuito"
+          },
+          {
+            "item": "Tour por manglares",
+            "price": "USD 20-30 por persona"
+          },
+          {
+            "item": "Hoteles",
+            "price": "USD 80-250 por noche"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": true,
+          "localGuides": true,
+          "notes": "Resorts con piscinas, restaurantes gourmet, deportes acuáticos y spa."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": true,
+        "premiumTitle": "Los Secretos de Costa del Sol",
+        "contentSnippet": "Mejores spots de pesca, tours privados por manglares y restaurantes escondidos.",
+        "callToAction": "Desbloquea con Pulgarpedia Premium",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "BC-005",
+      "categoryId": "beaches-coast",
+      "header": {
+        "title": "Playa Los Cóbanos",
+        "category": "Playas y Costa",
+        "mainImageURL": "/images/los-cobanos-1.jpg",
+        "subtitle": "Zona de buceo y snorkel con arrecifes rocosos únicos en El Salvador."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/los-cobanos-2.jpg",
+          "alt": "Arrecifes de Los Cóbanos"
+        },
+        {
+          "imageUrl": "/images/los-cobanos-3.jpg",
+          "alt": "Vida marina"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "Los Cóbanos es el único sitio en El Salvador con arrecifes rocosos extensos que albergan una rica biodiversidad marina. Es el mejor destino del país para buceo y snorkel, con aguas relativamente claras y abundante vida submarina incluyendo tortugas marinas, rayas y peces tropicales.",
+        "historyCulture": "Declarada Área Natural Protegida para preservar los arrecifes. Es un pueblo pesquero tradicional que ha diversificado hacia el ecoturismo marino. Los pescadores locales ahora ofrecen tours de snorkel y buceo.",
+        "locationClimate": {
+          "address": "Municipio de Acajutla, Departamento de Sonsonate, El Salvador.",
+          "coordinates": {
+            "latitude": 13.3667,
+            "longitude": -89.8333
+          },
+          "mapUrl": "https://maps.google.com/?q=13.3667,-89.8333",
+          "typicalHours": "Tours de buceo salen de 8:00 AM a 2:00 PM.",
+          "bestSeason": "Noviembre a Abril (mejor visibilidad submarina). Evitar época de lluvias."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Ecoturismo marino con operadores locales certificados.",
+        "howToGetThere": [
+          {
+            "option": "Desde Sonsonate",
+            "details": "Bus hacia Acajutla, luego transporte local a Los Cóbanos. 45 minutos total."
+          },
+          {
+            "option": "Transporte Privado",
+            "details": "Desde San Salvador tomar CA-1 hacia Sonsonate, luego hacia Acajutla y Los Cóbanos. 2 horas."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Tour de snorkel",
+            "price": "USD 15-25 por persona (incluye equipo)"
+          },
+          {
+            "item": "Buceo certificado (2 tanques)",
+            "price": "USD 60-80"
+          },
+          {
+            "item": "Curso de buceo PADI",
+            "price": "USD 300-400"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": false,
+          "localGuides": true,
+          "notes": "Operadores de buceo certificados, restaurantes de mariscos, hospedaje básico."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": true,
+        "premiumTitle": "Guía Submarina de Los Cóbanos",
+        "contentSnippet": "Mejores sitios de buceo, temporadas para ver tortugas y operadores más confiables.",
+        "callToAction": "Desbloquea con Pulgarpedia Premium",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "BC-006",
+      "categoryId": "beaches-coast",
+      "header": {
+        "title": "Playa Las Flores",
+        "category": "Playas y Costa",
+        "mainImageURL": "/images/las-flores-1.jpg",
+        "subtitle": "Paraíso del surf en el oriente con naturaleza salvaje y olas perfectas."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/las-flores-2.jpg",
+          "alt": "Olas de Las Flores"
+        },
+        {
+          "imageUrl": "/images/las-flores-3.jpg",
+          "alt": "Playa virgen"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "Playa Las Flores es una joya escondida en el oriente salvadoreño, famosa por sus olas consistentes de clase mundial y su ambiente relajado. Es menos desarrollada que las playas del occidente, ofreciendo una experiencia más auténtica y cercana a la naturaleza. Popular entre surfistas experimentados y viajeros que buscan tranquilidad.",
+        "historyCulture": "Descubierta por la comunidad surfista internacional en los 90s. Mantiene su carácter de pueblo pequeño con algunas posadas boutique. Es famosa por la ola 'Las Flores Right', considerada una de las mejores de El Salvador.",
+        "locationClimate": {
+          "address": "Municipio de Intipucá, Departamento de La Unión, El Salvador.",
+          "coordinates": {
+            "latitude": 13.2833,
+            "longitude": -87.9167
+          },
+          "mapUrl": "https://maps.google.com/?q=13.2833,-87.9167",
+          "typicalHours": "Playa 24/7. Servicios limitados en horarios flexibles.",
+          "bestSeason": "Marzo a Octubre para las mejores olas. Todo el año funciona."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Ambiente rústico con servicios básicos enfocados en surfistas.",
+        "howToGetThere": [
+          {
+            "option": "Desde La Unión",
+            "details": "Bus local desde La Unión hacia Intipucá, luego mototaxi a Las Flores. 1 hora."
+          },
+          {
+            "option": "Desde San Salvador",
+            "details": "Carretera Panamericana hacia oriente, desvío en La Unión. 3.5 horas."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Acceso a playa",
+            "price": "Gratuito"
+          },
+          {
+            "item": "Hospedaje básico",
+            "price": "USD 20-40 por noche"
+          },
+          {
+            "item": "Posada boutique",
+            "price": "USD 80-150 por noche"
+          },
+          {
+            "item": "Alquiler de tabla",
+            "price": "USD 10-15 por día"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": false,
+          "localGuides": true,
+          "notes": "Servicios limitados. Llevar efectivo, no hay cajeros cerca."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": true,
+        "premiumTitle": "Secretos de Las Flores",
+        "contentSnippet": "Olas secretas cercanas, mejor época para swells grandes y guías locales de confianza.",
+        "callToAction": "Desbloquea con Pulgarpedia Premium",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "BC-007",
+      "categoryId": "beaches-coast",
+      "header": {
+        "title": "Puerto de La Libertad",
+        "category": "Playas y Costa",
+        "mainImageURL": "/images/puerto-libertad-1.jpg",
+        "subtitle": "Puerto histórico con malecón renovado, gastronomía marina y cultura pesquera."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/puerto-libertad-2.jpg",
+          "alt": "Malecón de La Libertad"
+        },
+        {
+          "imageUrl": "/images/puerto-libertad-3.jpg",
+          "alt": "Pescadores en el muelle"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "El Puerto de La Libertad es un puerto pesquero histórico que ha sido revitalizado con un moderno malecón turístico. Es famoso por sus mariscos frescos, punto break de surf 'Punta Roca', y como puerta de entrada a las playas cercanas. El malecón ofrece restaurantes, parques y áreas recreativas con vista al océano.",
+        "historyCulture": "Fundado en 1825, fue el puerto principal de El Salvador antes de Acajutla. Su tradición pesquera permanece viva con la llegada diaria de barcos con mariscos frescos. 'Punta Roca' es una ola legendaria que ha producido campeones de surf salvadoreños.",
+        "locationClimate": {
+          "address": "Municipio de La Libertad, Departamento de La Libertad, El Salvador.",
+          "coordinates": {
+            "latitude": 13.4881,
+            "longitude": -89.3222
+          },
+          "mapUrl": "https://maps.google.com/?q=13.4881,-89.3222",
+          "typicalHours": "Malecón 24/7. Restaurantes de 9:00 AM a 9:00 PM.",
+          "bestSeason": "Todo el año. Fines de semana son más concurridos."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Ciudad puerto con servicios completos y fácil acceso.",
+        "howToGetThere": [
+          {
+            "option": "Bus desde San Salvador",
+            "details": "Bus #102 desde Terminal de Occidente. Sale cada 15 minutos. 45 minutos."
+          },
+          {
+            "option": "Transporte Privado",
+            "details": "Carretera del Litoral desde San Salvador. 35 minutos."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Acceso al malecón",
+            "price": "Gratuito"
+          },
+          {
+            "item": "Comida de mariscos",
+            "price": "USD 8-20 por persona"
+          },
+          {
+            "item": "Parqueo",
+            "price": "USD 1-2"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": true,
+          "localGuides": false,
+          "notes": "Malecón moderno con áreas recreativas, bancos, cajeros, y múltiples restaurantes."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": true,
+        "premiumTitle": "Guía Gourmet del Puerto",
+        "contentSnippet": "Los mejores restaurantes de mariscos según locales, dónde comprar pescado fresco y el mejor momento para surfear Punta Roca.",
+        "callToAction": "Desbloquea con Pulgarpedia Premium",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "BC-008",
+      "categoryId": "beaches-coast",
+      "header": {
+        "title": "Barra de Santiago",
+        "category": "Playas y Costa",
+        "mainImageURL": "/images/barra-santiago-1.jpg",
+        "subtitle": "Reserva natural con playa virgen, estero, manglares y ecoturismo comunitario."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/barra-santiago-2.jpg",
+          "alt": "Manglares de Barra de Santiago"
+        },
+        {
+          "imageUrl": "/images/barra-santiago-3.jpg",
+          "alt": "Playa virgen"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "Barra de Santiago es un área natural protegida que combina playa virgen, esteros y extensos bosques de manglares. Es uno de los últimos refugios de biodiversidad costera en El Salvador, hogar de aves migratorias, caimanes, y tortugas marinas. El acceso es en lancha, lo que ha preservado su estado prístino.",
+        "historyCulture": "Declarada Área Natural Protegida por sus manglares y humedales. Las comunidades locales practican pesca artesanal y ecoturismo. Es un importante sitio de anidación de tortugas carey y golfinas. La cooperativa local ofrece tours educativos.",
+        "locationClimate": {
+          "address": "Municipio de Jujutla, Departamento de Ahuachapán, El Salvador.",
+          "coordinates": {
+            "latitude": 13.6667,
+            "longitude": -89.9833
+          },
+          "mapUrl": "https://maps.google.com/?q=13.6667,-89.9833",
+          "typicalHours": "Tours salen de 8:00 AM a 3:00 PM. Coordinar con anticipación.",
+          "bestSeason": "Noviembre a Abril para clima seco. Julio-Octubre para ver tortugas anidando."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Ecoturismo comunitario con infraestructura básica.",
+        "howToGetThere": [
+          {
+            "option": "Desde Ahuachapán",
+            "details": "Bus hacia Jujutla, luego mototaxi al embarcadero. Lancha a Barra (USD 2-3). 2 horas total."
+          },
+          {
+            "option": "Tour organizado",
+            "details": "Algunas agencias de San Salvador ofrecen tours de día completo con transporte."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Pasaje en lancha",
+            "price": "USD 2-3 por trayecto"
+          },
+          {
+            "item": "Tour por manglares",
+            "price": "USD 15-20 por persona"
+          },
+          {
+            "item": "Hospedaje comunitario",
+            "price": "USD 15-30 por noche (cabañas básicas)"
+          }
+        ],
+        "facilities": {
+          "parking": false,
+          "restrooms": true,
+          "wheelchairAccess": false,
+          "localGuides": true,
+          "notes": "Servicios muy básicos. Llevar efectivo, repelente de mosquitos y protector solar."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": true,
+        "premiumTitle": "Secretos de Barra de Santiago",
+        "contentSnippet": "Mejores guías locales, temporada de tortugas y spots de observación de aves.",
+        "callToAction": "Desbloquea con Pulgarpedia Premium",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "CT-001",
+      "categoryId": "cities-towns",
+      "header": {
+        "title": "Suchitoto",
+        "category": "Ciudades y Pueblos",
+        "mainImageURL": "/images/suchitoto-1.jpg",
+        "subtitle": "La joya colonial de El Salvador, cuna de arte y cultura."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/suchitoto-2.jpg",
+          "alt": "Iglesia colonial de Suchitoto"
+        },
+        {
+          "imageUrl": "/images/suchitoto-3.jpg",
+          "alt": "Calles empedradas"
+        },
+        {
+          "imageUrl": "/images/suchitoto-4.jpg",
+          "alt": "Lago Suchitlán"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "Suchitoto es el pueblo colonial más hermoso de El Salvador, con calles empedradas, arquitectura colonial perfectamente preservada y una vibrante escena artística. Ubicado a orillas del Lago Suchitlán, combina historia, cultura y naturaleza. Es conocido como el pueblo de las aves y las flores.",
+        "historyCulture": "Fundado en 1528, fue la capital de la Alcaldía Mayor de San Salvador durante el período colonial. Su nombre náhuatl significa 'Lugar del Pájaro Flor'. Ha sido declarado Patrimonio Cultural y es epicentro del Festival Internacional de Arte y Cultura cada febrero. Alberga galerías, teatros y talleres de artistas.",
+        "locationClimate": {
+          "address": "Municipio de Suchitoto, Departamento de Cuscatlán, El Salvador.",
+          "coordinates": {
+            "latitude": 13.9369,
+            "longitude": -89.0294
+          },
+          "mapUrl": "https://maps.google.com/?q=13.9369,-89.0294",
+          "typicalHours": "El pueblo es accesible 24/7. Museos y galerías de 9:00 AM a 5:00 PM.",
+          "bestSeason": "Todo el año. Febrero para el Festival Internacional. Fines de semana más concurridos."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Pueblo con excelente infraestructura turística y servicios.",
+        "howToGetThere": [
+          {
+            "option": "Bus desde San Salvador",
+            "details": "Bus #129 desde Terminal de Oriente hacia Aguilares, transbordo a Suchitoto. 2 horas."
+          },
+          {
+            "option": "Transporte Privado",
+            "details": "Carretera Troncal del Norte desde San Salvador. 1.5 horas."
+          },
+          {
+            "option": "Tours organizados",
+            "details": "Múltiples agencias ofrecen tours de día completo desde San Salvador."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Entrada a museos",
+            "price": "USD 1-3 por museo"
+          },
+          {
+            "item": "Tour guiado del pueblo",
+            "price": "USD 10-15 por persona"
+          },
+          {
+            "item": "Hospedaje boutique",
+            "price": "USD 40-100 por noche"
+          },
+          {
+            "item": "Restaurantes",
+            "price": "USD 8-20 por comida"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": false,
+          "localGuides": true,
+          "notes": "Múltiples hoteles boutique, restaurantes gourmet, galerías de arte, y servicios bancarios."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": true,
+        "premiumTitle": "La Guía Secreta de Suchitoto",
+        "contentSnippet": "Los mejores miradores del lago, restaurantes favoritos de locales y tours privados únicos.",
+        "callToAction": "Desbloquea con Pulgarpedia Premium",
+        "premiumRecommendations": [
+          {
+            "id": 1,
+            "type": "tip",
+            "headline": "Mirador Los Tercios",
+            "body": "Pocos turistas conocen este mirador natural a 15 minutos del pueblo. Ofrece la mejor vista panorámica del Lago Suchitlán y es gratis."
+          },
+          {
+            "id": 2,
+            "type": "food",
+            "headline": "Restaurante Rinconcito del Gringo",
+            "body": "Escondido en una calle lateral, este pequeño comedor sirve el mejor ceviche vegetariano del pueblo por solo USD 5. Solo abre viernes a domingo."
+          }
+        ]
+      }
+    },
+    {
+      "placeId": "CT-002",
+      "categoryId": "cities-towns",
+      "header": {
+        "title": "Concepción de Ataco",
+        "category": "Ciudades y Pueblos",
+        "mainImageURL": "/images/ataco-1.jpg",
+        "subtitle": "Pueblo de murales coloridos en la Ruta de las Flores."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/ataco-2.jpg",
+          "alt": "Murales de Ataco"
+        },
+        {
+          "imageUrl": "/images/ataco-3.jpg",
+          "alt": "Calles coloniales"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "Ataco es el pueblo más fotogénico de la Ruta de las Flores, famoso por sus murales artísticos que adornan casi cada esquina. Con clima fresco de montaña, cafeterías boutique, artesanías y arquitectura colonial, es el destino perfecto para un fin de semana relajado.",
+        "historyCulture": "Pueblo de origen náhuatl. Su transformación artística comenzó en 2007 cuando artistas locales empezaron a pintar murales en las fachadas. Hoy tiene más de 100 murales. Es famoso por su café de altura y artesanías.",
+        "locationClimate": {
+          "address": "Municipio de Concepción de Ataco, Departamento de Ahuachapán, El Salvador.",
+          "coordinates": {
+            "latitude": 13.8719,
+            "longitude": -89.8483
+          },
+          "mapUrl": "https://maps.google.com/?q=13.8719,-89.8483",
+          "typicalHours": "Pueblo accesible 24/7. Comercios de 8:00 AM a 6:00 PM.",
+          "bestSeason": "Todo el año. Clima fresco 15-22°C. Fines de semana más concurridos."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Excelente infraestructura turística con opciones boutique.",
+        "howToGetThere": [
+          {
+            "option": "Bus desde San Salvador",
+            "details": "Bus #205 desde Terminal de Occidente hacia Ahuachapán, bajar en Ataco. 2.5 horas."
+          },
+          {
+            "option": "Transporte Privado",
+            "details": "Carretera CA-8 Ruta de las Flores. 2 horas desde San Salvador."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Tour de murales",
+            "price": "Gratuito (caminata autoguiada)"
+          },
+          {
+            "item": "Hospedaje boutique",
+            "price": "USD 35-80 por noche"
+          },
+          {
+            "item": "Cafeterías",
+            "price": "USD 3-8"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": true,
+          "localGuides": true,
+          "notes": "Hoteles boutique, cafeterías gourmet, tiendas de artesanías y galerías."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": true,
+        "premiumTitle": "Secretos de Ataco",
+        "contentSnippet": "Los murales menos conocidos, mejores cafeterías locales y artesanos auténticos.",
+        "callToAction": "Desbloquea con Pulgarpedia Premium",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "CT-003",
+      "categoryId": "cities-towns",
+      "header": {
+        "title": "Juayúa",
+        "category": "Ciudades y Pueblos",
+        "mainImageURL": "/images/juayua-1.jpg",
+        "subtitle": "Capital gastronómica de la Ruta de las Flores."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/juayua-2.jpg",
+          "alt": "Feria gastronómica"
+        },
+        {
+          "imageUrl": "/images/juayua-3.jpg",
+          "alt": "Iglesia del Cristo Negro"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "Juayúa es el destino gastronómico por excelencia de El Salvador. Cada fin de semana alberga la famosa Feria Gastronómica donde se pueden degustar platos típicos e internacionales. Además, es punto de partida para tours a cascadas y plantaciones de café.",
+        "historyCulture": "Pueblo colonial fundado en el siglo XVI. Su nombre náhuatl significa 'Río de las Orquídeas Moradas'. Es famoso por el Cristo Negro tallado en el siglo XVI que se venera en su iglesia. La Feria Gastronómica comenzó en 2000 y se ha convertido en atracción nacional.",
+        "locationClimate": {
+          "address": "Municipio de Juayúa, Departamento de Sonsonate, El Salvador.",
+          "coordinates": {
+            "latitude": 13.8428,
+            "longitude": -89.745
+          },
+          "mapUrl": "https://maps.google.com/?q=13.8428,-89.7450",
+          "typicalHours": "Feria Gastronómica: Sábado y Domingo de 10:00 AM a 6:00 PM.",
+          "bestSeason": "Todo el año. Fines de semana para la feria. Clima fresco 16-24°C."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Pueblo con servicios turísticos completos.",
+        "howToGetThere": [
+          {
+            "option": "Bus desde San Salvador",
+            "details": "Bus #205 desde Terminal de Occidente hacia Sonsonate, transbordo a Juayúa. 2.5 horas."
+          },
+          {
+            "option": "Transporte Privado",
+            "details": "Ruta de las Flores por CA-8. 2 horas desde San Salvador."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Feria Gastronómica",
+            "price": "Entrada gratuita. Platos USD 3-10"
+          },
+          {
+            "item": "Tour a cascadas",
+            "price": "USD 15-25 por persona"
+          },
+          {
+            "item": "Hospedaje",
+            "price": "USD 25-60 por noche"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": true,
+          "localGuides": true,
+          "notes": "Hoteles, restaurantes, tours de aventura y acceso a cascadas cercanas."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": true,
+        "premiumTitle": "Guía Gourmet de Juayúa",
+        "contentSnippet": "Los mejores puestos de la feria, restaurantes de semana y tours de café.",
+        "callToAction": "Desbloquea con Pulgarpedia Premium",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "CT-004",
+      "categoryId": "cities-towns",
+      "header": {
+        "title": "Apaneca",
+        "category": "Ciudades y Pueblos",
+        "mainImageURL": "/images/apaneca-1.jpg",
+        "subtitle": "Pueblo de montaña con lagunas de cráter y café de altura."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/apaneca-2.jpg",
+          "alt": "Laguna Verde"
+        },
+        {
+          "imageUrl": "/images/apaneca-3.jpg",
+          "alt": "Plantación de café"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "Apaneca es el pueblo más alto de El Salvador a 1,450 metros sobre el nivel del mar. Con clima frío de montaña, está rodeado de bosques nebulosos, lagunas volcánicas y las mejores plantaciones de café del país. Es perfecto para ecoturismo y aventura.",
+        "historyCulture": "Su nombre náhuatl significa 'Río de Viento'. Es el corazón de la región cafetalera salvadoreña, produciendo café de especialidad reconocido internacionalmente. Las lagunas Verde, Las Ninfas y El Llano son atractivos naturales únicos.",
+        "locationClimate": {
+          "address": "Municipio de Apaneca, Departamento de Ahuachapán, El Salvador.",
+          "coordinates": {
+            "latitude": 13.8533,
+            "longitude": -89.8069
+          },
+          "mapUrl": "https://maps.google.com/?q=13.8533,-89.8069",
+          "typicalHours": "Pueblo accesible 24/7. Tours salen de 8:00 AM a 3:00 PM.",
+          "bestSeason": "Todo el año. Diciembre-Febrero puede hacer frío (10-15°C). Llevar chamarra."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Turismo rural con servicios básicos y tours de naturaleza.",
+        "howToGetThere": [
+          {
+            "option": "Bus",
+            "details": "Bus #249 desde Ahuachapán o Sonsonate hacia Apaneca. Desde San Salvador: 2.5 horas."
+          },
+          {
+            "option": "Transporte Privado",
+            "details": "Ruta de las Flores por CA-8. Bien señalizado."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Entrada a lagunas",
+            "price": "USD 1-2 cada una"
+          },
+          {
+            "item": "Tour de café",
+            "price": "USD 10-20 por persona"
+          },
+          {
+            "item": "Canopy/Tirolesa",
+            "price": "USD 15-25"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": false,
+          "localGuides": true,
+          "notes": "Cabañas de montaña, restaurantes locales y tours de aventura."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": false,
+        "premiumTitle": "",
+        "contentSnippet": "",
+        "callToAction": "",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "CT-005",
+      "categoryId": "cities-towns",
+      "header": {
+        "title": "Nahuizalco",
+        "category": "Ciudades y Pueblos",
+        "mainImageURL": "/images/nahuizalco-1.jpg",
+        "subtitle": "Pueblo indígena con artesanías y mercado nocturno tradicional."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/nahuizalco-2.jpg",
+          "alt": "Artesanías de mimbre"
+        },
+        {
+          "imageUrl": "/images/nahuizalco-3.jpg",
+          "alt": "Mercado nocturno"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "Nahuizalco es uno de los pocos pueblos que mantienen vivas las tradiciones indígenas náhuatl-pipiles. Es famoso por sus artesanías en mimbre, madera y tule. El mercado nocturno (solo los viernes) es una tradición única donde se vende comida típica bajo faroles.",
+        "historyCulture": "Su nombre significa 'Cuatro Izalcos'. Preserva tradiciones precolombinas como la elaboración de muebles de mimbre y el náhuatl hablado por algunos ancianos. El mercado nocturno es patrimonio cultural inmaterial.",
+        "locationClimate": {
+          "address": "Municipio de Nahuizalco, Departamento de Sonsonate, El Salvador.",
+          "coordinates": {
+            "latitude": 13.7817,
+            "longitude": -89.735
+          },
+          "mapUrl": "https://maps.google.com/?q=13.7817,-89.7350",
+          "typicalHours": "Mercado nocturno: Viernes de 6:00 PM a 10:00 PM.",
+          "bestSeason": "Todo el año. Visitar en viernes para el mercado nocturno."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Pueblo tradicional con servicios básicos.",
+        "howToGetThere": [
+          {
+            "option": "Bus",
+            "details": "Bus #205 desde San Salvador hacia Sonsonate, transbordo a Nahuizalco. 2 horas."
+          },
+          {
+            "option": "Transporte Privado",
+            "details": "Cerca de Juayúa en la Ruta de las Flores."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Artesanías",
+            "price": "USD 5-50 según pieza"
+          },
+          {
+            "item": "Comida en mercado",
+            "price": "USD 2-5"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": false,
+          "localGuides": false,
+          "notes": "Talleres artesanales abiertos al público. Llevar efectivo."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": false,
+        "premiumTitle": "",
+        "contentSnippet": "",
+        "callToAction": "",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "CT-006",
+      "categoryId": "cities-towns",
+      "header": {
+        "title": "Panchimalco",
+        "category": "Ciudades y Pueblos",
+        "mainImageURL": "/images/panchimalco-1.jpg",
+        "subtitle": "Pueblo indígena con tradiciones ancestrales vivas."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/panchimalco-2.jpg",
+          "alt": "Iglesia colonial"
+        },
+        {
+          "imageUrl": "/images/panchimalco-3.jpg",
+          "alt": "Fiestas tradicionales"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "Panchimalco es el pueblo indígena más auténtico cerca de San Salvador. Preserva tradiciones panches (etnia precolombina) en su gastronomía, artesanías y celebraciones religiosas sincréticas. Sus Fiestas de la Santa Cruz del Milagro son Patrimonio Cultural.",
+        "historyCulture": "Su nombre significa 'Lugar de Escudos'. Nunca fue totalmente colonizado, manteniendo costumbres indígenas. La iglesia colonial de Santa Cruz alberga al Cristo Negro. Las procesiones combinan ritualidades católicas e indígenas.",
+        "locationClimate": {
+          "address": "Municipio de Panchimalco, Departamento de San Salvador, El Salvador.",
+          "coordinates": {
+            "latitude": 13.6167,
+            "longitude": -89.1833
+          },
+          "mapUrl": "https://maps.google.com/?q=13.6167,-89.1833",
+          "typicalHours": "Pueblo accesible 24/7. Mejor visitar domingos o festividades.",
+          "bestSeason": "Mayo (Fiestas de la Santa Cruz) y Septiembre (Fiestas Patronales)."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Pueblo tradicional cerca de San Salvador.",
+        "howToGetThere": [
+          {
+            "option": "Bus desde San Salvador",
+            "details": "Bus #17 desde el centro de San Salvador. 45 minutos."
+          },
+          {
+            "option": "Transporte Privado",
+            "details": "30 minutos desde San Salvador por Carretera Panamericana."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Acceso al pueblo",
+            "price": "Gratuito"
+          },
+          {
+            "item": "Comida típica",
+            "price": "USD 3-8"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": false,
+          "localGuides": false,
+          "notes": "Servicios básicos. Llevar efectivo."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": false,
+        "premiumTitle": "",
+        "contentSnippet": "",
+        "callToAction": "",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "CT-007",
+      "categoryId": "cities-towns",
+      "header": {
+        "title": "Alegría",
+        "category": "Ciudades y Pueblos",
+        "mainImageURL": "/images/alegria-pueblo-1.jpg",
+        "subtitle": "Pueblo de flores con mirador a laguna de cráter."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/alegria-pueblo-2.jpg",
+          "alt": "Vivero de flores"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "Alegría es un pintoresco pueblo de montaña famoso por sus viveros de flores que adornan cada calle. Su mayor atracción es la Laguna de Alegría, un cráter volcánico con aguas sulfurosas a 15 minutos del pueblo. Es sede del Festival del Maíz cada agosto.",
+        "historyCulture": "Fundado en 1892. Su economía se basa en la floricultura y agricultura. El Festival del Maíz celebra la cosecha con platillos tradicionales, música y danzas folklóricas.",
+        "locationClimate": {
+          "address": "Municipio de Alegría, Departamento de Usulután, El Salvador.",
+          "coordinates": {
+            "latitude": 13.5089,
+            "longitude": -88.4956
+          },
+          "mapUrl": "https://maps.google.com/?q=13.5089,-88.4956",
+          "typicalHours": "Pueblo accesible 24/7.",
+          "bestSeason": "Agosto para el Festival del Maíz. Todo el año tiene buen clima."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Pueblo pequeño con servicios básicos.",
+        "howToGetThere": [
+          {
+            "option": "Bus",
+            "details": "Bus desde Santiago de María o Berlín hacia Alegría. Desde San Salvador: 3 horas."
+          },
+          {
+            "option": "Transporte Privado",
+            "details": "Carretera hacia oriente, desvío en Santiago de María."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Entrada a laguna",
+            "price": "USD 1.00"
+          },
+          {
+            "item": "Hospedaje básico",
+            "price": "USD 20-40 por noche"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": false,
+          "localGuides": true,
+          "notes": "Pueblo pequeño y tranquilo. Ideal para escapada de fin de semana."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": false,
+        "premiumTitle": "",
+        "contentSnippet": "",
+        "callToAction": "",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "CT-010",
+      "categoryId": "cities-towns",
+      "header": {
+        "title": "La Palma",
+        "category": "Ciudades y Pueblos",
+        "mainImageURL": "/images/la-palma-1.jpg",
+        "subtitle": "Pueblo del arte naïf con artesanías coloridas únicas."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/la-palma-2.jpg",
+          "alt": "Artesanías naïf"
+        },
+        {
+          "imageUrl": "/images/la-palma-3.jpg",
+          "alt": "Murales y tiendas"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "La Palma es famosa por su distintivo estilo artístico naïf de colores vibrantes creado por el artista Fernando Llort en los años 70. Todo el pueblo está decorado con este arte en murales, artesanías de madera, semillas y tejidos. Es el mejor lugar para comprar souvenirs auténticos.",
+        "historyCulture": "Fernando Llort llegó en 1972 y enseñó a los habitantes a pintar escenas campesinas con colores brillantes y formas simples. Este estilo se convirtió en la identidad del pueblo y fuente de ingresos para cientos de familias artesanas.",
+        "locationClimate": {
+          "address": "Municipio de La Palma, Departamento de Chalatenango, El Salvador.",
+          "coordinates": {
+            "latitude": 14.3,
+            "longitude": -89.1667
+          },
+          "mapUrl": "https://maps.google.com/?q=14.3000,-89.1667",
+          "typicalHours": "Talleres y tiendas de 8:00 AM a 6:00 PM.",
+          "bestSeason": "Todo el año. Clima fresco de montaña."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Pueblo artesanal con múltiples talleres y tiendas.",
+        "howToGetThere": [
+          {
+            "option": "Bus",
+            "details": "Bus #119 desde Terminal de Oriente (San Salvador) hacia La Palma. 2.5 horas."
+          },
+          {
+            "option": "Transporte Privado",
+            "details": "Carretera Troncal del Norte hacia Chalatenango, continuar a La Palma. 2 horas."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Artesanías pequeñas",
+            "price": "USD 3-15"
+          },
+          {
+            "item": "Artesanías grandes",
+            "price": "USD 20-100"
+          },
+          {
+            "item": "Hospedaje",
+            "price": "USD 25-50 por noche"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": true,
+          "localGuides": false,
+          "notes": "Decenas de talleres artesanales, hoteles pequeños y restaurantes."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": true,
+        "premiumTitle": "Guía de Artesanías de La Palma",
+        "contentSnippet": "Los mejores talleres, técnicas de regateo y artesanos más talentosos.",
+        "callToAction": "Desbloquea con Pulgarpedia Premium",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "GA-001",
+      "categoryId": "gastronomy",
+      "header": {
+        "title": "Ruta del Café (Apaneca-Ilamatepec)",
+        "category": "Gastronomía",
+        "mainImageURL": "/images/ruta-cafe-1.jpg",
+        "subtitle": "Descubre el proceso del café salvadoreño de altura en fincas tradicionales."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/ruta-cafe-2.jpg",
+          "alt": "Plantación de café"
+        },
+        {
+          "imageUrl": "/images/ruta-cafe-3.jpg",
+          "alt": "Proceso de tostado"
+        },
+        {
+          "imageUrl": "/images/ruta-cafe-4.jpg",
+          "alt": "Cata de café"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "La Ruta del Café de Apaneca-Ilamatepec recorre las plantaciones de café de altura más importantes de El Salvador. Los visitantes pueden aprender todo el proceso desde la siembra hasta la taza, participar en cosechas, cataciones profesionales y disfrutar del paisaje de montaña. El café salvadoreño es reconocido mundialmente por su calidad.",
+        "historyCulture": "El café ha sido el cultivo más importante de El Salvador desde el siglo XIX. Las fincas de esta región producen café a 1,200-1,800 metros de altura, lo que le da características únicas. Varias fincas han ganado premios internacionales como Cup of Excellence.",
+        "locationClimate": {
+          "address": "Región Apaneca-Ilamatepec, Departamento de Ahuachapán y Santa Ana, El Salvador.",
+          "coordinates": {
+            "latitude": 13.8533,
+            "longitude": -89.8069
+          },
+          "mapUrl": "https://maps.google.com/?q=13.8533,-89.8069",
+          "typicalHours": "Tours de 8:00 AM a 4:00 PM. Reservar con anticipación.",
+          "bestSeason": "Noviembre a Febrero (cosecha de café). Todo el año hay tours disponibles."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Tours educativos en fincas certificadas.",
+        "howToGetThere": [
+          {
+            "option": "Tour organizado",
+            "details": "Lo más recomendable. Incluye transporte, guía y degustaciones. Desde San Salvador: tours de día completo."
+          },
+          {
+            "option": "Visita independiente",
+            "details": "Contactar fincas directamente: Finca Santa Leticia, Finca La Esperanza, Café Albania."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Tour básico (2-3 horas)",
+            "price": "USD 15-25 por persona"
+          },
+          {
+            "item": "Tour completo con cata",
+            "price": "USD 35-50 por persona"
+          },
+          {
+            "item": "Compra de café especial",
+            "price": "USD 8-15 por libra"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": false,
+          "localGuides": true,
+          "notes": "Algunas fincas ofrecen hospedaje. Llevar calzado cómodo para caminar."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": true,
+        "premiumTitle": "La Guía Insider del Café Salvadoreño",
+        "contentSnippet": "Las fincas más exclusivas, contactos directos de productores y cafés ganadores de premios.",
+        "callToAction": "Desbloquea con Pulgarpedia Premium",
+        "premiumRecommendations": [
+          {
+            "id": 1,
+            "type": "tip",
+            "headline": "Finca Santa Leticia",
+            "body": "Pide el tour privado con Don Roberto, el catador principal. Incluye cata de sus lotes ganadores de Cup of Excellence. USD 40 pero vale cada centavo."
+          },
+          {
+            "id": 2,
+            "type": "food",
+            "headline": "Café en origen",
+            "body": "Compra directamente a los productores en las fincas. Ahorras 50% vs tiendas en la ciudad y apoyas a las familias cafetaleras."
+          }
+        ]
+      }
+    },
+    {
+      "placeId": "GA-002",
+      "categoryId": "gastronomy",
+      "header": {
+        "title": "Feria Gastronómica de Juayúa",
+        "category": "Gastronomía",
+        "mainImageURL": "/images/feria-juayua-1.jpg",
+        "subtitle": "El evento culinario más famoso de El Salvador cada fin de semana."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/feria-juayua-2.jpg",
+          "alt": "Puestos de comida"
+        },
+        {
+          "imageUrl": "/images/feria-juayua-3.jpg",
+          "alt": "Platillos típicos"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "La Feria Gastronómica de Juayúa se celebra cada sábado y domingo desde el año 2000. Ofrece más de 50 puestos con comida típica salvadoreña e internacional: carnes asadas, mariscos, platillos étnicos, postres y bebidas. Es el evento gastronómico más visitado del país con miles de comensales cada fin de semana.",
+        "historyCulture": "Iniciada por la alcaldía para promover el turismo local. Se ha convertido en un fenómeno nacional que atrae salvadoreños de todo el país y turistas internacionales. Ha inspirado ferias similares en otros pueblos.",
+        "locationClimate": {
+          "address": "Parque Central de Juayúa, Municipio de Juayúa, Departamento de Sonsonate, El Salvador.",
+          "coordinates": {
+            "latitude": 13.8428,
+            "longitude": -89.745
+          },
+          "mapUrl": "https://maps.google.com/?q=13.8428,-89.7450",
+          "typicalHours": "Sábados y Domingos de 10:00 AM a 6:00 PM.",
+          "bestSeason": "Todo el año. Llegar temprano (10-11 AM) para mejores asientos."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Evento al aire libre en el parque central.",
+        "howToGetThere": [
+          {
+            "option": "Bus",
+            "details": "Bus #205 desde San Salvador hacia Sonsonate, transbordo a Juayúa. 2.5 horas."
+          },
+          {
+            "option": "Transporte Privado",
+            "details": "Ruta de las Flores por CA-8. Parqueos cerca del parque."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Entrada",
+            "price": "Gratuita"
+          },
+          {
+            "item": "Platillos",
+            "price": "USD 3-10 por plato"
+          },
+          {
+            "item": "Bebidas",
+            "price": "USD 1-3"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": true,
+          "localGuides": false,
+          "notes": "Llevar efectivo. Mesas compartidas. Puede estar muy lleno en temporadas altas."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": true,
+        "premiumTitle": "Los Mejores Puestos de la Feria",
+        "contentSnippet": "Qué pedir en cada puesto, los vendedores más auténticos y horarios ideales.",
+        "callToAction": "Desbloquea con Pulgarpedia Premium",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "GA-003",
+      "categoryId": "gastronomy",
+      "header": {
+        "title": "Mercado Central de San Salvador",
+        "category": "Gastronomía",
+        "mainImageURL": "/images/mercado-central-1.jpg",
+        "subtitle": "El corazón de la comida típica salvadoreña auténtica."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/mercado-central-2.jpg",
+          "alt": "Comedores del mercado"
+        },
+        {
+          "imageUrl": "/images/mercado-central-3.jpg",
+          "alt": "Pupusas frescas"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "El Mercado Central de San Salvador es el mercado más grande y antiguo de la capital. Su sección de comedores ofrece la comida más auténtica y económica: pupusas, yuca frita, sopa de pata, tamales y más. Es el lugar donde los salvadoreños van cuando extrañan la comida de su abuela.",
+        "historyCulture": "Fundado en el siglo XIX, es el centro comercial popular más importante. Los comedores son administrados por familias que han pasado recetas de generación en generación. Es un lugar vibrante y caótico que muestra la vida cotidiana salvadoreña.",
+        "locationClimate": {
+          "address": "Centro Histórico de San Salvador, entre 1ª y 3ª Avenida Sur.",
+          "coordinates": {
+            "latitude": 13.6989,
+            "longitude": -89.1914
+          },
+          "mapUrl": "https://maps.google.com/?q=13.6989,-89.1914",
+          "typicalHours": "Comedores de 6:00 AM a 5:00 PM. Mejor horario: desayuno (7-9 AM) o almuerzo (12-2 PM).",
+          "bestSeason": "Todo el año. Evitar ir con objetos de valor."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Mercado tradicional con ambiente local.",
+        "howToGetThere": [
+          {
+            "option": "Bus",
+            "details": "Múltiples rutas de bus llegan al centro de San Salvador. Preguntar por 'Mercado Central'."
+          },
+          {
+            "option": "Uber/Taxi",
+            "details": "Opción más segura para turistas. Pedir que te dejen en la entrada principal."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Desayuno típico",
+            "price": "USD 2-4"
+          },
+          {
+            "item": "Almuerzo completo",
+            "price": "USD 3-6"
+          },
+          {
+            "item": "Pupusas (3 unidades)",
+            "price": "USD 1.50-2"
+          }
+        ],
+        "facilities": {
+          "parking": false,
+          "restrooms": true,
+          "wheelchairAccess": false,
+          "localGuides": false,
+          "notes": "Ambiente popular. Llevar solo efectivo necesario. No es recomendable ir solo si eres extranjero."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": true,
+        "premiumTitle": "Guía de Supervivencia del Mercado Central",
+        "contentSnippet": "Comedores más limpios, qué ordenar, consejos de seguridad y horarios ideales.",
+        "callToAction": "Desbloquea con Pulgarpedia Premium",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "GA-004",
+      "categoryId": "gastronomy",
+      "header": {
+        "title": "Puerto de La Libertad - Mariscos",
+        "category": "Gastronomía",
+        "mainImageURL": "/images/mariscos-libertad-1.jpg",
+        "subtitle": "Los mariscos más frescos de El Salvador directo del puerto."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/mariscos-libertad-2.jpg",
+          "alt": "Ceviche fresco"
+        },
+        {
+          "imageUrl": "/images/mariscos-libertad-3.jpg",
+          "alt": "Restaurante frente al mar"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "El Puerto de La Libertad es el destino número uno para comer mariscos en El Salvador. Los restaurantes del malecón sirven pescado, camarones, conchas, pulpo y ceviches frescos del día. La atmósfera frente al mar y la brisa marina complementan la experiencia gastronómica.",
+        "historyCulture": "Como puerto pesquero histórico, tiene tradición centenaria en la preparación de mariscos. Los restaurantes compran directamente de los pescadores que llegan cada mañana. Las recetas familiares se han perfeccionado por generaciones.",
+        "locationClimate": {
+          "address": "Malecón de La Libertad, Municipio de La Libertad, El Salvador.",
+          "coordinates": {
+            "latitude": 13.4881,
+            "longitude": -89.3222
+          },
+          "mapUrl": "https://maps.google.com/?q=13.4881,-89.3222",
+          "typicalHours": "Restaurantes de 9:00 AM a 9:00 PM. Almuerzo es el horario más popular.",
+          "bestSeason": "Todo el año. Fines de semana más concurridos."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Múltiples restaurantes en el malecón con vistas al mar.",
+        "howToGetThere": [
+          {
+            "option": "Bus #102",
+            "details": "Desde Terminal de Occidente (San Salvador). 45 minutos."
+          },
+          {
+            "option": "Transporte Privado",
+            "details": "Carretera del Litoral desde San Salvador. 35 minutos."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Ceviche",
+            "price": "USD 6-10"
+          },
+          {
+            "item": "Pescado frito entero",
+            "price": "USD 10-15"
+          },
+          {
+            "item": "Mariscada (para 2)",
+            "price": "USD 25-35"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": true,
+          "localGuides": false,
+          "notes": "Restaurantes van desde económicos hasta nivel medio. Todos con buena calidad."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": true,
+        "premiumTitle": "Los Mejores Restaurantes de Mariscos",
+        "contentSnippet": "Dónde comen los locales, platillos imperdibles y mejores horarios.",
+        "callToAction": "Desbloquea con Pulgarpedia Premium",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "GA-005",
+      "categoryId": "gastronomy",
+      "header": {
+        "title": "Pupuserías de Olocuilta",
+        "category": "Gastronomía",
+        "mainImageURL": "/images/olocuilta-1.jpg",
+        "subtitle": "La capital de la pupusa con las mejores pupuserías de El Salvador."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/olocuilta-2.jpg",
+          "alt": "Pupusas en comal"
+        },
+        {
+          "imageUrl": "/images/olocuilta-3.jpg",
+          "alt": "Pupusería tradicional"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "Olocuilta es reconocida como la Capital Nacional de la Pupusa. El pueblo está lleno de pupuserías tradicionales que compiten por hacer las mejores pupusas de arroz. Los fines de semana, miles de salvadoreños viajan aquí específicamente para comer pupusas. Es una peregrinación gastronómica nacional.",
+        "historyCulture": "Olocuilta perfeccionó la pupusa de arroz (la de maíz es de otras regiones). Tiene más de 100 pupuserías. La competencia ha elevado la calidad a niveles extraordinarios. Es tradición ir en familia los domingos.",
+        "locationClimate": {
+          "address": "Municipio de Olocuilta, Departamento de La Paz, El Salvador.",
+          "coordinates": {
+            "latitude": 13.57,
+            "longitude": -89.12
+          },
+          "mapUrl": "https://maps.google.com/?q=13.5700,-89.1200",
+          "typicalHours": "Pupuserías de 8:00 AM a 8:00 PM. Domingos más concurrido.",
+          "bestSeason": "Todo el año. Ir con hambre."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Pueblo dedicado a la gastronomía.",
+        "howToGetThere": [
+          {
+            "option": "Bus",
+            "details": "Múltiples buses desde San Salvador pasan por Olocuilta (Carretera Panamericana). 30 minutos."
+          },
+          {
+            "option": "Transporte Privado",
+            "details": "Carretera Panamericana hacia el oriente. 25 minutos desde San Salvador."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Pupusas",
+            "price": "USD 0.50-0.75 cada una"
+          },
+          {
+            "item": "Bebidas típicas",
+            "price": "USD 1-2"
+          },
+          {
+            "item": "Comida completa (4 pupusas + bebida)",
+            "price": "USD 3-4"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": true,
+          "localGuides": false,
+          "notes": "Las más famosas: La Orquidea, Las Gemelas, Doña Cuquis."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": true,
+        "premiumTitle": "El Ranking Definitivo de Pupuserías",
+        "contentSnippet": "Top 5 pupuserías según locales, combinaciones secretas y mejor horario.",
+        "callToAction": "Desbloquea con Pulgarpedia Premium",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "GA-006",
+      "categoryId": "gastronomy",
+      "header": {
+        "title": "Restaurantes de Suchitoto",
+        "category": "Gastronomía",
+        "mainImageURL": "/images/restaurantes-suchitoto-1.jpg",
+        "subtitle": "Cocina tradicional elevada con ingredientes locales."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/restaurantes-suchitoto-2.jpg",
+          "alt": "Platillo gourmet"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "Suchitoto ha desarrollado una escena gastronómica sofisticada que combina recetas tradicionales con técnicas modernas. Los restaurantes utilizan ingredientes locales y orgánicos, muchos de huertas propias. Es cocina salvadoreña elevada en un ambiente colonial encantador.",
+        "historyCulture": "El auge turístico de Suchitoto trajo chefs que revitalizan la cocina tradicional. Restaurantes como Los Almendros, El Necio y Villa Balanza son referentes de esta nueva gastronomía.",
+        "locationClimate": {
+          "address": "Centro Histórico de Suchitoto, Departamento de Cuscatlán, El Salvador.",
+          "coordinates": {
+            "latitude": 13.9369,
+            "longitude": -89.0294
+          },
+          "mapUrl": "https://maps.google.com/?q=13.9369,-89.0294",
+          "typicalHours": "Restaurantes de 8:00 AM a 9:00 PM. Algunos cierran lunes o martes.",
+          "bestSeason": "Todo el año. Reservar en fines de semana."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Restaurantes boutique y acogedores.",
+        "howToGetThere": [
+          {
+            "option": "En Suchitoto",
+            "details": "Los restaurantes están en el centro histórico, caminables entre sí."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Desayuno",
+            "price": "USD 6-12"
+          },
+          {
+            "item": "Almuerzo/Cena",
+            "price": "USD 12-25 por persona"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": true,
+          "localGuides": false,
+          "notes": "Ambiente romántico y cultural. Ideal para cenas especiales."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": false,
+        "premiumTitle": "",
+        "contentSnippet": "",
+        "callToAction": "",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "GA-007",
+      "categoryId": "gastronomy",
+      "header": {
+        "title": "Mercado de Santa Tecla",
+        "category": "Gastronomía",
+        "mainImageURL": "/images/mercado-santa-tecla-1.jpg",
+        "subtitle": "Comida callejera auténtica y económica."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/mercado-santa-tecla-2.jpg",
+          "alt": "Puestos de comida"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "El Mercado de Santa Tecla es uno de los mercados más grandes del área metropolitana de San Salvador. Su sección de comida ofrece una increíble variedad de platillos típicos a precios populares. Es donde los trabajadores locales comen a diario.",
+        "historyCulture": "Santa Tecla es la segunda ciudad más importante del área metropolitana. Su mercado refleja la diversidad culinaria salvadoreña con influencias de todo el país.",
+        "locationClimate": {
+          "address": "Santa Tecla (Nueva San Salvador), Departamento de La Libertad, El Salvador.",
+          "coordinates": {
+            "latitude": 13.6764,
+            "longitude": -89.2797
+          },
+          "mapUrl": "https://maps.google.com/?q=13.6764,-89.2797",
+          "typicalHours": "Comedores de 6:00 AM a 6:00 PM.",
+          "bestSeason": "Todo el año. Horarios pico: desayuno y almuerzo."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Mercado tradicional muy concurrido.",
+        "howToGetThere": [
+          {
+            "option": "Bus",
+            "details": "Múltiples rutas desde San Salvador hacia Santa Tecla."
+          },
+          {
+            "option": "Uber/Taxi",
+            "details": "15 minutos desde San Salvador."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Desayuno típico",
+            "price": "USD 2-3"
+          },
+          {
+            "item": "Almuerzo",
+            "price": "USD 3-5"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": false,
+          "localGuides": false,
+          "notes": "Ambiente local. Llevar solo efectivo necesario."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": false,
+        "premiumTitle": "",
+        "contentSnippet": "",
+        "callToAction": "",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "FE-001",
+      "categoryId": "festivals-events",
+      "header": {
+        "title": "Fiestas Agostinas",
+        "category": "Festividades y Eventos",
+        "mainImageURL": "/images/fiestas-agostinas-1.jpg",
+        "subtitle": "La celebración más grande de El Salvador en honor al Divino Salvador del Mundo."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/fiestas-agostinas-2.jpg",
+          "alt": "Desfile del Correo"
+        },
+        {
+          "imageUrl": "/images/fiestas-agostinas-3.jpg",
+          "alt": "Procesión religiosa"
+        },
+        {
+          "imageUrl": "/images/fiestas-agostinas-4.jpg",
+          "alt": "Feria de atracciones"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "Las Fiestas Agostinas son la celebración más importante de San Salvador, realizadas del 1 al 6 de agosto en honor al Divino Salvador del Mundo, patrono de la capital. Incluyen procesiones religiosas, desfiles, feria con juegos mecánicos, conciertos, eventos deportivos y el famoso 'Desfile del Correo' el 5 de agosto.",
+        "historyCulture": "Celebradas desde la época colonial, conmemoran la Transfiguración del Señor. El 6 de agosto es feriado nacional. La tradición del 'Bajada del Salvador' el 5 de agosto reúne a miles de devotos. Las fiestas mezclan fervor religioso con celebración popular.",
+        "locationClimate": {
+          "address": "Centro Histórico de San Salvador y Plaza Barrios, El Salvador.",
+          "coordinates": {
+            "latitude": 13.6989,
+            "longitude": -89.1914
+          },
+          "mapUrl": "https://maps.google.com/?q=13.6989,-89.1914",
+          "typicalHours": "Del 1 al 6 de agosto. Eventos religiosos en la mañana, feria de 3:00 PM a 11:00 PM.",
+          "bestSeason": "Agosto (única época del año)."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Evento masivo con millones de asistentes durante la semana.",
+        "howToGetThere": [
+          {
+            "option": "Transporte Público",
+            "details": "Múltiples rutas de bus al centro de San Salvador. Habrá mucho tráfico."
+          },
+          {
+            "option": "Uber/Taxi",
+            "details": "Opción más práctica pero con tarifas elevadas por demanda."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Acceso a procesiones",
+            "price": "Gratuito"
+          },
+          {
+            "item": "Feria (juegos mecánicos)",
+            "price": "USD 0.50-2.00 por juego"
+          },
+          {
+            "item": "Comida en puestos",
+            "price": "USD 2-8"
+          }
+        ],
+        "facilities": {
+          "parking": false,
+          "restrooms": true,
+          "wheelchairAccess": false,
+          "localGuides": false,
+          "notes": "Evento muy concurrido. Cuidar pertenencias. Ir en grupo. Llevar efectivo."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": true,
+        "premiumTitle": "Guía Insider de las Fiestas Agostinas",
+        "contentSnippet": "Mejores puntos para ver el desfile, eventos menos conocidos y consejos de seguridad.",
+        "callToAction": "Desbloquea con Pulgarpedia Premium",
+        "premiumRecommendations": [
+          {
+            "id": 1,
+            "type": "tip",
+            "headline": "Mejor punto para el Desfile del Correo",
+            "body": "Posiciónate en la Avenida España entre 4ª y 6ª Calle. Llega a las 7 AM para buenos lugares. El desfile pasa alrededor de las 9 AM."
+          },
+          {
+            "id": 2,
+            "type": "tip",
+            "headline": "Evento Cultural Alternativo",
+            "body": "El Teatro Nacional ofrece conciertos gratuitos durante las fiestas. Revisa programación en línea. Menos gente y muy cultural."
+          }
+        ]
+      }
+    },
+    {
+      "placeId": "FE-002",
+      "categoryId": "festivals-events",
+      "header": {
+        "title": "Festival del Maíz",
+        "category": "Festividades y Eventos",
+        "mainImageURL": "/images/festival-maiz-1.jpg",
+        "subtitle": "Celebración de la cosecha con platillos tradicionales de maíz en Alegría."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/festival-maiz-2.jpg",
+          "alt": "Platillos de maíz"
+        },
+        {
+          "imageUrl": "/images/festival-maiz-3.jpg",
+          "alt": "Danzas folklóricas"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "El Festival del Maíz de Alegría se celebra cada agosto para honrar la cosecha del maíz, alimento ancestral de Mesoamérica. Durante el festival se ofrecen más de 100 platillos elaborados con maíz: tamales, atoles, elotes, riguas, montucas y postres. Incluye danzas folklóricas, música en vivo y venta de artesanías.",
+        "historyCulture": "El maíz es sagrado en la cultura mesoamericana. Este festival rescata recetas ancestrales y celebra la identidad agrícola de Alegría. Es uno de los festivales gastronómicos más auténticos del país.",
+        "locationClimate": {
+          "address": "Parque Central de Alegría, Departamento de Usulután, El Salvador.",
+          "coordinates": {
+            "latitude": 13.5089,
+            "longitude": -88.4956
+          },
+          "mapUrl": "https://maps.google.com/?q=13.5089,-88.4956",
+          "typicalHours": "Primer fin de semana de agosto. Viernes a Domingo de 10:00 AM a 8:00 PM.",
+          "bestSeason": "Agosto (única vez al año)."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Festival comunitario en pueblo pequeño.",
+        "howToGetThere": [
+          {
+            "option": "Bus",
+            "details": "Buses desde Santiago de María o Berlín. Desde San Salvador: 3 horas."
+          },
+          {
+            "option": "Transporte Privado",
+            "details": "Carretera del Litoral, desvío en Santiago de María. Considerar hospedarse en Alegría."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Entrada",
+            "price": "Gratuita"
+          },
+          {
+            "item": "Platillos de maíz",
+            "price": "USD 1-5 cada uno"
+          },
+          {
+            "item": "Artesanías",
+            "price": "USD 3-20"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": false,
+          "localGuides": false,
+          "notes": "Pueblo pequeño. Reservar hospedaje con anticipación."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": false,
+        "premiumTitle": "",
+        "contentSnippet": "",
+        "callToAction": "",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "FE-003",
+      "categoryId": "festivals-events",
+      "header": {
+        "title": "Festival de Invierno de Juayúa",
+        "category": "Festividades y Eventos",
+        "mainImageURL": "/images/festival-invierno-1.jpg",
+        "subtitle": "Celebración de año nuevo con música, arte y gastronomía."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/festival-invierno-2.jpg",
+          "alt": "Conciertos en vivo"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "El Festival de Invierno de Juayúa se realiza durante los primeros días de enero. Es una celebración que combina música en vivo, exposiciones artísticas, gastronomía y actividades culturales. Atrae a miles de visitantes que buscan iniciar el año en un ambiente festivo y cultural.",
+        "historyCulture": "Iniciado para promover el turismo en temporada baja. Se ha convertido en uno de los festivales más esperados de la Ruta de las Flores.",
+        "locationClimate": {
+          "address": "Parque Central de Juayúa, Departamento de Sonsonate, El Salvador.",
+          "coordinates": {
+            "latitude": 13.8428,
+            "longitude": -89.745
+          },
+          "mapUrl": "https://maps.google.com/?q=13.8428,-89.7450",
+          "typicalHours": "Primera semana de enero. Eventos de 2:00 PM a 11:00 PM.",
+          "bestSeason": "Enero (única vez al año)."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Festival organizado con buena infraestructura.",
+        "howToGetThere": [
+          {
+            "option": "Transporte Privado",
+            "details": "Ruta de las Flores por CA-8. Reservar hospedaje con anticipación."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Entrada a eventos",
+            "price": "Mayoría gratuitos. Algunos conciertos con costo."
+          },
+          {
+            "item": "Comida y bebidas",
+            "price": "USD 5-15"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": true,
+          "localGuides": false,
+          "notes": "Reservar hotel con meses de anticipación. Se llena completamente."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": false,
+        "premiumTitle": "",
+        "contentSnippet": "",
+        "callToAction": "",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "FE-004",
+      "categoryId": "festivals-events",
+      "header": {
+        "title": "Semana Santa",
+        "category": "Festividades y Eventos",
+        "mainImageURL": "/images/semana-santa-1.jpg",
+        "subtitle": "Procesiones y alfombras de aserrín en todo el país."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/semana-santa-2.jpg",
+          "alt": "Alfombra de aserrín"
+        },
+        {
+          "imageUrl": "/images/semana-santa-3.jpg",
+          "alt": "Procesión del Santo Entierro"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "La Semana Santa en El Salvador es la celebración religiosa más importante del año. Se caracteriza por procesiones con imágenes religiosas, elaboradas alfombras de aserrín de colores en las calles, y tradiciones gastronómicas como la sopa de pescado y los dulces típicos. Las procesiones más importantes son en San Salvador, Sonsonate y Izalco.",
+        "historyCulture": "Tradición que data de la época colonial. Las alfombras de aserrín son arte efímero que las familias preparan durante días. La Procesión del Santo Entierro en San Salvador reúne cientos de miles de fieles.",
+        "locationClimate": {
+          "address": "Todo El Salvador. Principales procesiones en San Salvador, Sonsonate e Izalco.",
+          "coordinates": {
+            "latitude": 13.6989,
+            "longitude": -89.1914
+          },
+          "mapUrl": "https://maps.google.com/?q=13.6989,-89.1914",
+          "typicalHours": "Semana completa. Procesiones principales: Viernes Santo.",
+          "bestSeason": "Marzo o Abril (fecha variable cada año)."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Celebración nacional con eventos en todos los pueblos.",
+        "howToGetThere": [
+          {
+            "option": "Depende del lugar",
+            "details": "San Salvador: centro histórico. Izalco: procesiones más tradicionales."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Asistir a procesiones",
+            "price": "Gratuito"
+          },
+          {
+            "item": "Comida típica",
+            "price": "USD 5-15"
+          }
+        ],
+        "facilities": {
+          "parking": false,
+          "restrooms": true,
+          "wheelchairAccess": false,
+          "localGuides": false,
+          "notes": "Semana de feriados. Todo cierra. Reservar hoteles con anticipación."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": true,
+        "premiumTitle": "Guía Completa de Semana Santa",
+        "contentSnippet": "Mejores procesiones, dónde ver las alfombras más elaboradas y tradiciones gastronómicas.",
+        "callToAction": "Desbloquea con Pulgarpedia Premium",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "FE-005",
+      "categoryId": "festivals-events",
+      "header": {
+        "title": "Feria de Santa Ana",
+        "category": "Festividades y Eventos",
+        "mainImageURL": "/images/feria-santa-ana-1.jpg",
+        "subtitle": "Fiestas Julias de la segunda ciudad de El Salvador."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/feria-santa-ana-2.jpg",
+          "alt": "Desfile de faroles"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "La Feria de Santa Ana, también conocida como Fiestas Julias, se celebra del 17 al 26 de julio en honor a Santa Ana, patrona de la ciudad. Incluye desfiles, conciertos, feria con juegos mecánicos, eventos deportivos y el tradicional 'Desfile de Faroles'. Es la segunda feria más grande del país.",
+        "historyCulture": "Santa Ana es la segunda ciudad más importante de El Salvador. Sus fiestas reflejan la riqueza cultural del occidente del país con tradiciones propias.",
+        "locationClimate": {
+          "address": "Centro de Santa Ana, Departamento de Santa Ana, El Salvador.",
+          "coordinates": {
+            "latitude": 13.9942,
+            "longitude": -89.5597
+          },
+          "mapUrl": "https://maps.google.com/?q=13.9942,-89.5597",
+          "typicalHours": "Del 17 al 26 de julio. Feria de 3:00 PM a 11:00 PM.",
+          "bestSeason": "Julio (única época del año)."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Feria urbana con gran asistencia.",
+        "howToGetThere": [
+          {
+            "option": "Bus",
+            "details": "Bus #201 desde San Salvador. 1.5 horas."
+          },
+          {
+            "option": "Transporte Privado",
+            "details": "Carretera CA-1 hacia Santa Ana. 1 hora desde San Salvador."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Eventos culturales",
+            "price": "Mayoría gratuitos"
+          },
+          {
+            "item": "Juegos mecánicos",
+            "price": "USD 0.50-2.00"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": false,
+          "localGuides": false,
+          "notes": "Ciudad con buena infraestructura hotelera y gastronómica."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": false,
+        "premiumTitle": "",
+        "contentSnippet": "",
+        "callToAction": "",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "FE-006",
+      "categoryId": "festivals-events",
+      "header": {
+        "title": "Día de los Farolitos",
+        "category": "Festividades y Eventos",
+        "mainImageURL": "/images/farolitos-1.jpg",
+        "subtitle": "Tradición única de Ahuachapán con farolitos iluminando las calles."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/farolitos-2.jpg",
+          "alt": "Farolitos de colores"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "El Día de los Farolitos se celebra el 7 de septiembre en Ahuachapán. Las familias elaboran farolitos de papel de colores con velas en su interior y los colocan en las calles, ventanas y aceras, creando un espectáculo mágico de luces. Es una tradición única en El Salvador.",
+        "historyCulture": "Tradición que data del siglo XIX relacionada con la independencia centroamericana. Representa la luz de la libertad. Ahuachapán es el único lugar donde se mantiene viva esta costumbre.",
+        "locationClimate": {
+          "address": "Ciudad de Ahuachapán, Departamento de Ahuachapán, El Salvador.",
+          "coordinates": {
+            "latitude": 13.9214,
+            "longitude": -89.8453
+          },
+          "mapUrl": "https://maps.google.com/?q=13.9214,-89.8453",
+          "typicalHours": "7 de septiembre desde las 6:00 PM.",
+          "bestSeason": "Septiembre (solo este día)."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Celebración nocturna en toda la ciudad.",
+        "howToGetThere": [
+          {
+            "option": "Bus",
+            "details": "Bus #202 desde San Salvador hacia Ahuachapán. 2.5 horas."
+          },
+          {
+            "option": "Transporte Privado",
+            "details": "Carretera CA-1 hacia occidente. 2 horas desde San Salvador."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Celebración",
+            "price": "Gratuita"
+          },
+          {
+            "item": "Comprar farolito",
+            "price": "USD 1-3"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": true,
+          "localGuides": false,
+          "notes": "Evento familiar muy fotogénico. Llevar cámara."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": false,
+        "premiumTitle": "",
+        "contentSnippet": "",
+        "callToAction": "",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "FE-007",
+      "categoryId": "festivals-events",
+      "header": {
+        "title": "Festival Internacional de Arte y Cultura",
+        "category": "Festividades y Eventos",
+        "mainImageURL": "/images/festival-suchitoto-1.jpg",
+        "subtitle": "El evento cultural más importante de Suchitoto en febrero."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/festival-suchitoto-2.jpg",
+          "alt": "Evento cultural"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "El Festival Permanente de Arte y Cultura de Suchitoto se realiza cada febrero. Durante una semana, el pueblo se llena de conciertos, obras de teatro, exposiciones de arte, talleres, presentaciones de libros y danzas. Participan artistas nacionales e internacionales. Es el evento cultural más importante de El Salvador.",
+        "historyCulture": "Creado para posicionar a Suchitoto como capital cultural del país. Ha logrado atraer artistas de renombre internacional y proyectar la cultura salvadoreña.",
+        "locationClimate": {
+          "address": "Centro Histórico de Suchitoto, Departamento de Cuscatlán, El Salvador.",
+          "coordinates": {
+            "latitude": 13.9369,
+            "longitude": -89.0294
+          },
+          "mapUrl": "https://maps.google.com/?q=13.9369,-89.0294",
+          "typicalHours": "Una semana en febrero. Eventos de 9:00 AM a 10:00 PM.",
+          "bestSeason": "Febrero (consultar fechas exactas cada año)."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Festival cultural de alta calidad.",
+        "howToGetThere": [
+          {
+            "option": "Transporte Privado",
+            "details": "Carretera Troncal del Norte desde San Salvador. 1.5 horas. Reservar hospedaje con meses de anticipación."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Mayoría de eventos",
+            "price": "Gratuitos"
+          },
+          {
+            "item": "Algunos espectáculos",
+            "price": "USD 5-15"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": true,
+          "localGuides": false,
+          "notes": "Evento de clase mundial. Ambiente cultural y sofisticado."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": true,
+        "premiumTitle": "Guía Insider del Festival",
+        "contentSnippet": "Eventos imperdibles, cómo conseguir entradas limitadas y alojamiento recomendado.",
+        "callToAction": "Desbloquea con Pulgarpedia Premium",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "FE-008",
+      "categoryId": "festivals-events",
+      "header": {
+        "title": "Fiestas Patronales",
+        "category": "Festividades y Eventos",
+        "mainImageURL": "/images/fiestas-patronales-1.jpg",
+        "subtitle": "Cada pueblo celebra a su santo patrono con feria y tradición."
+      },
+      "gallery": [
+        {
+          "imageUrl": "/images/fiestas-patronales-2.jpg",
+          "alt": "Celebración tradicional"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "Las Fiestas Patronales son celebraciones que cada municipio de El Salvador realiza en honor a su santo patrono. Incluyen misas, procesiones, ferias con juegos mecánicos, bailes populares, comida típica y eventos deportivos. Son el momento más importante del año para cada comunidad y reflejan la identidad local.",
+        "historyCulture": "Tradición colonial que mezcla la religión católica con costumbres indígenas. Cada pueblo tiene su calendario. Algunas fiestas patronales famosas: San Miguel (noviembre), San Vicente (abril), La Unión (octubre).",
+        "locationClimate": {
+          "address": "262 municipios de El Salvador, cada uno en diferentes fechas.",
+          "coordinates": {
+            "latitude": 13.7942,
+            "longitude": -88.8965
+          },
+          "mapUrl": "https://maps.google.com/?q=13.7942,-88.8965",
+          "typicalHours": "Duran de 3 días a 2 semanas según el municipio.",
+          "bestSeason": "Todo el año. Cada pueblo en diferente mes."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Celebraciones comunitarias auténticas.",
+        "howToGetThere": [
+          {
+            "option": "Varía según municipio",
+            "details": "Investigar fechas y ubicación del municipio específico de interés."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Eventos religiosos",
+            "price": "Gratuitos"
+          },
+          {
+            "item": "Feria y comida",
+            "price": "USD 5-20 por persona"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": false,
+          "localGuides": false,
+          "notes": "Experiencia cultural auténtica. Respetar tradiciones locales."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": false,
+        "premiumTitle": "",
+        "contentSnippet": "",
+        "callToAction": "",
+        "premiumRecommendations": []
+      }
+    }
+  ]
+}

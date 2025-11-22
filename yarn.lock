@@ -2200,6 +2200,11 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
 
+next-seo@^7.0.1:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/next-seo/-/next-seo-7.0.1.tgz#913cbf53ed883928e156b75bcd6c1dee5103a9c9"
+  integrity sha512-NxcnWaT7dLZdPjWOD6JZm1pUpJ1zxoDBOuXBR72fTTMqqO/bchcjkBJpx27MDACDJrIVwxfKPq5qGcv17qZiBQ==
+
 next@15.0.4:
   version "15.0.4"
   resolved "https://registry.yarnpkg.com/next/-/next-15.0.4.tgz#7ddad7299204f16c132d7e524cf903f1a513588e"
@@ -2767,6 +2772,11 @@ supports-preserve-symlinks-flag@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
+
+swiper@^12.0.3:
+  version "12.0.3"
+  resolved "https://registry.yarnpkg.com/swiper/-/swiper-12.0.3.tgz#c7804fd39955189d3ec652d9832896bd3d04733e"
+  integrity sha512-BHd6U1VPEIksrXlyXjMmRWO0onmdNPaTAFduzqR3pgjvi7KfmUCAm/0cj49u2D7B0zNjMw02TSeXfinC1hDCXg==
 
 tapable@^2.2.0:
   version "2.2.1"
