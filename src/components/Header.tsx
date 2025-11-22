@@ -13,9 +13,9 @@ const Header = () => {
       <Box
         component='img'
         sx={{
-          height: { xs: 373, md: 400 },
+          height: { xs: 325, md: 400 },
           width: "100%",
-          maxHeight: { xs: 373, md: 400 },
+          maxHeight: { xs: 325, md: 400 },
           maxWidth: "100%",
           objectFit: "cover",
         }}
