@@ -284,7 +284,7 @@
       },
       "premiumSection": {
         "title": "Recomendaciones Exclusivas",
-        "isLocked": false,
+        "isLocked": true,
         "premiumTitle": "Guía Completa de Cerro Verde",
         "contentSnippet": "Acceso gratuito a recomendaciones básicas.",
         "callToAction": "",
@@ -506,7 +506,7 @@
       },
       "premiumSection": {
         "title": "Recomendaciones Exclusivas",
-        "isLocked": false,
+        "isLocked": true,
         "premiumTitle": "",
         "contentSnippet": "",
         "callToAction": "",
@@ -646,7 +646,7 @@
       },
       "premiumSection": {
         "title": "Recomendaciones Exclusivas",
-        "isLocked": false,
+        "isLocked": true,
         "premiumTitle": "",
         "contentSnippet": "",
         "callToAction": "",
@@ -1646,7 +1646,7 @@
       },
       "premiumSection": {
         "title": "Recomendaciones Exclusivas",
-        "isLocked": false,
+        "isLocked": true,
         "premiumTitle": "",
         "contentSnippet": "",
         "callToAction": "",
@@ -1720,7 +1720,7 @@
       },
       "premiumSection": {
         "title": "Recomendaciones Exclusivas",
-        "isLocked": false,
+        "isLocked": true,
         "premiumTitle": "",
         "contentSnippet": "",
         "callToAction": "",
@@ -1794,7 +1794,7 @@
       },
       "premiumSection": {
         "title": "Recomendaciones Exclusivas",
-        "isLocked": false,
+        "isLocked": true,
         "premiumTitle": "",
         "contentSnippet": "",
         "callToAction": "",
@@ -1864,7 +1864,7 @@
       },
       "premiumSection": {
         "title": "Recomendaciones Exclusivas",
-        "isLocked": false,
+        "isLocked": true,
         "premiumTitle": "",
         "contentSnippet": "",
         "callToAction": "",
@@ -2415,7 +2415,7 @@
       },
       "premiumSection": {
         "title": "Recomendaciones Exclusivas",
-        "isLocked": false,
+        "isLocked": true,
         "premiumTitle": "",
         "contentSnippet": "",
         "callToAction": "",
@@ -2485,7 +2485,7 @@
       },
       "premiumSection": {
         "title": "Recomendaciones Exclusivas",
-        "isLocked": false,
+        "isLocked": true,
         "premiumTitle": "",
         "contentSnippet": "",
         "callToAction": "",
@@ -2658,7 +2658,7 @@
       },
       "premiumSection": {
         "title": "Recomendaciones Exclusivas",
-        "isLocked": false,
+        "isLocked": true,
         "premiumTitle": "",
         "contentSnippet": "",
         "callToAction": "",
@@ -2724,7 +2724,7 @@
       },
       "premiumSection": {
         "title": "Recomendaciones Exclusivas",
-        "isLocked": false,
+        "isLocked": true,
         "premiumTitle": "",
         "contentSnippet": "",
         "callToAction": "",
@@ -2864,7 +2864,7 @@
       },
       "premiumSection": {
         "title": "Recomendaciones Exclusivas",
-        "isLocked": false,
+        "isLocked": true,
         "premiumTitle": "",
         "contentSnippet": "",
         "callToAction": "",
@@ -2934,7 +2934,7 @@
       },
       "premiumSection": {
         "title": "Recomendaciones Exclusivas",
-        "isLocked": false,
+        "isLocked": true,
         "premiumTitle": "",
         "contentSnippet": "",
         "callToAction": "",
@@ -3066,7 +3066,7 @@
       },
       "premiumSection": {
         "title": "Recomendaciones Exclusivas",
-        "isLocked": false,
+        "isLocked": true,
         "premiumTitle": "",
         "contentSnippet": "",
         "callToAction": "",
