@@ -1,27 +1,7 @@
-import React, { useState, useCallback } from "react";
-import { Box, Container, Grid, TextField, Typography } from "@mui/material";
-import { debounce } from "lodash";
+import React from "react";
+import { Box, Container, Grid, Typography } from "@mui/material";
 
-interface HeaderProps {
-  onSearch: (query: string) => void;
-}
-
-const Header = ({ onSearch }: HeaderProps) => {
-  const [searchQuery, setSearchQuery] = useState("");
-
-  const debouncedSearch = useCallback(
-    debounce((query: string) => {
-      onSearch(query);
-    }, 300),
-    [onSearch]
-  );
-
-  const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const query = event.target.value;
-    setSearchQuery(query);
-    debouncedSearch(query);
-  };
-
+const Header = () => {
   return (
     <Box
       sx={{
@@ -60,28 +40,29 @@ const Header = ({ onSearch }: HeaderProps) => {
                     xs: "2rem",
                     sm: "4rem",
                   },
+                  color: "white",
                 }}
               >
-                Pulgarpedia
+                🇸🇻 Pulgarpedia
               </Typography>
             </Grid>
             {/* Form */}
             <Grid item xs={12}>
               <br></br>
-              <TextField
+              <Typography
+                variant='h2'
+                color={"text.primary"}
+                gutterBottom
                 sx={{
-                  backgroundColor: "rgb(0,0,0,0.6)",
+                  fontSize: {
+                    xs: "1rem",
+                    sm: "2rem",
+                  },
+                  color: "white",
                 }}
-                fullWidth
-                id='filled-multiline-static'
-                label='Type a city'
-                size='small'
-                type='text'
-                variant='filled'
-                color='secondary'
-                value={searchQuery}
-                onChange={handleSearchChange}
-              />
+              >
+                Enciclopedia Turística de El Salvador
+              </Typography>
             </Grid>
           </Grid>
         </Container>
