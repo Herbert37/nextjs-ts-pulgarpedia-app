@@ -1,0 +1,33 @@
+{
+  "name": "Pulgarpedia - Descubre El Salvador",
+  "short_name": "Pulgarpedia",
+  "description": "Guía turística completa de El Salvador con información de volcanes, playas, pueblos, gastronomía y festividades",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#0F47AF",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["travel", "tourism", "guide"],
+  "lang": "es-SV",
+  "dir": "ltr"
+}

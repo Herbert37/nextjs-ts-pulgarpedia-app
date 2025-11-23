@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guía de Cloudinary - Pulgarpedia</title>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Arial, sans-serif;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        min-height: 100vh;
+      }
+      .container {
+        background: white;
+        padding: 40px;
+        border-radius: 20px;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      }
+      h1 {
+        color: #0f47af;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      .subtitle {
+        text-align: center;
+        color: #666;
+        margin-bottom: 40px;
+      }
+      .step {
+        background: #f8f9fa;
+        padding: 25px;
+        margin: 20px 0;
+        border-radius: 10px;
+        border-left: 5px solid #0f47af;
+      }
+      .step h2 {
+        margin-top: 0;
+        color: #0f47af;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .step-number {
+        background: #0f47af;
+        color: white;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 18px;
+      }
+      code {
+        background: #e9ecef;
+        padding: 2px 8px;
+        border-radius: 4px;
+        font-family: "Courier New", monospace;
+        color: #d63384;
+        font-size: 14px;
+      }
+      .code-block {
+        background: #1e1e1e;
+        color: #d4d4d4;
+        padding: 20px;
+        border-radius: 8px;
+        overflow-x: auto;
+        margin: 15px 0;
+        font-family: "Courier New", monospace;
+        font-size: 14px;
+        line-height: 1.6;
+      }
+      .example-url {
+        background: #e7f3ff;
+        padding: 15px;
+        border-radius: 8px;
+        margin: 15px 0;
+        border-left: 4px solid #0066cc;
+      }
+      .btn {
+        display: inline-block;
+        padding: 12px 24px;
+        background: #0f47af;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: 600;
+        transition: all 0.3s;
+        margin: 10px 5px;
+      }
+      .btn:hover {
+        background: #0d3a8f;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(15, 71, 175, 0.4);
+      }
+      .btn-secondary {
+        background: #6c757d;
+      }
+      .btn-secondary:hover {
+        background: #5a6268;
+      }
+      .alert {
+        padding: 15px;
+        border-radius: 8px;
+        margin: 15px 0;
+      }
+      .alert-info {
+        background: #cfe2ff;
+        border-left: 4px solid #0d6efd;
+        color: #084298;
+      }
+      .alert-warning {
+        background: #fff3cd;
+        border-left: 4px solid #ffc107;
+        color: #664d03;
+      }
+      .alert-success {
+        background: #d1e7dd;
+        border-left: 4px solid #198754;
+        color: #0f5132;
+      }
+      .folder-structure {
+        background: #1e1e1e;
+        color: #d4d4d4;
+        padding: 20px;
+        border-radius: 8px;
+        font-family: monospace;
+        margin: 15px 0;
+      }
+      .folder {
+        color: #4fc3f7;
+      }
+      .file {
+        color: #a5d6a7;
+      }
+      input[type="text"] {
+        width: 100%;
+        padding: 12px;
+        border: 2px solid #dee2e6;
+        border-radius: 6px;
+        font-size: 16px;
+        margin: 10px 0;
+        box-sizing: border-box;
+      }
+      input[type="text"]:focus {
+        outline: none;
+        border-color: #0f47af;
+      }
+      .url-generator {
+        background: #f8f9fa;
+        padding: 20px;
+        border-radius: 8px;
+        margin: 20px 0;
+      }
+      .generated-url {
+        background: white;
+        padding: 15px;
+        border: 2px solid #0f47af;
+        border-radius: 6px;
+        word-break: break-all;
+        margin: 10px 0;
+        font-family: monospace;
+        color: #0f47af;
+      }
+      .copy-btn {
+        background: #28a745;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 6px;
+        cursor: pointer;
+        font-weight: 600;
+        transition: all 0.3s;
+      }
+      .copy-btn:hover {
+        background: #218838;
+        transform: scale(1.05);
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 15px 0;
+      }
+      th,
+      td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #dee2e6;
+      }
+      th {
+        background: #0f47af;
+        color: white;
+        font-weight: 600;
+      }
+      tr:hover {
+        background: #f8f9fa;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>🚀 Guía de Configuración - Cloudinary</h1>
+      <p class="subtitle">Configuración completa para Pulgarpedia</p>
+
+      <!-- PASO 1 -->
+      <div class="step">
+        <h2><span class="step-number">1</span> Obtener Credenciales</h2>
+        <p>
+          Ve a tu <strong>Dashboard de Cloudinary</strong> y encuentra estos
+          datos:
+        </p>
+
+        <div class="alert alert-info">
+          <strong>📌 Ubicación:</strong> En la parte superior del dashboard
+          verás un panel llamado <strong>"Account Details"</strong>
+        </div>
+
+        <table>
+          <tr>
+            <th>Campo</th>
+            <th>Descripción</th>
+            <th>Ejemplo</th>
+          </tr>
+          <tr>
+            <td><strong>Cloud Name</strong></td>
+            <td>Tu nombre de cuenta único</td>
+            <td>pulgarpedia-sv</td>
+          </tr>
+          <tr>
+            <td><strong>API Key</strong></td>
+            <td>Clave pública</td>
+            <td>123456789012345</td>
+          </tr>
+          <tr>
+            <td><strong>API Secret</strong></td>
+            <td>Clave privada (NO compartir)</td>
+            <td>abc...xyz</td>
+          </tr>
+        </table>
+
+        <a href="https://console.cloudinary.com/" target="_blank" class="btn"
+          >🔗 Abrir Cloudinary Dashboard</a
+        >
+      </div>
+
+      <!-- PASO 2 -->
+      <div class="step">
+        <h2><span class="step-number">2</span> Crear Estructura de Carpetas</h2>
+        <p>
+          En Cloudinary, ve a <strong>Media Library</strong> →
+          <strong>Create Folder</strong>
+        </p>
+
+        <div class="folder-structure">
+          <span class="folder">📁 pulgarpedia/</span>
+          ├── <span class="folder">📁 volcanes/</span> │ ├──
+          <span class="file">🖼️ izalco-main.jpg</span> │ ├──
+          <span class="file">🖼️ izalco-gallery-1.jpg</span> │ └──
+          <span class="file">🖼️ izalco-gallery-2.jpg</span> ├──
+          <span class="folder">📁 playas/</span> │ ├──
+          <span class="file">🖼️ tunco-main.jpg</span> │ └──
+          <span class="file">🖼️ tunco-gallery-1.jpg</span> ├──
+          <span class="folder">📁 pueblos/</span> ├──
+          <span class="folder">📁 gastronomia/</span> └──
+          <span class="folder">📁 festividades/</span>
+        </div>
+
+        <div class="alert alert-warning">
+          <strong>⚠️ Importante:</strong> Usa nombres de carpetas en minúsculas,
+          sin espacios, sin tildes.
+        </div>
+      </div>
+
+      <!-- PASO 3 -->
+      <div class="step">
+        <h2><span class="step-number">3</span> Subir Imágenes</h2>
+        <p>Dos formas de subir imágenes:</p>
+
+        <h3>Opción A: Desde el Dashboard (Recomendado para empezar)</h3>
+        <ol>
+          <li>Ve a <strong>Media Library</strong></li>
+          <li>Haz clic en <strong>Upload</strong> (botón azul)</li>
+          <li>Arrastra y suelta tus imágenes</li>
+          <li>Espera a que se suban</li>
+          <li>Haz clic derecho → <strong>Copy URL</strong></li>
+        </ol>
+
+        <h3>Opción B: Upload Widget (Para tu aplicación)</h3>
+        <p>Más adelante puedes agregar un upload widget en tu admin panel</p>
+
+        <a
+          href="https://console.cloudinary.com/console/media_library/folders/home"
+          target="_blank"
+          class="btn"
+          >📤 Ir a Media Library</a
+        >
+      </div>
+
+      <!-- PASO 4 -->
+      <div class="step">
+        <h2><span class="step-number">4</span> Convenciones de Nombres</h2>
+        <p>Para mantener orden, usa este formato:</p>
+
+        <div class="code-block">
+          {categoria}-{lugar-slug}-{tipo}-{numero}.jpg Ejemplos:
+          volcanes-izalco-main-01.jpg (Imagen principal)
+          volcanes-izalco-gallery-01.jpg (Galería #1)
+          volcanes-izalco-gallery-02.jpg (Galería #2) playas-tunco-main-01.jpg
+          (Imagen principal) playas-tunco-gallery-01.jpg (Galería #1)
+        </div>
+
+        <div class="alert alert-success">
+          <strong>✅ Ventajas:</strong> Fácil de buscar, organizado, evita
+          duplicados
+        </div>
+      </div>
+
+      <!-- PASO 5 -->
+      <div class="step">
+        <h2><span class="step-number">5</span> Generador de URLs</h2>
+        <p>Usa esta herramienta para generar URLs optimizadas:</p>
+
+        <div class="url-generator">
+          <label><strong>Cloud Name:</strong></label>
+          <input
+            type="text"
+            id="cloudName"
+            placeholder="pulgarpedia-sv"
+            value="pulgarpedia-sv"
+          />
+
+          <label><strong>Ruta de la imagen:</strong></label>
+          <input
+            type="text"
+            id="imagePath"
+            placeholder="volcanes/izalco-main-01.jpg"
+            value="volcanes/izalco-main-01"
+          />
+
+          <label><strong>Tipo de imagen:</strong></label>
+          <select
+            id="imageType"
+            style="
+              width: 100%;
+              padding: 12px;
+              border: 2px solid #dee2e6;
+              border-radius: 6px;
+              margin: 10px 0;
+            "
+          >
+            <option value="w_400,h_300,c_fill,q_auto">
+              Card pequeña (400x300)
+            </option>
+            <option value="w_800,h_600,c_fill,q_auto">
+              Card mediana (800x600)
+            </option>
+            <option value="w_1200,h_800,c_fill,q_auto" selected>
+              Hero/Main (1200x800)
+            </option>
+            <option value="w_1920,h_1080,c_fill,q_auto">
+              Fullscreen (1920x1080)
+            </option>
+            <option value="w_640,h_480,c_fill,q_auto">Mobile (640x480)</option>
+          </select>
+
+          <button onclick="generateUrl()" class="btn" style="margin-top: 10px">
+            🔄 Generar URL
+          </button>
+
+          <div id="result" style="display: none; margin-top: 20px">
+            <h4>URL Generada:</h4>
+            <div class="generated-url" id="generatedUrl"></div>
+            <button onclick="copyUrl()" class="copy-btn">📋 Copiar URL</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- PASO 6 -->
+      <div class="step">
+        <h2><span class="step-number">6</span> Transformaciones Comunes</h2>
+        <p>URLs con transformaciones automáticas:</p>
+
+        <table>
+          <tr>
+            <th>Uso</th>
+            <th>Transformación</th>
+            <th>Resultado</th>
+          </tr>
+          <tr>
+            <td>PlaceCard</td>
+            <td><code>w_400,h_300,c_fill,q_auto</code></td>
+            <td>400x300px, optimizado</td>
+          </tr>
+          <tr>
+            <td>Hero Image</td>
+            <td><code>w_1200,h_800,c_fill,q_auto</code></td>
+            <td>1200x800px, optimizado</td>
+          </tr>
+          <tr>
+            <td>Gallery</td>
+            <td><code>w_800,h_600,c_fill,q_auto</code></td>
+            <td>800x600px, optimizado</td>
+          </tr>
+          <tr>
+            <td>Mobile</td>
+            <td><code>w_640,h_480,c_fill,q_auto</code></td>
+            <td>640x480px, optimizado</td>
+          </tr>
+          <tr>
+            <td>Thumbnail</td>
+            <td><code>w_200,h_150,c_thumb,q_auto</code></td>
+            <td>200x150px, recortado</td>
+          </tr>
+        </table>
+
+        <div class="alert alert-info">
+          <strong>🎨 Parámetros:</strong>
+          <ul>
+            <li><code>w_</code> = width (ancho)</li>
+            <li><code>h_</code> = height (alto)</li>
+            <li><code>c_fill</code> = crop fill (llena el espacio)</li>
+            <li><code>q_auto</code> = quality auto (optimiza calidad)</li>
+            <li>
+              <code>f_auto</code> = format auto (WebP si el navegador lo
+              soporta)
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- PASO 7 -->
+      <div class="step">
+        <h2>
+          <span class="step-number">7</span> Ejemplo Completo para content.json
+        </h2>
+
+        <div class="code-block">
+          { "placeId": "volcan-izalco", "categoryId": "volcanes", "header": {
+          "title": "Volcán de Izalco", "category": "Volcanes", "mainImageURL":
+          "https://res.cloudinary.com/pulgarpedia-sv/image/upload/w_1200,h_800,c_fill,q_auto/volcanes/izalco-main-01.jpg",
+          "subtitle": "El Faro del Pacífico" }, "gallery": [ { "imageUrl":
+          "https://res.cloudinary.com/pulgarpedia-sv/image/upload/w_800,h_600,c_fill,q_auto/volcanes/izalco-gallery-01.jpg",
+          "alt": "Vista del cráter del Volcán de Izalco" }, { "imageUrl":
+          "https://res.cloudinary.com/pulgarpedia-sv/image/upload/w_800,h_600,c_fill,q_auto/volcanes/izalco-gallery-02.jpg",
+          "alt": "Sendero hacia la cima del Izalco" } ] }
+        </div>
+      </div>
+
+      <!-- RECURSOS -->
+      <div class="step">
+        <h2>📚 Recursos Adicionales</h2>
+        <a
+          href="https://cloudinary.com/documentation"
+          target="_blank"
+          class="btn btn-secondary"
+          >📖 Documentación Cloudinary</a
+        >
+        <a
+          href="https://cloudinary.com/documentation/image_transformations"
+          target="_blank"
+          class="btn btn-secondary"
+          >🎨 Guía de Transformaciones</a
+        >
+        <a
+          href="https://console.cloudinary.com/console/media_library"
+          target="_blank"
+          class="btn"
+          >🖼️ Mi Media Library</a
+        >
+      </div>
+    </div>
+
+    <script>
+      function generateUrl() {
+        const cloudName = document.getElementById("cloudName").value.trim();
+        const imagePath = document.getElementById("imagePath").value.trim();
+        const transformation = document.getElementById("imageType").value;
+
+        if (!cloudName || !imagePath) {
+          alert("⚠️ Por favor completa todos los campos");
+          return;
+        }
+
+        // Remover extensión si existe y agregar .jpg
+        const pathWithoutExt = imagePath.replace(/\.(jpg|jpeg|png|webp)$/i, "");
+
+        const url = `https://res.cloudinary.com/${cloudName}/image/upload/${transformation}/${pathWithoutExt}.jpg`;
+
+        document.getElementById("generatedUrl").textContent = url;
+        document.getElementById("result").style.display = "block";
+
+        // Scroll suave al resultado
+        document
+          .getElementById("result")
+          .scrollIntoView({ behavior: "smooth", block: "center" });
+      }
+
+      function copyUrl() {
+        const url = document.getElementById("generatedUrl").textContent;
+        navigator.clipboard.writeText(url).then(() => {
+          const btn = event.target;
+          const originalText = btn.textContent;
+          btn.textContent = "✅ ¡Copiado!";
+          btn.style.background = "#28a745";
+
+          setTimeout(() => {
+            btn.textContent = originalText;
+            btn.style.background = "";
+          }, 2000);
+        });
+      }
+
+      // Auto-generar cuando se escribe
+      document.getElementById("cloudName").addEventListener("input", () => {
+        if (document.getElementById("result").style.display === "block") {
+          generateUrl();
+        }
+      });
+      document.getElementById("imagePath").addEventListener("input", () => {
+        if (document.getElementById("result").style.display === "block") {
+          generateUrl();
+        }
+      });
+      document.getElementById("imageType").addEventListener("change", () => {
+        if (document.getElementById("result").style.display === "block") {
+          generateUrl();
+        }
+      });
+    </script>
+  </body>
+</html>

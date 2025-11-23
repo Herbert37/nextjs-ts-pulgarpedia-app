@@ -38,20 +38,20 @@
       "header": {
         "title": "Volcán de Santa Ana (Ilamatepec)",
         "category": "Naturaleza y Aventura",
-        "mainImageURL": "/images/volcan-santa-ana-1.jpg",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763857016/NA-001-0_xl8up8.jpg",
         "subtitle": "Conquista el techo de El Salvador y maravíllate con su laguna esmeralda."
       },
       "gallery": [
         {
-          "imageUrl": "/images/volcan-santa-ana-2.jpg",
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763857289/NA-001-1_wofr6x.jpg",
           "alt": "Vista del cráter con laguna esmeralda"
         },
         {
-          "imageUrl": "/images/volcan-santa-ana-3.jpg",
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763857015/NA-001-2_o7octf.jpg",
           "alt": "Sendero de ascenso"
         },
         {
-          "imageUrl": "/images/volcan-santa-ana-4.jpg",
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763857018/NA-001-3_hkujsd.jpg",
           "alt": "Vista panorámica desde la cima"
         }
       ],
@@ -149,16 +149,16 @@
       "header": {
         "title": "Volcán de Izalco",
         "category": "Naturaleza y Aventura",
-        "mainImageURL": "/images/volcan-izalco-1.jpg",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763858075/NA-002-0_f1tpka.jpg",
         "subtitle": "El 'Faro del Pacífico' con su imponente cono negro de ceniza volcánica."
       },
       "gallery": [
         {
-          "imageUrl": "/images/volcan-izalco-2.jpg",
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763858074/NA-002-1_jbe3jv.jpg",
           "alt": "Vista del cono volcánico"
         },
         {
-          "imageUrl": "/images/volcan-izalco-3.jpg",
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763858076/NA-002-2_qdildw.jpg",
           "alt": "Cráter del volcán"
         }
       ],
@@ -223,16 +223,16 @@
       "header": {
         "title": "Cerro Verde",
         "category": "Naturaleza y Aventura",
-        "mainImageURL": "/images/cerro-verde-1.jpg",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763858595/NA-003-0_rw2rii.jpg",
         "subtitle": "Parque nacional con las mejores vistas panorámicas de los tres volcanes."
       },
       "gallery": [
         {
-          "imageUrl": "/images/cerro-verde-2.jpg",
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763858592/NA-003-01_wumcja.jpg",
           "alt": "Mirador panorámico"
         },
         {
-          "imageUrl": "/images/cerro-verde-3.jpg",
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763858592/NA-003-2_mazzzs.jpg",
           "alt": "Sendero forestal"
         }
       ],
@@ -297,16 +297,16 @@
       "header": {
         "title": "Lago de Coatepeque",
         "category": "Naturaleza y Aventura",
-        "mainImageURL": "/images/lago-coatepeque-1.jpg",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763859082/NA-004-0_pqd0p8.jpg",
         "subtitle": "Laguna de cráter volcánico con aguas cristalinas color turquesa."
       },
       "gallery": [
         {
-          "imageUrl": "/images/lago-coatepeque-2.jpg",
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763859079/NA-004-1_ejtmaw.jpg",
           "alt": "Vista aérea del lago"
         },
         {
-          "imageUrl": "/images/lago-coatepeque-3.jpg",
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763859078/NA-004-2_q9wsbq.jpg",
           "alt": "Atardecer en el lago"
         }
       ],
@@ -375,16 +375,16 @@
       "header": {
         "title": "Parque Nacional El Imposible",
         "category": "Naturaleza y Aventura",
-        "mainImageURL": "/images/el-imposible-1.jpg",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763859351/NA-005-0_annzeu.jpg",
         "subtitle": "Bosque tropical con biodiversidad excepcional y senderos desafiantes."
       },
       "gallery": [
         {
-          "imageUrl": "/images/el-imposible-2.jpg",
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763859353/NA-005-1_wvkuxp.jpg",
           "alt": "Sendero en el bosque"
         },
         {
-          "imageUrl": "/images/el-imposible-3.jpg",
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763859351/NA-005-2_dgnhog.jpg",
           "alt": "Cascada interior"
         }
       ],
@@ -448,18 +448,22 @@
       }
     },
     {
-      "placeId": "NA-008",
+      "placeId": "NA-006",
       "categoryId": "nature-adventure",
       "header": {
         "title": "Laguna de Alegría",
         "category": "Naturaleza y Aventura",
-        "mainImageURL": "/images/laguna-alegria-1.jpg",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763859804/NA-006-0_sgulwi.jpg",
         "subtitle": "Laguna de cráter con aguas sulfurosas de colores cambiantes."
       },
       "gallery": [
         {
-          "imageUrl": "/images/laguna-alegria-2.jpg",
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763859805/NA-006-1_v1qjj4.jpg",
           "alt": "Vista de la laguna"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763859804/NA-006-0_sgulwi.jpg",
+          "alt": "La laguna de cerca"
         }
       ],
       "generalHistorySection": {
@@ -514,18 +518,26 @@
       }
     },
     {
-      "placeId": "NA-010",
+      "placeId": "NA-007",
       "categoryId": "nature-adventure",
       "header": {
         "title": "Parque Nacional Montecristo",
         "category": "Naturaleza y Aventura",
-        "mainImageURL": "/images/montecristo-1.jpg",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763860094/NA-007-0_amj8zs.jpg",
         "subtitle": "Bosque nuboso en el punto donde convergen tres países."
       },
       "gallery": [
         {
-          "imageUrl": "/images/montecristo-2.jpg",
-          "alt": "Bosque nuboso"
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763860091/NA-007-1_tzdnkj.jpg",
+          "alt": "Vista aérea del parque"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763860090/NA-007-2_y9xex7.jpg",
+          "alt": "Bosque nebuloso"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763860094/NA-007-3_kxgsq2.jpg",
+          "alt": "Cascada interior"
         }
       ],
       "generalHistorySection": {
@@ -580,22 +592,22 @@
       }
     },
     {
-      "placeId": "NA-012",
+      "placeId": "NA-008",
       "categoryId": "nature-adventure",
       "header": {
         "title": "Parque Nacional El Boquerón",
         "category": "Naturaleza y Aventura",
-        "mainImageURL": "/images/el-boqueron-1.jpg",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763860498/NA-008-0_kaymks.jpg",
         "subtitle": "Cráter del Volcán de San Salvador con vistas panorámicas de la capital."
       },
       "gallery": [
         {
-          "imageUrl": "/images/el-boqueron-2.jpg",
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763860494/NA-008-1_aetczs.jpg",
           "alt": "Vista del cráter"
         },
         {
-          "imageUrl": "/images/el-boqueron-3.jpg",
-          "alt": "Sendero circular"
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763860495/NA-008-2_vv7skh.jpg",
+          "alt": "Mirador de cristal"
         }
       ],
       "generalHistorySection": {

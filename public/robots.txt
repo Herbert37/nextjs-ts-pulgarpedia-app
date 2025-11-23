@@ -1,0 +1,34 @@
+# Pulgarpedia - Robots.txt
+# https://pulgarpedia.com/robots.txt
+
+# Permitir a todos los bots acceder a todo el contenido
+User-agent: *
+Allow: /
+
+# Deshabilitar crawling de archivos de sistema y API routes
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+
+# Deshabilitar páginas con query params de búsqueda (para evitar duplicados)
+Disallow: /*?search=*
+
+# Sitemap
+Sitemap: https://pulgarpedia.com/sitemap.xml
+
+# Crawl-delay para bots agresivos (opcional)
+User-agent: *
+Crawl-delay: 1
+
+# Bots específicos de búsqueda (sin restricciones adicionales)
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: Slurp
+User-agent: DuckDuckBot
+User-agent: Baiduspider
+User-agent: YandexBot
+Allow: /
+
+# Crawl rate para Google
+User-agent: Googlebot
+Crawl-delay: 0

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Generador de Favicon - Bandera El Salvador</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 20px;
+        background: #f5f5f5;
+      }
+      .container {
+        background: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        color: #0f47af;
+        text-align: center;
+      }
+      .flag-preview {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px 0;
+      }
+      .flag {
+        width: 300px;
+        height: 200px;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+      .stripe {
+        width: 100%;
+        height: 33.33%;
+      }
+      .blue {
+        background: #0f47af;
+      }
+      .white {
+        background: #ffffff;
+      }
+      canvas {
+        border: 1px solid #ddd;
+        margin: 10px;
+      }
+      .downloads {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 15px;
+        margin-top: 30px;
+      }
+      .download-btn {
+        background: #0f47af;
+        color: white;
+        padding: 15px 20px;
+        text-align: center;
+        border-radius: 5px;
+        text-decoration: none;
+        display: block;
+        transition: background 0.3s;
+      }
+      .download-btn:hover {
+        background: #0d3a8f;
+      }
+      .info {
+        background: #e3f2fd;
+        padding: 15px;
+        border-radius: 5px;
+        margin: 20px 0;
+        border-left: 4px solid #0f47af;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>🇸🇻 Generador de Favicon - Bandera de El Salvador</h1>
+
+      <div class="flag-preview">
+        <h3>Vista previa de la bandera:</h3>
+        <div class="flag">
+          <div class="stripe blue"></div>
+          <div class="stripe white"></div>
+          <div class="stripe blue"></div>
+        </div>
+      </div>
+
+      <div class="info">
+        <strong>📌 Instrucciones:</strong>
+        <ol>
+          <li>Haz clic en los botones de descarga abajo</li>
+          <li>
+            Guarda cada archivo en la carpeta <code>public/</code> de tu
+            proyecto
+          </li>
+          <li>Recarga tu aplicación Next.js</li>
+          <li>¡Verás la bandera de El Salvador en la pestaña! 🎉</li>
+        </ol>
+      </div>
+
+      <div id="canvases"></div>
+
+      <div class="downloads" id="downloads"></div>
+    </div>
+
+    <script>
+      const sizes = [
+        { width: 16, height: 16, name: "favicon-16x16.png" },
+        { width: 32, height: 32, name: "favicon-32x32.png" },
+        { width: 180, height: 180, name: "apple-touch-icon.png" },
+        { width: 192, height: 192, name: "favicon-192x192.png" },
+        { width: 512, height: 512, name: "favicon-512x512.png" },
+      ];
+
+      const canvasesContainer = document.getElementById("canvases");
+      const downloadsContainer = document.getElementById("downloads");
+
+      sizes.forEach((size) => {
+        // Crear canvas
+        const canvas = document.createElement("canvas");
+        canvas.width = size.width;
+        canvas.height = size.height;
+
+        const ctx = canvas.getContext("2d");
+
+        // Dibujar bandera
+        const stripeHeight = size.height / 3;
+
+        // Franja azul superior
+        ctx.fillStyle = "#0F47AF";
+        ctx.fillRect(0, 0, size.width, stripeHeight);
+
+        // Franja blanca
+        ctx.fillStyle = "#FFFFFF";
+        ctx.fillRect(0, stripeHeight, size.width, stripeHeight);
+
+        // Franja azul inferior
+        ctx.fillStyle = "#0F47AF";
+        ctx.fillRect(0, stripeHeight * 2, size.width, stripeHeight);
+
+        // Agregar "SV" en el centro para tamaños grandes
+        if (size.width >= 32) {
+          const fontSize = Math.max(size.width / 8, 8);
+          ctx.fillStyle = "#FFD700";
+          ctx.font = `bold ${fontSize}px Arial`;
+          ctx.textAlign = "center";
+          ctx.textBaseline = "middle";
+          ctx.fillText("SV", size.width / 2, size.height / 2);
+        }
+
+        // Mostrar canvas
+        const label = document.createElement("div");
+        label.textContent = `${size.width}x${size.height}`;
+        label.style.textAlign = "center";
+        label.style.margin = "10px";
+        label.appendChild(canvas);
+        canvasesContainer.appendChild(label);
+
+        // Crear botón de descarga
+        const dataUrl = canvas.toDataURL("image/png");
+        const downloadBtn = document.createElement("a");
+        downloadBtn.href = dataUrl;
+        downloadBtn.download = size.name;
+        downloadBtn.className = "download-btn";
+        downloadBtn.innerHTML = `
+        ⬇️ Descargar<br>
+        <small>${size.name}</small><br>
+        <small>${size.width}x${size.height}</small>
+      `;
+        downloadsContainer.appendChild(downloadBtn);
+      });
+
+      // Generar favicon.ico (multi-size)
+      console.log(
+        "Favicons generados. Haz clic en los botones para descargarlos."
+      );
+    </script>
+  </body>
+</html>

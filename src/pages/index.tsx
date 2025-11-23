@@ -196,6 +196,8 @@ const Home: React.FC = () => {
 
         {/* Adicionales */}
         <meta name='author' content='Pulgarpedia' />
+        <meta name='geo.region' content='SV' />
+        <meta name='geo.placename' content='El Salvador' />
         <meta
           name='robots'
           content={
@@ -205,6 +207,55 @@ const Home: React.FC = () => {
           }
         />
         <meta httpEquiv='Content-Language' content='es' />
+
+        {/* JSON-LD Schema Markup */}
+        <script
+          type='application/ld+json'
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "Pulgarpedia",
+              url: "https://pulgarpedia.com",
+              description:
+                "Guía turística completa de El Salvador con información detallada de lugares, actividades y experiencias.",
+              inLanguage: "es-SV",
+              potentialAction: {
+                "@type": "SearchAction",
+                target: {
+                  "@type": "EntryPoint",
+                  urlTemplate:
+                    "https://pulgarpedia.com?search={search_term_string}",
+                },
+                "query-input": "required name=search_term_string",
+              },
+            }),
+          }}
+        />
+        <script
+          type='application/ld+json'
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Pulgarpedia",
+              url: "https://pulgarpedia.com",
+              logo: "https://pulgarpedia.com/logo.png",
+              description:
+                "Descubre los mejores lugares turísticos de El Salvador. Guía completa de volcanes, playas, pueblos, gastronomía y festividades.",
+              sameAs: [
+                "https://facebook.com/pulgarpedia",
+                "https://twitter.com/pulgarpedia",
+                "https://instagram.com/pulgarpedia",
+              ],
+              address: {
+                "@type": "PostalAddress",
+                addressCountry: "SV",
+                addressRegion: "El Salvador",
+              },
+            }),
+          }}
+        />
       </Head>
       <Header />
       <Container maxWidth='lg' sx={{ mt: 4, mb: 8 }}>

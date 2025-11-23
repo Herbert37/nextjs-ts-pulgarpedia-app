@@ -9,7 +9,7 @@ import PlaceContent from "../../components/PlaceContent";
 import PremiumSection from "../../components/PremiumSection";
 import RelatedPlaces from "../../components/RelatedPlaces";
 import ErrorModal from "../../components/ErrorModal";
-import { usePulgarpediaContent } from "../../hooks/usePulgarpediaContent";
+import { useContentStore } from "../../stores/contentStore";
 
 interface PlaceDetailPageProps {
   placeId: string;
@@ -21,31 +21,31 @@ interface PlaceDetailPageProps {
  */
 const PlaceDetailPage: React.FC<PlaceDetailPageProps> = ({ placeId }) => {
   const router = useRouter();
-  const { getPlace, getCategory, isLoading, isReady } = usePulgarpediaContent();
+  const { content, isLoading } = useContentStore();
   const [showError, setShowError] = React.useState(false);
 
-  // Obtener los datos del lugar
+  // Obtener los datos del lugar desde el store
   const place = React.useMemo(() => {
-    if (!isReady) return null;
-    return getPlace(placeId);
-  }, [isReady, placeId, getPlace]);
+    if (!content) return null;
+    return content.places.find((p) => p.placeId === placeId);
+  }, [content, placeId]);
 
   // Obtener el nombre de la categoría
   const categoryName = React.useMemo(() => {
-    if (!place) return "";
-    const category = getCategory(place.categoryId);
+    if (!place || !content) return "";
+    const category = content.categories.find((c) => c.id === place.categoryId);
     return category?.name || place.header.category;
-  }, [place, getCategory]);
+  }, [place, content]);
 
   // Validar si el lugar existe
   React.useEffect(() => {
-    if (isReady && !place) {
+    if (content && !place) {
       setShowError(true);
     }
-  }, [isReady, place]);
+  }, [content, place]);
 
-  // Loading state
-  if (isLoading || !isReady) {
+  // Loading state - el store ya maneja el loading en _app.tsx
+  if (isLoading || !content) {
     return (
       <>
         <Container maxWidth='lg' sx={{ mt: 4, mb: 8 }}>
@@ -119,6 +119,102 @@ const PlaceDetailPage: React.FC<PlaceDetailPageProps> = ({ placeId }) => {
         <meta name='twitter:title' content={pageTitle} />
         <meta name='twitter:description' content={pageDescription} />
         <meta name='twitter:image' content={pageImage} />
+
+        {/* Geo tags */}
+        <meta name='geo.region' content='SV' />
+        <meta
+          name='geo.placename'
+          content={place.generalHistorySection.locationClimate.address}
+        />
+        {place.generalHistorySection.locationClimate.coordinates && (
+          <>
+            <meta
+              name='geo.position'
+              content={`${place.generalHistorySection.locationClimate.coordinates.latitude};${place.generalHistorySection.locationClimate.coordinates.longitude}`}
+            />
+            <meta
+              name='ICBM'
+              content={`${place.generalHistorySection.locationClimate.coordinates.latitude}, ${place.generalHistorySection.locationClimate.coordinates.longitude}`}
+            />
+          </>
+        )}
+
+        {/* JSON-LD Schema - TouristAttraction */}
+        <script
+          type='application/ld+json'
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "TouristAttraction",
+              name: place.header.title,
+              description: place.generalHistorySection.description,
+              image: [
+                place.header.mainImageURL,
+                ...place.gallery.map((g) => g.imageUrl),
+              ],
+              url: `https://pulgarpedia.com/place/${placeId}`,
+              address: {
+                "@type": "PostalAddress",
+                addressLocality:
+                  place.generalHistorySection.locationClimate.address,
+                addressCountry: "SV",
+                addressRegion: "El Salvador",
+              },
+              ...(place.generalHistorySection.locationClimate.coordinates && {
+                geo: {
+                  "@type": "GeoCoordinates",
+                  latitude:
+                    place.generalHistorySection.locationClimate.coordinates
+                      .latitude,
+                  longitude:
+                    place.generalHistorySection.locationClimate.coordinates
+                      .longitude,
+                },
+              }),
+              touristType: categoryName,
+              ...(place.generalHistorySection.locationClimate.typicalHours && {
+                openingHours:
+                  place.generalHistorySection.locationClimate.typicalHours,
+              }),
+              ...(place.serviceLogisticSection.costs?.length > 0 && {
+                priceRange: place.serviceLogisticSection.costs
+                  .map((c) => c.price)
+                  .join(" - "),
+              }),
+            }),
+          }}
+        />
+
+        {/* JSON-LD Schema - BreadcrumbList */}
+        <script
+          type='application/ld+json'
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              itemListElement: [
+                {
+                  "@type": "ListItem",
+                  position: 1,
+                  name: "Inicio",
+                  item: "https://pulgarpedia.com",
+                },
+                {
+                  "@type": "ListItem",
+                  position: 2,
+                  name: categoryName,
+                  item: `https://pulgarpedia.com?category=${place.categoryId}`,
+                },
+                {
+                  "@type": "ListItem",
+                  position: 3,
+                  name: place.header.title,
+                  item: `https://pulgarpedia.com/place/${placeId}`,
+                },
+              ],
+            }),
+          }}
+        />
       </Head>
 
       {/* Hero Section con imagen, título, breadcrumbs */}
@@ -152,12 +248,11 @@ const PlaceDetailPage: React.FC<PlaceDetailPageProps> = ({ placeId }) => {
  */
 export const getStaticPaths: GetStaticPaths = async () => {
   try {
-    // Importar el contenido directamente
-    const contentData = await import("../../data/content.json");
-    const places = contentData.default.places || contentData.places;
+    // Obtener el contenido desde el endpoint de la API
+    const { fetchPulgarpediaContent } = await import("../../utils/contentApi");
+    const contentData = await fetchPulgarpediaContent();
 
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const paths = places.map((place: any) => ({
+    const paths = contentData.places.map((place) => ({
       params: { placeId: place.placeId },
     }));
 
@@ -175,8 +270,8 @@ export const getStaticPaths: GetStaticPaths = async () => {
 };
 
 /**
- * getStaticProps - Obtiene los datos en build time
- * Valida que el placeId existe
+ * getStaticProps - Pasa el placeId como prop
+ * La validación se hace en el cliente usando el store
  */
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   const placeId = params?.placeId as string;
@@ -187,31 +282,12 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     };
   }
 
-  // Validar que el lugar existe
-  try {
-    const contentData = await import("../../data/content.json");
-    const places = contentData.default.places || contentData.places;
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const placeExists = places.some((p: any) => p.placeId === placeId);
-
-    if (!placeExists) {
-      return {
-        notFound: true,
-      };
-    }
-
-    return {
-      props: {
-        placeId,
-      },
-      revalidate: 3600, // Revalidar cada hora
-    };
-  } catch (error) {
-    console.error("Error in getStaticProps:", error);
-    return {
-      notFound: true,
-    };
-  }
+  return {
+    props: {
+      placeId,
+    },
+    revalidate: 3600, // Revalidar cada hora
+  };
 };
 
 export default PlaceDetailPage;
