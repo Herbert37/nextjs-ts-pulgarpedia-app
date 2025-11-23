@@ -1,13 +1,13 @@
 import React from "react";
 import {
   Card,
-  CardMedia,
   CardContent,
   Typography,
   Chip,
   Box,
   Skeleton,
 } from "@mui/material";
+import Image from "next/image";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import { useRouter } from "next/router";
 import { Place } from "../types/place";
@@ -96,7 +96,7 @@ const PlaceCard: React.FC<PlaceCardProps> = ({
           },
         }}
       >
-        {/* Imagen principal */}
+        {/* Imagen principal con next/image */}
         <Box
           sx={{
             position: "relative",
@@ -105,10 +105,7 @@ const PlaceCard: React.FC<PlaceCardProps> = ({
             backgroundColor: "grey.200",
           }}
         >
-          <CardMedia
-            component='img'
-            image={place.header.mainImageURL}
-            alt={place.header.title}
+          <Box
             className='place-image'
             sx={{
               position: "absolute",
@@ -116,10 +113,21 @@ const PlaceCard: React.FC<PlaceCardProps> = ({
               left: 0,
               width: "100%",
               height: "100%",
-              objectFit: "cover",
               transition: "transform 0.3s ease-in-out",
             }}
-          />
+          >
+            <Image
+              src={place.header.mainImageURL}
+              alt={place.header.title}
+              fill
+              sizes='(max-width: 600px) 100vw, (max-width: 960px) 50vw, 33vw'
+              style={{
+                objectFit: "cover",
+              }}
+              priority={false}
+              loading='lazy'
+            />
+          </Box>
 
           {/* Chip de categoría */}
           <Chip
@@ -133,6 +141,7 @@ const PlaceCard: React.FC<PlaceCardProps> = ({
               color: "white",
               fontWeight: 500,
               fontSize: "0.75rem",
+              zIndex: 1,
             }}
           />
         </Box>
@@ -209,7 +218,7 @@ const PlaceCard: React.FC<PlaceCardProps> = ({
         },
       }}
     >
-      {/* Imagen principal */}
+      {/* Imagen principal con next/image */}
       <Box
         sx={{
           position: "relative",
@@ -220,18 +229,27 @@ const PlaceCard: React.FC<PlaceCardProps> = ({
           flexShrink: 0,
         }}
       >
-        <CardMedia
-          component='img'
-          image={place.header.mainImageURL}
-          alt={place.header.title}
+        <Box
           className='place-image'
           sx={{
             width: "100%",
             height: "100%",
-            objectFit: "cover",
+            position: "relative",
             transition: "transform 0.3s ease-in-out",
           }}
-        />
+        >
+          <Image
+            src={place.header.mainImageURL}
+            alt={place.header.title}
+            fill
+            sizes='(max-width: 600px) 100vw, 250px'
+            style={{
+              objectFit: "cover",
+            }}
+            priority={false}
+            loading='lazy'
+          />
+        </Box>
 
         {/* Chip de categoría */}
         <Chip
@@ -245,6 +263,7 @@ const PlaceCard: React.FC<PlaceCardProps> = ({
             color: "white",
             fontWeight: 500,
             fontSize: "0.75rem",
+            zIndex: 1,
           }}
         />
       </Box>

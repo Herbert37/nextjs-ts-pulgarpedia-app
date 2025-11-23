@@ -1,6 +1,7 @@
 import React from "react";
 import { useRouter } from "next/router";
 import { Box, Container, Typography, Chip, Button } from "@mui/material";
+import Image from "next/image";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import Breadcrumbs from "./Breadcrumbs";
 import { categoryColors } from "../styles/theme";
@@ -49,20 +50,18 @@ const PlaceHero: React.FC<PlaceHeroProps> = ({ place, categoryName }) => {
         mb: 4,
       }}
     >
-      {/* Imagen de fondo */}
-      <Box
-        component='img'
+      {/* Imagen de fondo con next/image */}
+      <Image
         src={place.header.mainImageURL}
         alt={place.header.title}
-        sx={{
-          position: "absolute",
-          top: 0,
-          left: 0,
-          width: "100%",
-          height: "100%",
+        fill
+        priority
+        sizes='100vw'
+        style={{
           objectFit: "cover",
           objectPosition: "center",
         }}
+        quality={90}
       />
 
       {/* Overlay gradient */}

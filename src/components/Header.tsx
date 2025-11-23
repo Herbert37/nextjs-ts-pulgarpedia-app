@@ -19,7 +19,7 @@ const Header = () => {
           maxWidth: "100%",
           objectFit: "cover",
         }}
-        src='https://d296xu67oj0g2g.cloudfront.net/lm_cms/images/CMS/OVERVIEW%20BANNERS/1024/CLUB_HB1.png'
+        src='https://res.cloudinary.com/djnj9ykgj/image/upload/v1763855888/main-img_ybmtlx.jpg'
       />
       {/* Overlay layer */}
       <div className={"headerContainer"}>

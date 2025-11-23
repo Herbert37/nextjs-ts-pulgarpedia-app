@@ -7,6 +7,7 @@ import {
   useTheme,
   Typography,
 } from "@mui/material";
+import Image from "next/image";
 import CloseIcon from "@mui/icons-material/Close";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
@@ -88,18 +89,17 @@ const PlaceGallery: React.FC<PlaceGalleryProps> = ({ images, placeName }) => {
           },
         }}
       >
-        {/* Imagen */}
-        <Box
-          component='img'
+        {/* Imagen con next/image */}
+        <Image
           src={currentImage.imageUrl}
           alt={currentImage.alt || `${placeName} - Imagen ${currentIndex + 1}`}
-          loading='lazy'
-          sx={{
-            width: "100%",
-            height: "100%",
+          fill
+          sizes='(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px'
+          style={{
             objectFit: "cover",
-            transition: "transform 0.3s ease",
           }}
+          priority={currentIndex === 0}
+          quality={85}
         />
 
         {/* Controles del carrusel */}
@@ -242,17 +242,18 @@ const PlaceGallery: React.FC<PlaceGalleryProps> = ({ images, placeName }) => {
                 },
               }}
             >
-              <Box
-                component='img'
-                src={image.imageUrl}
-                alt={image.alt || `Thumbnail ${index + 1}`}
-                loading='lazy'
-                sx={{
-                  width: "100%",
-                  height: "100%",
-                  objectFit: "cover",
-                }}
-              />
+              <Box sx={{ position: "relative", width: "100%", height: "100%" }}>
+                <Image
+                  src={image.imageUrl}
+                  alt={image.alt || `Thumbnail ${index + 1}`}
+                  fill
+                  sizes='120px'
+                  style={{
+                    objectFit: "cover",
+                  }}
+                  quality={60}
+                />
+              </Box>
             </Box>
           ))}
         </Box>
@@ -346,19 +347,28 @@ const PlaceGallery: React.FC<PlaceGalleryProps> = ({ images, placeName }) => {
             </>
           )}
 
-          {/* Imagen fullscreen */}
+          {/* Imagen fullscreen con next/image */}
           <Box
-            component='img'
-            src={currentImage.imageUrl}
-            alt={
-              currentImage.alt || `${placeName} - Imagen ${currentIndex + 1}`
-            }
             sx={{
-              maxWidth: "95%",
-              maxHeight: "95%",
-              objectFit: "contain",
+              position: "relative",
+              width: "95%",
+              height: "95%",
             }}
-          />
+          >
+            <Image
+              src={currentImage.imageUrl}
+              alt={
+                currentImage.alt || `${placeName} - Imagen ${currentIndex + 1}`
+              }
+              fill
+              sizes='95vw'
+              style={{
+                objectFit: "contain",
+              }}
+              quality={95}
+              priority
+            />
+          </Box>
 
           {/* Info en lightbox */}
           <Box
