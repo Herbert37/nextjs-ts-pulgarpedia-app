@@ -10,7 +10,6 @@ import Document, {
 import createEmotionServer from "@emotion/server/create-instance";
 import { AppType } from "next/app";
 import createEmotionCache from "../utils/createEmotionCache";
-import theme from "../styles/theme";
 
 interface MyDocumentProps extends DocumentInitialProps {
   emotionStyleTags: React.JSX.Element[];
@@ -48,7 +47,7 @@ export default function MyDocument({ emotionStyleTags }: MyDocumentProps) {
         <link rel='manifest' href='/site.webmanifest' />
 
         {/* PWA primary color */}
-        <meta name='theme-color' content={theme.palette.primary.main} />
+        <meta name='theme-color' content={"#6c62a4"} />
         <meta name='apple-mobile-web-app-capable' content='yes' />
         <meta name='apple-mobile-web-app-status-bar-style' content='default' />
         <meta name='apple-mobile-web-app-title' content='Pulgarpedia' />
