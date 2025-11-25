@@ -666,25 +666,115 @@
       }
     },
     {
+      "placeId": "NA-009",
+      "categoryId": "nature-adventure",
+      "header": {
+        "title": "Cerro El Pital",
+        "category": "Naturaleza y Aventura",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764031085/NA-009-0_xvhq2b.jpg",
+        "subtitle": "El punto más alto de El Salvador con bosque de pino y clima frío único."
+      },
+      "gallery": [
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764031085/NA-009-1_tuxhed.jpg",
+          "alt": "Vista panorámica del cerro"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764031085/NA-009-2_uyqm4j.jpg",
+          "alt": "Vista panorámica desde la cumbre"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764031085/NA-009-3_eevurf.jpg",
+          "alt": "Bosque nebuloso"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764031085/NA-009-4_jhkv38.jpg",
+          "alt": "Piedra Rajada"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "El Cerro El Pital es el punto más alto de El Salvador, alcanzando los 2,730 metros sobre el nivel del mar. Ubicado en la frontera con Honduras, ofrece un clima único en el país con temperaturas que pueden descender bajo cero en invierno. Su ecosistema de bosque nuboso y pinar es excepcional.",
+        "historyCulture": "El nombre 'El Pital' proviene de los árboles de pino que cubren sus laderas. Durante la época colonial era una zona de difícil acceso. En las décadas de 1980-90 fue zona de conflicto. Hoy es un destino ecoturístico en crecimiento, conocido por ser el único lugar de El Salvador donde ocasionalmente cae escarcha.",
+        "locationClimate": {
+          "address": "Cantón Río Chiquito, Municipio de San Ignacio, Departamento de Chalatenango, El Salvador.",
+          "coordinates": {
+            "latitude": 14.3833,
+            "longitude": -89.1167
+          },
+          "mapUrl": "https://maps.google.com/?q=14.3833,-89.1167",
+          "typicalHours": "Acceso 24/7. Mejor visitar de día (6:00 AM a 5:00 PM).",
+          "bestSeason": "Diciembre a Febrero (clima más frío, posibilidad de escarcha). Marzo a Mayo (clima templado y flores silvestres)."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Zona rural con servicios básicos en desarrollo.",
+        "howToGetThere": [
+          {
+            "option": "Desde San Salvador",
+            "details": "Vía Troncal del Norte hasta Chalatenango, luego hacia San Ignacio y Río Chiquito. 4-5 horas. Vehículo 4x4 recomendado para los últimos kilómetros."
+          },
+          {
+            "option": "Transporte público",
+            "details": "Bus hasta San Ignacio, luego pickup local hasta Río Chiquito (USD 5-10 por persona)."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Entrada",
+            "price": "USD 2.00"
+          },
+          {
+            "item": "Guía local",
+            "price": "USD 10-15 (opcional pero recomendado)"
+          },
+          {
+            "item": "Hospedaje en cabañas",
+            "price": "USD 15-30 por noche"
+          },
+          {
+            "item": "Camping",
+            "price": "USD 5-10 por persona"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": false,
+          "localGuides": true,
+          "notes": "Cabañas rústicas disponibles. Llevar ropa abrigada (temperatura puede bajar a 0°C). Señal de celular limitada."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": true,
+        "premiumTitle": "",
+        "contentSnippet": "",
+        "callToAction": "",
+        "premiumRecommendations": []
+      }
+    },
+    {
       "placeId": "BC-001",
       "categoryId": "beaches-coast",
       "header": {
         "title": "Playa El Tunco",
         "category": "Playas y Costa",
-        "mainImageURL": "/images/playa-el-tunco-1.jpg",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763864854/NA-009-0_pczuaq.jpg",
         "subtitle": "El destino de surf más famoso de El Salvador con vibrante vida nocturna."
       },
       "gallery": [
         {
-          "imageUrl": "/images/playa-el-tunco-2.jpg",
-          "alt": "Formación rocosa El Tunco"
-        },
-        {
-          "imageUrl": "/images/playa-el-tunco-3.jpg",
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763864853/NA-009-1_iqut5c.jpg",
           "alt": "Surfistas en acción"
         },
         {
-          "imageUrl": "/images/playa-el-tunco-4.jpg",
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763864858/NA-009-2_tim9lo.jpg",
+          "alt": "Formación rocosa El Tunco"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763864856/NA-009-3_qmlw3c.jpg",
           "alt": "Vida nocturna en El Tunco"
         }
       ],
@@ -784,17 +874,17 @@
       "header": {
         "title": "Playa El Sunzal",
         "category": "Playas y Costa",
-        "mainImageURL": "/images/playa-el-sunzal-1.jpg",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763865846/BC-002-0_dze2ox.jpg",
         "subtitle": "Olas de clase mundial favoritas de surfistas profesionales."
       },
       "gallery": [
         {
-          "imageUrl": "/images/playa-el-sunzal-2.jpg",
-          "alt": "Ola perfecta en El Sunzal"
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763865846/BC-002-1_rwpirp.jpg",
+          "alt": "Vista a la playa"
         },
         {
-          "imageUrl": "/images/playa-el-sunzal-3.jpg",
-          "alt": "Vista desde el acantilado"
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763865846/BC-002-2_ame9zf.jpg",
+          "alt": "Ola perfecta en El Sunzal"
         }
       ],
       "generalHistorySection": {
