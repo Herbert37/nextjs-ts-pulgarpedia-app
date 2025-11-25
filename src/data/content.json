@@ -217,6 +217,97 @@
         "premiumRecommendations": []
       }
     },
+
+    {
+      "placeId": "NA-009",
+      "categoryId": "nature-adventure",
+      "header": {
+        "title": "Cerro El Pital",
+        "category": "Naturaleza y Aventura",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764031085/NA-009-0_xvhq2b.jpg",
+        "subtitle": "El punto más alto de El Salvador con bosque de pino y clima frío único."
+      },
+      "gallery": [
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764031085/NA-009-1_tuxhed.jpg",
+          "alt": "Vista panorámica del cerro"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764031085/NA-009-2_uyqm4j.jpg",
+          "alt": "Vista panorámica desde la cumbre"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764031085/NA-009-3_eevurf.jpg",
+          "alt": "Bosque nebuloso"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764031085/NA-009-4_jhkv38.jpg",
+          "alt": "Piedra Rajada"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "El Cerro El Pital es el punto más alto de El Salvador, alcanzando los 2,730 metros sobre el nivel del mar. Ubicado en la frontera con Honduras, ofrece un clima único en el país con temperaturas que pueden descender bajo cero en invierno. Su ecosistema de bosque nuboso y pinar es excepcional.",
+        "historyCulture": "El nombre 'El Pital' proviene de los árboles de pino que cubren sus laderas. Durante la época colonial era una zona de difícil acceso. En las décadas de 1980-90 fue zona de conflicto. Hoy es un destino ecoturístico en crecimiento, conocido por ser el único lugar de El Salvador donde ocasionalmente cae escarcha.",
+        "locationClimate": {
+          "address": "Cantón Río Chiquito, Municipio de San Ignacio, Departamento de Chalatenango, El Salvador.",
+          "coordinates": {
+            "latitude": 14.3833,
+            "longitude": -89.1167
+          },
+          "mapUrl": "https://maps.google.com/?q=14.3833,-89.1167",
+          "typicalHours": "Acceso 24/7. Mejor visitar de día (6:00 AM a 5:00 PM).",
+          "bestSeason": "Diciembre a Febrero (clima más frío, posibilidad de escarcha). Marzo a Mayo (clima templado y flores silvestres)."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Zona rural con servicios básicos en desarrollo.",
+        "howToGetThere": [
+          {
+            "option": "Desde San Salvador",
+            "details": "Vía Troncal del Norte hasta Chalatenango, luego hacia San Ignacio y Río Chiquito. 4-5 horas. Vehículo 4x4 recomendado para los últimos kilómetros."
+          },
+          {
+            "option": "Transporte público",
+            "details": "Bus hasta San Ignacio, luego pickup local hasta Río Chiquito (USD 5-10 por persona)."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Entrada",
+            "price": "USD 2.00"
+          },
+          {
+            "item": "Guía local",
+            "price": "USD 10-15 (opcional pero recomendado)"
+          },
+          {
+            "item": "Hospedaje en cabañas",
+            "price": "USD 15-30 por noche"
+          },
+          {
+            "item": "Camping",
+            "price": "USD 5-10 por persona"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": false,
+          "localGuides": true,
+          "notes": "Cabañas rústicas disponibles. Llevar ropa abrigada (temperatura puede bajar a 0°C). Señal de celular limitada."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": true,
+        "premiumTitle": "",
+        "contentSnippet": "",
+        "callToAction": "",
+        "premiumRecommendations": []
+      }
+    },
     {
       "placeId": "NA-003",
       "categoryId": "nature-adventure",
@@ -666,96 +757,6 @@
       }
     },
     {
-      "placeId": "NA-009",
-      "categoryId": "nature-adventure",
-      "header": {
-        "title": "Cerro El Pital",
-        "category": "Naturaleza y Aventura",
-        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764031085/NA-009-0_xvhq2b.jpg",
-        "subtitle": "El punto más alto de El Salvador con bosque de pino y clima frío único."
-      },
-      "gallery": [
-        {
-          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764031085/NA-009-1_tuxhed.jpg",
-          "alt": "Vista panorámica del cerro"
-        },
-        {
-          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764031085/NA-009-2_uyqm4j.jpg",
-          "alt": "Vista panorámica desde la cumbre"
-        },
-        {
-          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764031085/NA-009-3_eevurf.jpg",
-          "alt": "Bosque nebuloso"
-        },
-        {
-          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764031085/NA-009-4_jhkv38.jpg",
-          "alt": "Piedra Rajada"
-        }
-      ],
-      "generalHistorySection": {
-        "title": "Visión General e Historia",
-        "description": "El Cerro El Pital es el punto más alto de El Salvador, alcanzando los 2,730 metros sobre el nivel del mar. Ubicado en la frontera con Honduras, ofrece un clima único en el país con temperaturas que pueden descender bajo cero en invierno. Su ecosistema de bosque nuboso y pinar es excepcional.",
-        "historyCulture": "El nombre 'El Pital' proviene de los árboles de pino que cubren sus laderas. Durante la época colonial era una zona de difícil acceso. En las décadas de 1980-90 fue zona de conflicto. Hoy es un destino ecoturístico en crecimiento, conocido por ser el único lugar de El Salvador donde ocasionalmente cae escarcha.",
-        "locationClimate": {
-          "address": "Cantón Río Chiquito, Municipio de San Ignacio, Departamento de Chalatenango, El Salvador.",
-          "coordinates": {
-            "latitude": 14.3833,
-            "longitude": -89.1167
-          },
-          "mapUrl": "https://maps.google.com/?q=14.3833,-89.1167",
-          "typicalHours": "Acceso 24/7. Mejor visitar de día (6:00 AM a 5:00 PM).",
-          "bestSeason": "Diciembre a Febrero (clima más frío, posibilidad de escarcha). Marzo a Mayo (clima templado y flores silvestres)."
-        }
-      },
-      "serviceLogisticSection": {
-        "title": "Servicios y Logística",
-        "description": "Zona rural con servicios básicos en desarrollo.",
-        "howToGetThere": [
-          {
-            "option": "Desde San Salvador",
-            "details": "Vía Troncal del Norte hasta Chalatenango, luego hacia San Ignacio y Río Chiquito. 4-5 horas. Vehículo 4x4 recomendado para los últimos kilómetros."
-          },
-          {
-            "option": "Transporte público",
-            "details": "Bus hasta San Ignacio, luego pickup local hasta Río Chiquito (USD 5-10 por persona)."
-          }
-        ],
-        "costs": [
-          {
-            "item": "Entrada",
-            "price": "USD 2.00"
-          },
-          {
-            "item": "Guía local",
-            "price": "USD 10-15 (opcional pero recomendado)"
-          },
-          {
-            "item": "Hospedaje en cabañas",
-            "price": "USD 15-30 por noche"
-          },
-          {
-            "item": "Camping",
-            "price": "USD 5-10 por persona"
-          }
-        ],
-        "facilities": {
-          "parking": true,
-          "restrooms": true,
-          "wheelchairAccess": false,
-          "localGuides": true,
-          "notes": "Cabañas rústicas disponibles. Llevar ropa abrigada (temperatura puede bajar a 0°C). Señal de celular limitada."
-        }
-      },
-      "premiumSection": {
-        "title": "Recomendaciones Exclusivas",
-        "isLocked": true,
-        "premiumTitle": "",
-        "contentSnippet": "",
-        "callToAction": "",
-        "premiumRecommendations": []
-      }
-    },
-    {
       "placeId": "BC-001",
       "categoryId": "beaches-coast",
       "header": {
@@ -869,6 +870,550 @@
       }
     },
     {
+      "placeId": "BC-005",
+      "categoryId": "beaches-coast",
+      "header": {
+        "title": "Playa Los Cóbanos",
+        "category": "Playas y Costa",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764048513/BC-005-1_j5p5ug.jpg",
+        "subtitle": "Zona de buceo y snorkel con arrecifes rocosos únicos en El Salvador."
+      },
+      "gallery": [
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764048507/BC-005-0_haaes4.jpg",
+          "alt": "Atardecer en Los Cóbanos"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764048513/BC-005-1_j5p5ug.jpg",
+          "alt": "Avistamientos de ballenas en Los Cóbanos"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764048508/BC-005-4_u1hm6y.jpg",
+          "alt": "Vista de la Playa"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764050478/BC-005-2_afj1ay.jpg",
+          "alt": "Arena dorada y liberación de tortugas marinas"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764048511/BC-005-3_jjsj1t.jpg",
+          "alt": "Arrecifes de coral de Los Cóbanos"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "Los Cóbanos es el único sitio en El Salvador con arrecifes rocosos extensos que albergan una rica biodiversidad marina. Es el mejor destino del país para buceo y snorkel, con aguas relativamente claras y abundante vida submarina incluyendo tortugas marinas, rayas y peces tropicales.",
+        "historyCulture": "Declarada Área Natural Protegida para preservar los arrecifes. Es un pueblo pesquero tradicional que ha diversificado hacia el ecoturismo marino. Los pescadores locales ahora ofrecen tours de snorkel y buceo.",
+        "locationClimate": {
+          "address": "Municipio de Acajutla, Departamento de Sonsonate, El Salvador.",
+          "coordinates": {
+            "latitude": 13.3667,
+            "longitude": -89.8333
+          },
+          "mapUrl": "https://maps.google.com/?q=13.3667,-89.8333",
+          "typicalHours": "Tours de buceo salen de 8:00 AM a 2:00 PM.",
+          "bestSeason": "Noviembre a Abril (mejor visibilidad submarina). Evitar época de lluvias."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Ecoturismo marino con operadores locales certificados.",
+        "howToGetThere": [
+          {
+            "option": "Desde Sonsonate",
+            "details": "Bus hacia Acajutla, luego transporte local a Los Cóbanos. 45 minutos total."
+          },
+          {
+            "option": "Transporte Privado",
+            "details": "Desde San Salvador tomar CA-1 hacia Sonsonate, luego hacia Acajutla y Los Cóbanos. 2 horas."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Tour de snorkel",
+            "price": "USD 15-25 por persona (incluye equipo)"
+          },
+          {
+            "item": "Buceo certificado (2 tanques)",
+            "price": "USD 60-80"
+          },
+          {
+            "item": "Curso de buceo PADI",
+            "price": "USD 300-400"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": false,
+          "localGuides": true,
+          "notes": "Operadores de buceo certificados, restaurantes de mariscos, hospedaje básico."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": true,
+        "premiumTitle": "Guía Submarina de Los Cóbanos",
+        "contentSnippet": "Mejores sitios de buceo, temporadas para ver tortugas y operadores más confiables.",
+        "callToAction": "Desbloquea con Pulgarpedia Premium",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "BC-003",
+      "categoryId": "beaches-coast",
+      "header": {
+        "title": "Bahía de Jiquilisco y Puerto El Triunfo",
+        "category": "Playas y Costa",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764039388/BC-003-0_fiinwg.jpg",
+        "subtitle": "Puerto pesquero con bahía tranquila, gastronomía marina y acceso a islas."
+      },
+      "gallery": [
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764039389/BC-003-1_fddw5f.jpg",
+          "alt": "Manglares de la Bahía de Jiquilisco"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764039389/BC-003-2_xkamz3.jpg",
+          "alt": "Atardecer en la bahía"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764039389/BC-003-3_snnv6m.jpg",
+          "alt": "Muelle de Puerto El Triunfo"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764039390/BC-003-4_mlybfs.jpg",
+          "alt": "Malecón de Puerto El Triunfo"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "Puerto El Triunfo es el principal puerto pesquero artesanal de El Salvador, ubicado en la Bahía de Jiquilisco. Con su ambiente tranquilo y auténtico, ofrece una experiencia única de cultura pesquera, excelente gastronomía marina y acceso a tours en lancha hacia islas, manglares y la Isla de Méndez.",
+        "historyCulture": "Fundado como puerto comercial en el siglo XIX, El Triunfo ha sido tradicionalmente un pueblo de pescadores. Su nombre proviene de la victoria ('triunfo') en una batalla local. Hoy es conocido por su mercado de mariscos frescos, restaurantes típicos y como punto de partida para explorar la Bahía de Jiquilisco, Reserva de la Biosfera UNESCO.",
+        "locationClimate": {
+          "address": "Municipio de Puerto El Triunfo, Departamento de Usulután, El Salvador.",
+          "coordinates": {
+            "latitude": 13.2833,
+            "longitude": -88.55
+          },
+          "mapUrl": "https://maps.google.com/?q=13.2833,-88.5500",
+          "typicalHours": "Puerto accesible 24/7. Restaurantes de 8:00 AM a 7:00 PM. Tours en lancha de 7:00 AM a 5:00 PM.",
+          "bestSeason": "Noviembre a Abril (temporada seca) para tours en lancha. Mariscos frescos todo el año."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Infraestructura turística enfocada en gastronomía y ecoturismo marino.",
+        "howToGetThere": [
+          {
+            "option": "Desde San Salvador",
+            "details": "Carretera CA-2 hacia oriente, desvío en Usulután hacia Puerto El Triunfo. 2.5 horas."
+          },
+          {
+            "option": "Transporte público",
+            "details": "Bus #301 desde Terminal de Oriente San Salvador hasta Usulután, luego bus local #377 hacia El Triunfo."
+          },
+          {
+            "option": "Desde San Miguel",
+            "details": "CA-2 hacia occidente, desvío en Usulután. 1 hora."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Tour en lancha a islas",
+            "price": "USD 40-60 por lancha (capacidad 6-8 personas)"
+          },
+          {
+            "item": "Tour a Isla de Méndez",
+            "price": "USD 50-80 por lancha"
+          },
+          {
+            "item": "Almuerzo de mariscos",
+            "price": "USD 8-15 por persona"
+          },
+          {
+            "item": "Hospedaje básico",
+            "price": "USD 20-40 por noche"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": false,
+          "localGuides": true,
+          "notes": "Múltiples restaurantes de mariscos frescos, operadores de tours en lancha certificados, y mercado de pescado local. No hay playas de arena, pero acceso a islas cercanas."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": true,
+        "premiumTitle": "Secretos de Puerto El Triunfo",
+        "contentSnippet": "Los mejores restaurantes locales, tours privados a islas escondidas y contactos de pescadores para mariscos ultra frescos.",
+        "callToAction": "Desbloquea con Pulgarpedia Premium",
+        "premiumRecommendations": [
+          {
+            "icon": "🦐",
+            "title": "Restaurante Local Recomendado",
+            "body": "Comedor 'El Pescador de Don Carlos' - lejos del muelle principal pero con los mariscos más frescos. Prueba el ceviche mixto y la sopa de mariscos (USD 10). Solo cash."
+          },
+          {
+            "icon": "🏝️",
+            "title": "Tour Privado a Isla Espíritu Santo",
+            "body": "Contacta al lanchero 'Don Roberto' (+503 7XXX-XXXX) para tour privado a isla menos conocida con playa virgen. USD 45 por lancha, incluye tiempo para snorkel."
+          },
+          {
+            "icon": "🌅",
+            "title": "Mejor Momento para Visitar",
+            "body": "Los domingos por la mañana llegan los pescadores con la pesca fresca. Visita el mercado entre 6:00-8:00 AM para ver la subasta de pescado y comprar ultra fresco."
+          }
+        ]
+      }
+    },
+    {
+      "placeId": "BC-004",
+      "categoryId": "beaches-coast",
+      "header": {
+        "title": "Playa Costa del Sol",
+        "category": "Playas y Costa",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764047905/BC-004-0_ljlkkh.jpg",
+        "subtitle": "Península con playa amplia, manglares y desarrollo turístico de alto nivel."
+      },
+      "gallery": [
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764047907/BC-004-2_llj7pq.jpg",
+          "alt": "Atardecer en Playa Costa del Sol"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764047906/BC-004-1_hsxgbs.jpg",
+          "alt": "Acceso a 'La Puntilla' en Costa del Sol"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764047905/BC-004-0_ljlkkh.jpg",
+          "alt": "Vista panorámica de la Playa Costa del Sol"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764047910/BC-004-3_pruvxc.jpg",
+          "alt": "Edificios en Playa Costa del Sol"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "Costa del Sol es una península de 15 km de largo que separa el Océano Pacífico del estuario Jaltepeque. Ofrece playas amplias con arena oscura, olas moderadas y acceso a manglares y esteros. Es uno de los desarrollos turísticos más importantes del país con resorts, condominios y restaurantes de alta gama.",
+        "historyCulture": "Desarrollada como zona turística en los años 70, Costa del Sol ha evolucionado con hoteles boutique y residencias de lujo. El estero de Jaltepeque es un ecosistema vital con manglares que albergan diversas especies de aves y vida marina.",
+        "locationClimate": {
+          "address": "Municipio de San Luis La Herradura, Departamento de La Paz, El Salvador.",
+          "coordinates": {
+            "latitude": 13.3333,
+            "longitude": -88.9167
+          },
+          "mapUrl": "https://maps.google.com/?q=13.3333,-88.9167",
+          "typicalHours": "Acceso 24/7. Servicios operan según establecimiento.",
+          "bestSeason": "Todo el año. Diciembre a Abril para menos lluvias."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Zona turística con excelente infraestructura y servicios.",
+        "howToGetThere": [
+          {
+            "option": "Desde San Salvador",
+            "details": "Carretera CA-2 hacia el sur, desvío en Comalapa. 1 hora de viaje."
+          },
+          {
+            "option": "Bus Público",
+            "details": "Bus #495 desde Terminal del Sur en San Salvador."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Acceso a playas públicas",
+            "price": "Gratuito"
+          },
+          {
+            "item": "Tour por manglares",
+            "price": "USD 20-30 por persona"
+          },
+          {
+            "item": "Hoteles",
+            "price": "USD 80-250 por noche"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": true,
+          "localGuides": true,
+          "notes": "Resorts con piscinas, restaurantes gourmet, deportes acuáticos y spa."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": true,
+        "premiumTitle": "Los Secretos de Costa del Sol",
+        "contentSnippet": "Mejores spots de pesca, tours privados por manglares y restaurantes escondidos.",
+        "callToAction": "Desbloquea con Pulgarpedia Premium",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "BC-006",
+      "categoryId": "beaches-coast",
+      "header": {
+        "title": "Playa Las Flores",
+        "category": "Playas y Costa",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764049077/BC-006-0_kr7lx4.jpg",
+        "subtitle": "Paraíso del surf en el oriente con naturaleza salvaje y olas perfectas."
+      },
+      "gallery": [
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764049077/BC-006-2_mtnjay.jpg",
+          "alt": "Surf en Playa Las Flores"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764049077/BC-006-0_kr7lx4.jpg",
+          "alt": "Vista panorámica de la Playa Las Flores"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764049077/BC-006-1_tw3k0j.jpg",
+          "alt": "Mirador Playa Las Flores"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "Playa Las Flores es una joya escondida en el oriente salvadoreño, famosa por sus olas consistentes de clase mundial y su ambiente relajado. Es menos desarrollada que las playas del occidente, ofreciendo una experiencia más auténtica y cercana a la naturaleza. Popular entre surfistas experimentados y viajeros que buscan tranquilidad.",
+        "historyCulture": "Descubierta por la comunidad surfista internacional en los 90s. Mantiene su carácter de pueblo pequeño con algunas posadas boutique. Es famosa por la ola 'Las Flores Right', considerada una de las mejores de El Salvador.",
+        "locationClimate": {
+          "address": "Municipio de Intipucá, Departamento de La Unión, El Salvador.",
+          "coordinates": {
+            "latitude": 13.2833,
+            "longitude": -87.9167
+          },
+          "mapUrl": "https://maps.google.com/?q=13.2833,-87.9167",
+          "typicalHours": "Playa 24/7. Servicios limitados en horarios flexibles.",
+          "bestSeason": "Marzo a Octubre para las mejores olas. Todo el año funciona."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Ambiente rústico con servicios básicos enfocados en surfistas.",
+        "howToGetThere": [
+          {
+            "option": "Desde La Unión",
+            "details": "Bus local desde La Unión hacia Intipucá, luego mototaxi a Las Flores. 1 hora."
+          },
+          {
+            "option": "Desde San Salvador",
+            "details": "Carretera Panamericana hacia oriente, desvío en La Unión. 3.5 horas."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Acceso a playa",
+            "price": "Gratuito"
+          },
+          {
+            "item": "Hospedaje básico",
+            "price": "USD 20-40 por noche"
+          },
+          {
+            "item": "Posada boutique",
+            "price": "USD 80-150 por noche"
+          },
+          {
+            "item": "Alquiler de tabla",
+            "price": "USD 10-15 por día"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": false,
+          "localGuides": true,
+          "notes": "Servicios limitados. Llevar efectivo, no hay cajeros cerca."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": true,
+        "premiumTitle": "Secretos de Las Flores",
+        "contentSnippet": "Olas secretas cercanas, mejor época para swells grandes y guías locales de confianza.",
+        "callToAction": "Desbloquea con Pulgarpedia Premium",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "BC-007",
+      "categoryId": "beaches-coast",
+      "header": {
+        "title": "Puerto de La Libertad",
+        "category": "Playas y Costa",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764049548/BC-007-0_gr4mnv.jpg",
+        "subtitle": "Puerto histórico con malecón renovado, gastronomía marina y cultura pesquera."
+      },
+      "gallery": [
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764049549/BC-007-1_wbhz75.jpg",
+          "alt": "Miradores del Puerto de La Libertad"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764049548/BC-007-0_gr4mnv.jpg",
+          "alt": "Vista panorámica del Puerto de La Libertad y Surf City"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764049549/BC-007-3_izxi9u.jpg",
+          "alt": "Muelle de Puerto de La Libertad"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764049553/BC-007-4_xtnxhd.jpg",
+          "alt": "Malecón de Puerto de La Libertad"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "El Puerto de La Libertad es un puerto pesquero histórico que ha sido revitalizado con un moderno malecón turístico. Es famoso por sus mariscos frescos, punto break de surf 'Punta Roca', y como puerta de entrada a las playas cercanas. El malecón ofrece restaurantes, parques y áreas recreativas con vista al océano.",
+        "historyCulture": "Fundado en 1825, fue el puerto principal de El Salvador antes de Acajutla. Su tradición pesquera permanece viva con la llegada diaria de barcos con mariscos frescos. 'Punta Roca' es una ola legendaria que ha producido campeones de surf salvadoreños.",
+        "locationClimate": {
+          "address": "Municipio de La Libertad, Departamento de La Libertad, El Salvador.",
+          "coordinates": {
+            "latitude": 13.4881,
+            "longitude": -89.3222
+          },
+          "mapUrl": "https://maps.google.com/?q=13.4881,-89.3222",
+          "typicalHours": "Malecón 24/7. Restaurantes de 9:00 AM a 9:00 PM.",
+          "bestSeason": "Todo el año. Fines de semana son más concurridos."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Ciudad puerto con servicios completos y fácil acceso.",
+        "howToGetThere": [
+          {
+            "option": "Bus desde San Salvador",
+            "details": "Bus #102 desde Terminal de Occidente. Sale cada 15 minutos. 45 minutos."
+          },
+          {
+            "option": "Transporte Privado",
+            "details": "Carretera del Litoral desde San Salvador. 35 minutos."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Acceso al malecón",
+            "price": "Gratuito"
+          },
+          {
+            "item": "Comida de mariscos",
+            "price": "USD 8-20 por persona"
+          },
+          {
+            "item": "Parqueo",
+            "price": "USD 1-2"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": true,
+          "localGuides": false,
+          "notes": "Malecón moderno con áreas recreativas, bancos, cajeros, y múltiples restaurantes."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": true,
+        "premiumTitle": "Guía Gourmet del Puerto",
+        "contentSnippet": "Los mejores restaurantes de mariscos según locales, dónde comprar pescado fresco y el mejor momento para surfear Punta Roca.",
+        "callToAction": "Desbloquea con Pulgarpedia Premium",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "BC-008",
+      "categoryId": "beaches-coast",
+      "header": {
+        "title": "Barra de Santiago",
+        "category": "Playas y Costa",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764050479/BC-008-0_u2gjyb.jpg",
+        "subtitle": "Reserva natural con playa virgen, estero, manglares y ecoturismo comunitario."
+      },
+      "gallery": [
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764050479/BC-008-1_bw6lch.jpg",
+          "alt": "Barra de Santiago"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764050484/BC-008-4_twfzk1.jpg",
+          "alt": "Liberación de tortugas marinas"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764050482/BC-008-3_vztgdu.jpg",
+          "alt": "Manglares de Barra de Santiago"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764050479/BC-008-0_u2gjyb.jpg",
+          "alt": "Vista aérea de la playa"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "Barra de Santiago es un área natural protegida que combina playa virgen, esteros y extensos bosques de manglares. Es uno de los últimos refugios de biodiversidad costera en El Salvador, hogar de aves migratorias, caimanes, y tortugas marinas. El acceso es en lancha, lo que ha preservado su estado prístino.",
+        "historyCulture": "Declarada Área Natural Protegida por sus manglares y humedales. Las comunidades locales practican pesca artesanal y ecoturismo. Es un importante sitio de anidación de tortugas carey y golfinas. La cooperativa local ofrece tours educativos.",
+        "locationClimate": {
+          "address": "Municipio de Jujutla, Departamento de Ahuachapán, El Salvador.",
+          "coordinates": {
+            "latitude": 13.6667,
+            "longitude": -89.9833
+          },
+          "mapUrl": "https://maps.google.com/?q=13.6667,-89.9833",
+          "typicalHours": "Tours salen de 8:00 AM a 3:00 PM. Coordinar con anticipación.",
+          "bestSeason": "Noviembre a Abril para clima seco. Julio-Octubre para ver tortugas anidando."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Ecoturismo comunitario con infraestructura básica.",
+        "howToGetThere": [
+          {
+            "option": "Desde Ahuachapán",
+            "details": "Bus hacia Jujutla, luego mototaxi al embarcadero. Lancha a Barra (USD 2-3). 2 horas total."
+          },
+          {
+            "option": "Tour organizado",
+            "details": "Algunas agencias de San Salvador ofrecen tours de día completo con transporte."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Pasaje en lancha",
+            "price": "USD 2-3 por trayecto"
+          },
+          {
+            "item": "Tour por manglares",
+            "price": "USD 15-20 por persona"
+          },
+          {
+            "item": "Hospedaje comunitario",
+            "price": "USD 15-30 por noche (cabañas básicas)"
+          }
+        ],
+        "facilities": {
+          "parking": false,
+          "restrooms": true,
+          "wheelchairAccess": false,
+          "localGuides": true,
+          "notes": "Servicios muy básicos. Llevar efectivo, repelente de mosquitos y protector solar."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": true,
+        "premiumTitle": "Secretos de Barra de Santiago",
+        "contentSnippet": "Mejores guías locales, temporada de tortugas y spots de observación de aves.",
+        "callToAction": "Desbloquea con Pulgarpedia Premium",
+        "premiumRecommendations": []
+      }
+    },
+    {
       "placeId": "BC-002",
       "categoryId": "beaches-coast",
       "header": {
@@ -942,478 +1487,6 @@
         "isLocked": true,
         "premiumTitle": "Secretos de El Sunzal",
         "contentSnippet": "Mejores horarios según las mareas, dónde ver el atardecer y el mejor instructor local.",
-        "callToAction": "Desbloquea con Pulgarpedia Premium",
-        "premiumRecommendations": []
-      }
-    },
-    {
-      "placeId": "BC-003",
-      "categoryId": "beaches-coast",
-      "header": {
-        "title": "Playa El Cuco",
-        "category": "Playas y Costa",
-        "mainImageURL": "/images/playa-el-cuco-1.jpg",
-        "subtitle": "Playa familiar en el oriente con arena oscura y ambiente tranquilo."
-      },
-      "gallery": [
-        {
-          "imageUrl": "/images/playa-el-cuco-2.jpg",
-          "alt": "Playa amplia en El Cuco"
-        },
-        {
-          "imageUrl": "/images/playa-el-cuco-3.jpg",
-          "alt": "Atardecer en El Cuco"
-        }
-      ],
-      "generalHistorySection": {
-        "title": "Visión General e Historia",
-        "description": "Playa El Cuco es el destino de playa más popular de la zona oriental de El Salvador. Con varios kilómetros de arena volcánica oscura, es ideal para familias y visitantes que buscan un ambiente más relajado que las playas surferas del occidente. Cuenta con olas moderadas perfectas para nadar.",
-        "historyCulture": "Tradicionalmente un pueblo de pescadores, El Cuco ha crecido como destino turístico local. Los fines de semana y feriados se llena de familias salvadoreñas. Mantiene un ambiente auténtico con vendedores de mariscos frescos en la playa.",
-        "locationClimate": {
-          "address": "Municipio de Chirilagua, Departamento de San Miguel, El Salvador.",
-          "coordinates": {
-            "latitude": 13.2833,
-            "longitude": -88.0833
-          },
-          "mapUrl": "https://maps.google.com/?q=13.2833,-88.0833",
-          "typicalHours": "Playa accesible 24/7. Restaurantes de 8:00 AM a 8:00 PM.",
-          "bestSeason": "Diciembre a Abril (temporada seca) para clima soleado."
-        }
-      },
-      "serviceLogisticSection": {
-        "title": "Servicios y Logística",
-        "description": "Infraestructura turística local con opciones económicas.",
-        "howToGetThere": [
-          {
-            "option": "Desde San Miguel",
-            "details": "Bus #320 desde San Miguel hacia El Cuco. 1 hora de viaje."
-          },
-          {
-            "option": "Transporte Privado",
-            "details": "Desde San Miguel por Ruta Militar, luego hacia Chirilagua. Desde San Salvador: 3 horas."
-          }
-        ],
-        "costs": [
-          {
-            "item": "Acceso a la playa",
-            "price": "Gratuito"
-          },
-          {
-            "item": "Rancho en la playa",
-            "price": "USD 5-10 por día"
-          },
-          {
-            "item": "Hotel económico",
-            "price": "USD 25-50 por noche"
-          }
-        ],
-        "facilities": {
-          "parking": true,
-          "restrooms": true,
-          "wheelchairAccess": false,
-          "localGuides": false,
-          "notes": "Múltiples restaurantes de mariscos, hospedajes básicos, y servicios de playa."
-        }
-      },
-      "premiumSection": {
-        "title": "Recomendaciones Exclusivas",
-        "isLocked": true,
-        "premiumTitle": "Guía Local de El Cuco",
-        "contentSnippet": "Los mejores restaurantes de mariscos, playas cercanas menos conocidas y tours de pesca.",
-        "callToAction": "Desbloquea con Pulgarpedia Premium",
-        "premiumRecommendations": []
-      }
-    },
-    {
-      "placeId": "BC-004",
-      "categoryId": "beaches-coast",
-      "header": {
-        "title": "Playa Costa del Sol",
-        "category": "Playas y Costa",
-        "mainImageURL": "/images/costa-del-sol-1.jpg",
-        "subtitle": "Península con playa amplia, manglares y desarrollo turístico de alto nivel."
-      },
-      "gallery": [
-        {
-          "imageUrl": "/images/costa-del-sol-2.jpg",
-          "alt": "Playa amplia de Costa del Sol"
-        },
-        {
-          "imageUrl": "/images/costa-del-sol-3.jpg",
-          "alt": "Canales de manglar"
-        }
-      ],
-      "generalHistorySection": {
-        "title": "Visión General e Historia",
-        "description": "Costa del Sol es una península de 15 km de largo que separa el Océano Pacífico del estuario Jaltepeque. Ofrece playas amplias con arena oscura, olas moderadas y acceso a manglares y esteros. Es uno de los desarrollos turísticos más importantes del país con resorts, condominios y restaurantes de alta gama.",
-        "historyCulture": "Desarrollada como zona turística en los años 70, Costa del Sol ha evolucionado con hoteles boutique y residencias de lujo. El estero de Jaltepeque es un ecosistema vital con manglares que albergan diversas especies de aves y vida marina.",
-        "locationClimate": {
-          "address": "Municipio de San Luis La Herradura, Departamento de La Paz, El Salvador.",
-          "coordinates": {
-            "latitude": 13.3333,
-            "longitude": -88.9167
-          },
-          "mapUrl": "https://maps.google.com/?q=13.3333,-88.9167",
-          "typicalHours": "Acceso 24/7. Servicios operan según establecimiento.",
-          "bestSeason": "Todo el año. Diciembre a Abril para menos lluvias."
-        }
-      },
-      "serviceLogisticSection": {
-        "title": "Servicios y Logística",
-        "description": "Zona turística con excelente infraestructura y servicios.",
-        "howToGetThere": [
-          {
-            "option": "Desde San Salvador",
-            "details": "Carretera CA-2 hacia el sur, desvío en Comalapa. 1 hora de viaje."
-          },
-          {
-            "option": "Bus Público",
-            "details": "Bus #495 desde Terminal del Sur en San Salvador."
-          }
-        ],
-        "costs": [
-          {
-            "item": "Acceso a playas públicas",
-            "price": "Gratuito"
-          },
-          {
-            "item": "Tour por manglares",
-            "price": "USD 20-30 por persona"
-          },
-          {
-            "item": "Hoteles",
-            "price": "USD 80-250 por noche"
-          }
-        ],
-        "facilities": {
-          "parking": true,
-          "restrooms": true,
-          "wheelchairAccess": true,
-          "localGuides": true,
-          "notes": "Resorts con piscinas, restaurantes gourmet, deportes acuáticos y spa."
-        }
-      },
-      "premiumSection": {
-        "title": "Recomendaciones Exclusivas",
-        "isLocked": true,
-        "premiumTitle": "Los Secretos de Costa del Sol",
-        "contentSnippet": "Mejores spots de pesca, tours privados por manglares y restaurantes escondidos.",
-        "callToAction": "Desbloquea con Pulgarpedia Premium",
-        "premiumRecommendations": []
-      }
-    },
-    {
-      "placeId": "BC-005",
-      "categoryId": "beaches-coast",
-      "header": {
-        "title": "Playa Los Cóbanos",
-        "category": "Playas y Costa",
-        "mainImageURL": "/images/los-cobanos-1.jpg",
-        "subtitle": "Zona de buceo y snorkel con arrecifes rocosos únicos en El Salvador."
-      },
-      "gallery": [
-        {
-          "imageUrl": "/images/los-cobanos-2.jpg",
-          "alt": "Arrecifes de Los Cóbanos"
-        },
-        {
-          "imageUrl": "/images/los-cobanos-3.jpg",
-          "alt": "Vida marina"
-        }
-      ],
-      "generalHistorySection": {
-        "title": "Visión General e Historia",
-        "description": "Los Cóbanos es el único sitio en El Salvador con arrecifes rocosos extensos que albergan una rica biodiversidad marina. Es el mejor destino del país para buceo y snorkel, con aguas relativamente claras y abundante vida submarina incluyendo tortugas marinas, rayas y peces tropicales.",
-        "historyCulture": "Declarada Área Natural Protegida para preservar los arrecifes. Es un pueblo pesquero tradicional que ha diversificado hacia el ecoturismo marino. Los pescadores locales ahora ofrecen tours de snorkel y buceo.",
-        "locationClimate": {
-          "address": "Municipio de Acajutla, Departamento de Sonsonate, El Salvador.",
-          "coordinates": {
-            "latitude": 13.3667,
-            "longitude": -89.8333
-          },
-          "mapUrl": "https://maps.google.com/?q=13.3667,-89.8333",
-          "typicalHours": "Tours de buceo salen de 8:00 AM a 2:00 PM.",
-          "bestSeason": "Noviembre a Abril (mejor visibilidad submarina). Evitar época de lluvias."
-        }
-      },
-      "serviceLogisticSection": {
-        "title": "Servicios y Logística",
-        "description": "Ecoturismo marino con operadores locales certificados.",
-        "howToGetThere": [
-          {
-            "option": "Desde Sonsonate",
-            "details": "Bus hacia Acajutla, luego transporte local a Los Cóbanos. 45 minutos total."
-          },
-          {
-            "option": "Transporte Privado",
-            "details": "Desde San Salvador tomar CA-1 hacia Sonsonate, luego hacia Acajutla y Los Cóbanos. 2 horas."
-          }
-        ],
-        "costs": [
-          {
-            "item": "Tour de snorkel",
-            "price": "USD 15-25 por persona (incluye equipo)"
-          },
-          {
-            "item": "Buceo certificado (2 tanques)",
-            "price": "USD 60-80"
-          },
-          {
-            "item": "Curso de buceo PADI",
-            "price": "USD 300-400"
-          }
-        ],
-        "facilities": {
-          "parking": true,
-          "restrooms": true,
-          "wheelchairAccess": false,
-          "localGuides": true,
-          "notes": "Operadores de buceo certificados, restaurantes de mariscos, hospedaje básico."
-        }
-      },
-      "premiumSection": {
-        "title": "Recomendaciones Exclusivas",
-        "isLocked": true,
-        "premiumTitle": "Guía Submarina de Los Cóbanos",
-        "contentSnippet": "Mejores sitios de buceo, temporadas para ver tortugas y operadores más confiables.",
-        "callToAction": "Desbloquea con Pulgarpedia Premium",
-        "premiumRecommendations": []
-      }
-    },
-    {
-      "placeId": "BC-006",
-      "categoryId": "beaches-coast",
-      "header": {
-        "title": "Playa Las Flores",
-        "category": "Playas y Costa",
-        "mainImageURL": "/images/las-flores-1.jpg",
-        "subtitle": "Paraíso del surf en el oriente con naturaleza salvaje y olas perfectas."
-      },
-      "gallery": [
-        {
-          "imageUrl": "/images/las-flores-2.jpg",
-          "alt": "Olas de Las Flores"
-        },
-        {
-          "imageUrl": "/images/las-flores-3.jpg",
-          "alt": "Playa virgen"
-        }
-      ],
-      "generalHistorySection": {
-        "title": "Visión General e Historia",
-        "description": "Playa Las Flores es una joya escondida en el oriente salvadoreño, famosa por sus olas consistentes de clase mundial y su ambiente relajado. Es menos desarrollada que las playas del occidente, ofreciendo una experiencia más auténtica y cercana a la naturaleza. Popular entre surfistas experimentados y viajeros que buscan tranquilidad.",
-        "historyCulture": "Descubierta por la comunidad surfista internacional en los 90s. Mantiene su carácter de pueblo pequeño con algunas posadas boutique. Es famosa por la ola 'Las Flores Right', considerada una de las mejores de El Salvador.",
-        "locationClimate": {
-          "address": "Municipio de Intipucá, Departamento de La Unión, El Salvador.",
-          "coordinates": {
-            "latitude": 13.2833,
-            "longitude": -87.9167
-          },
-          "mapUrl": "https://maps.google.com/?q=13.2833,-87.9167",
-          "typicalHours": "Playa 24/7. Servicios limitados en horarios flexibles.",
-          "bestSeason": "Marzo a Octubre para las mejores olas. Todo el año funciona."
-        }
-      },
-      "serviceLogisticSection": {
-        "title": "Servicios y Logística",
-        "description": "Ambiente rústico con servicios básicos enfocados en surfistas.",
-        "howToGetThere": [
-          {
-            "option": "Desde La Unión",
-            "details": "Bus local desde La Unión hacia Intipucá, luego mototaxi a Las Flores. 1 hora."
-          },
-          {
-            "option": "Desde San Salvador",
-            "details": "Carretera Panamericana hacia oriente, desvío en La Unión. 3.5 horas."
-          }
-        ],
-        "costs": [
-          {
-            "item": "Acceso a playa",
-            "price": "Gratuito"
-          },
-          {
-            "item": "Hospedaje básico",
-            "price": "USD 20-40 por noche"
-          },
-          {
-            "item": "Posada boutique",
-            "price": "USD 80-150 por noche"
-          },
-          {
-            "item": "Alquiler de tabla",
-            "price": "USD 10-15 por día"
-          }
-        ],
-        "facilities": {
-          "parking": true,
-          "restrooms": true,
-          "wheelchairAccess": false,
-          "localGuides": true,
-          "notes": "Servicios limitados. Llevar efectivo, no hay cajeros cerca."
-        }
-      },
-      "premiumSection": {
-        "title": "Recomendaciones Exclusivas",
-        "isLocked": true,
-        "premiumTitle": "Secretos de Las Flores",
-        "contentSnippet": "Olas secretas cercanas, mejor época para swells grandes y guías locales de confianza.",
-        "callToAction": "Desbloquea con Pulgarpedia Premium",
-        "premiumRecommendations": []
-      }
-    },
-    {
-      "placeId": "BC-007",
-      "categoryId": "beaches-coast",
-      "header": {
-        "title": "Puerto de La Libertad",
-        "category": "Playas y Costa",
-        "mainImageURL": "/images/puerto-libertad-1.jpg",
-        "subtitle": "Puerto histórico con malecón renovado, gastronomía marina y cultura pesquera."
-      },
-      "gallery": [
-        {
-          "imageUrl": "/images/puerto-libertad-2.jpg",
-          "alt": "Malecón de La Libertad"
-        },
-        {
-          "imageUrl": "/images/puerto-libertad-3.jpg",
-          "alt": "Pescadores en el muelle"
-        }
-      ],
-      "generalHistorySection": {
-        "title": "Visión General e Historia",
-        "description": "El Puerto de La Libertad es un puerto pesquero histórico que ha sido revitalizado con un moderno malecón turístico. Es famoso por sus mariscos frescos, punto break de surf 'Punta Roca', y como puerta de entrada a las playas cercanas. El malecón ofrece restaurantes, parques y áreas recreativas con vista al océano.",
-        "historyCulture": "Fundado en 1825, fue el puerto principal de El Salvador antes de Acajutla. Su tradición pesquera permanece viva con la llegada diaria de barcos con mariscos frescos. 'Punta Roca' es una ola legendaria que ha producido campeones de surf salvadoreños.",
-        "locationClimate": {
-          "address": "Municipio de La Libertad, Departamento de La Libertad, El Salvador.",
-          "coordinates": {
-            "latitude": 13.4881,
-            "longitude": -89.3222
-          },
-          "mapUrl": "https://maps.google.com/?q=13.4881,-89.3222",
-          "typicalHours": "Malecón 24/7. Restaurantes de 9:00 AM a 9:00 PM.",
-          "bestSeason": "Todo el año. Fines de semana son más concurridos."
-        }
-      },
-      "serviceLogisticSection": {
-        "title": "Servicios y Logística",
-        "description": "Ciudad puerto con servicios completos y fácil acceso.",
-        "howToGetThere": [
-          {
-            "option": "Bus desde San Salvador",
-            "details": "Bus #102 desde Terminal de Occidente. Sale cada 15 minutos. 45 minutos."
-          },
-          {
-            "option": "Transporte Privado",
-            "details": "Carretera del Litoral desde San Salvador. 35 minutos."
-          }
-        ],
-        "costs": [
-          {
-            "item": "Acceso al malecón",
-            "price": "Gratuito"
-          },
-          {
-            "item": "Comida de mariscos",
-            "price": "USD 8-20 por persona"
-          },
-          {
-            "item": "Parqueo",
-            "price": "USD 1-2"
-          }
-        ],
-        "facilities": {
-          "parking": true,
-          "restrooms": true,
-          "wheelchairAccess": true,
-          "localGuides": false,
-          "notes": "Malecón moderno con áreas recreativas, bancos, cajeros, y múltiples restaurantes."
-        }
-      },
-      "premiumSection": {
-        "title": "Recomendaciones Exclusivas",
-        "isLocked": true,
-        "premiumTitle": "Guía Gourmet del Puerto",
-        "contentSnippet": "Los mejores restaurantes de mariscos según locales, dónde comprar pescado fresco y el mejor momento para surfear Punta Roca.",
-        "callToAction": "Desbloquea con Pulgarpedia Premium",
-        "premiumRecommendations": []
-      }
-    },
-    {
-      "placeId": "BC-008",
-      "categoryId": "beaches-coast",
-      "header": {
-        "title": "Barra de Santiago",
-        "category": "Playas y Costa",
-        "mainImageURL": "/images/barra-santiago-1.jpg",
-        "subtitle": "Reserva natural con playa virgen, estero, manglares y ecoturismo comunitario."
-      },
-      "gallery": [
-        {
-          "imageUrl": "/images/barra-santiago-2.jpg",
-          "alt": "Manglares de Barra de Santiago"
-        },
-        {
-          "imageUrl": "/images/barra-santiago-3.jpg",
-          "alt": "Playa virgen"
-        }
-      ],
-      "generalHistorySection": {
-        "title": "Visión General e Historia",
-        "description": "Barra de Santiago es un área natural protegida que combina playa virgen, esteros y extensos bosques de manglares. Es uno de los últimos refugios de biodiversidad costera en El Salvador, hogar de aves migratorias, caimanes, y tortugas marinas. El acceso es en lancha, lo que ha preservado su estado prístino.",
-        "historyCulture": "Declarada Área Natural Protegida por sus manglares y humedales. Las comunidades locales practican pesca artesanal y ecoturismo. Es un importante sitio de anidación de tortugas carey y golfinas. La cooperativa local ofrece tours educativos.",
-        "locationClimate": {
-          "address": "Municipio de Jujutla, Departamento de Ahuachapán, El Salvador.",
-          "coordinates": {
-            "latitude": 13.6667,
-            "longitude": -89.9833
-          },
-          "mapUrl": "https://maps.google.com/?q=13.6667,-89.9833",
-          "typicalHours": "Tours salen de 8:00 AM a 3:00 PM. Coordinar con anticipación.",
-          "bestSeason": "Noviembre a Abril para clima seco. Julio-Octubre para ver tortugas anidando."
-        }
-      },
-      "serviceLogisticSection": {
-        "title": "Servicios y Logística",
-        "description": "Ecoturismo comunitario con infraestructura básica.",
-        "howToGetThere": [
-          {
-            "option": "Desde Ahuachapán",
-            "details": "Bus hacia Jujutla, luego mototaxi al embarcadero. Lancha a Barra (USD 2-3). 2 horas total."
-          },
-          {
-            "option": "Tour organizado",
-            "details": "Algunas agencias de San Salvador ofrecen tours de día completo con transporte."
-          }
-        ],
-        "costs": [
-          {
-            "item": "Pasaje en lancha",
-            "price": "USD 2-3 por trayecto"
-          },
-          {
-            "item": "Tour por manglares",
-            "price": "USD 15-20 por persona"
-          },
-          {
-            "item": "Hospedaje comunitario",
-            "price": "USD 15-30 por noche (cabañas básicas)"
-          }
-        ],
-        "facilities": {
-          "parking": false,
-          "restrooms": true,
-          "wheelchairAccess": false,
-          "localGuides": true,
-          "notes": "Servicios muy básicos. Llevar efectivo, repelente de mosquitos y protector solar."
-        }
-      },
-      "premiumSection": {
-        "title": "Recomendaciones Exclusivas",
-        "isLocked": true,
-        "premiumTitle": "Secretos de Barra de Santiago",
-        "contentSnippet": "Mejores guías locales, temporada de tortugas y spots de observación de aves.",
         "callToAction": "Desbloquea con Pulgarpedia Premium",
         "premiumRecommendations": []
       }

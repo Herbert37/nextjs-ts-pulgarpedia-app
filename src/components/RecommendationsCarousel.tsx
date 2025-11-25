@@ -1,5 +1,12 @@
 import React, { useEffect, useMemo, useState } from "react";
-import { Box, Typography, IconButton, LinearProgress } from "@mui/material";
+import {
+  Box,
+  Typography,
+  IconButton,
+  LinearProgress,
+  useMediaQuery,
+  useTheme,
+} from "@mui/material";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
@@ -15,14 +22,17 @@ type Props = {
 
 /**
  * Carrusel de recomendaciones responsivo.
- * - Usa Swiper para swipe en móvil y flechas en desktop
+ * - Muestra 2 cards por slide en desktop/tablet, 1 en móvil
+ * - 4 slides en total (8 lugares)
  * - Autoplay y lazy loading activados
  * - Si se proporciona categoryId, muestra solo lugares de esa categoría
  */
 const RecommendationsCarousel: React.FC<Props> = ({
-  maxSlides = 6,
+  maxSlides = 4,
   categoryId,
 }) => {
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
   const { places, isLoading, isReady } = usePulgarpediaContent();
   const [recommended, setRecommended] = useState<Place[]>([]);
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -46,15 +56,37 @@ const RecommendationsCarousel: React.FC<Props> = ({
       ? places.filter((place) => place.categoryId === categoryId)
       : places;
 
-    const picks = sampleRandom(filteredPlaces, maxSlides);
+    // Obtener 8 lugares (2 por slide × 4 slides)
+    const totalPlaces = maxSlides * 2;
+    const picks = sampleRandom(filteredPlaces, totalPlaces);
     setRecommended(picks);
     // regenerate only when places change (session-level uniqueness handled by state)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isReady, places, maxSlides, categoryId]);
 
-  const slides = useMemo(() => recommended, [recommended]);
+  // Agrupar lugares en slides según el dispositivo
+  // Desktop: 2 cards por slide (4 slides)
+  // Mobile: 1 card por slide (8 slides)
+  const slides = useMemo(() => {
+    if (isMobile) {
+      // Mobile: 1 card por slide
+      return recommended.map((place) => [place]);
+    } else {
+      // Desktop: grupos de 2 cards por slide
+      const grouped: Place[][] = [];
+      for (let i = 0; i < recommended.length; i += 2) {
+        grouped.push(recommended.slice(i, i + 2));
+      }
+      return grouped;
+    }
+  }, [recommended, isMobile]);
 
-  // Navigate to specific slide (1 full card at a time)
+  // Reset slide cuando cambia el tamaño de pantalla
+  useEffect(() => {
+    setCurrentSlide(0);
+  }, [isMobile]);
+
+  // Navigate to specific slide
   const goToSlide = React.useCallback((index: number) => {
     const el = containerRef.current;
     if (!el) return;
@@ -138,7 +170,7 @@ const RecommendationsCarousel: React.FC<Props> = ({
         </Box>
       </Box>
 
-      {/* Carousel container - 1 card per slide */}
+      {/* Carousel container - 2 cards per slide */}
       <Box sx={{ position: "relative" }}>
         <Box
           ref={containerRef}
@@ -148,20 +180,41 @@ const RecommendationsCarousel: React.FC<Props> = ({
             scrollSnapType: "x mandatory",
             "&::-webkit-scrollbar": { display: "none" },
             scrollbarWidth: "none",
+            pt: 2,
+            pb: 3,
           }}
         >
-          {slides.map((place) => (
+          {slides.map((slideGroup, slideIndex) => (
             <Box
-              key={place.placeId}
+              key={`slide-${slideIndex}`}
               sx={{
                 minWidth: "100%",
                 width: "100%",
                 flex: "0 0 100%",
                 scrollSnapAlign: "start",
                 px: { xs: 0.5, sm: 1 },
+                ...(isMobile
+                  ? {
+                      // Mobile: 1 card centrada
+                      display: "flex",
+                      justifyContent: "center",
+                      alignItems: "center",
+                    }
+                  : {
+                      // Desktop: grid de 2 columnas
+                      display: "grid",
+                      gridTemplateColumns: "repeat(2, 1fr)",
+                      gap: 2,
+                    }),
               }}
             >
-              <PlaceCard place={place} variant={"vertical"} />
+              {slideGroup.map((place) => (
+                <PlaceCard
+                  key={place.placeId}
+                  place={place}
+                  variant={"vertical"}
+                />
+              ))}
             </Box>
           ))}
         </Box>
