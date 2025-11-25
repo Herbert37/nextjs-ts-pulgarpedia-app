@@ -249,7 +249,13 @@ const PlaceContent: React.FC<PlaceContentProps> = ({ place }) => {
               borderRadius: 2,
             }}
           >
-            <Box sx={{ display: "flex", alignItems: "center", mb: 3 }}>
+            <Box
+              sx={{
+                display: "flex",
+                alignItems: "center",
+                mb: { xs: 1, sm: 0 },
+              }}
+            >
               <AttachMoneyIcon
                 sx={{ fontSize: 32, color: "success.main", mr: 2 }}
               />
@@ -258,34 +264,54 @@ const PlaceContent: React.FC<PlaceContentProps> = ({ place }) => {
               </Typography>
             </Box>
 
-            <Grid container spacing={2}>
+            <List>
               {serviceLogisticSection.costs.map((cost, index) => (
-                <Grid item xs={12} sm={6} key={index}>
-                  <Box
+                <Box
+                  key={index}
+                  sx={{
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "flex-start",
+                    alignItems: "left",
+                    p: 2,
+                    mt: 2,
+                    bgcolor: "action.hover",
+                    borderRadius: 1,
+                    border: 1,
+                    borderColor: "divider",
+                  }}
+                >
+                  <ListItem
+                    alignItems='flex-start'
                     sx={{
-                      display: "flex",
-                      justifyContent: "space-between",
-                      alignItems: "center",
-                      p: 2,
-                      bgcolor: "action.hover",
                       borderRadius: 1,
-                      border: 1,
-                      borderColor: "divider",
+                      padding: 0,
+                      flexDirection: { xs: "column", sm: "row" },
                     }}
                   >
-                    <Typography variant='body1' fontWeight={500}>
-                      {cost.item}
-                    </Typography>
-                    <Chip
-                      label={cost.price}
-                      color='success'
-                      size='small'
-                      sx={{ fontWeight: 600 }}
+                    <ListItemIcon sx={{ minWidth: { xs: "100%", sm: 56 } }}>
+                      <Chip
+                        label={cost.item}
+                        color='success'
+                        size='small'
+                        sx={{ fontWeight: 600 }}
+                      />
+                    </ListItemIcon>
+                    <ListItemText
+                      primary={cost.price}
+                      sx={{
+                        mt: { xs: 1 },
+                        ml: { sm: 2 },
+                        "& .MuiListItemText-primary": {
+                          color: "text.primary",
+                          lineHeight: 1.6,
+                        },
+                      }}
                     />
-                  </Box>
-                </Grid>
+                  </ListItem>
+                </Box>
               ))}
-            </Grid>
+            </List>
           </Paper>
         )}
 
@@ -332,10 +358,24 @@ const PlaceContent: React.FC<PlaceContentProps> = ({ place }) => {
               <Typography
                 variant='body2'
                 align='center'
-                sx={{ mt: 1, fontWeight: 500 }}
+                sx={{
+                  mt: 1,
+                  fontWeight: 500,
+                  color: serviceLogisticSection.facilities.parking
+                    ? "success.main"
+                    : "action.disabled",
+                }}
               >
                 <LocalParkingIcon
-                  sx={{ fontSize: 16, mr: 0.5, verticalAlign: "middle" }}
+                  sx={{
+                    fontSize: 16,
+                    mr: 0.5,
+                    mb: 0.5,
+                    verticalAlign: "middle",
+                    color: serviceLogisticSection.facilities.parking
+                      ? "success.main"
+                      : "action.disabled",
+                  }}
                 />
                 Estacionamiento
               </Typography>
@@ -366,10 +406,24 @@ const PlaceContent: React.FC<PlaceContentProps> = ({ place }) => {
               <Typography
                 variant='body2'
                 align='center'
-                sx={{ mt: 1, fontWeight: 500 }}
+                sx={{
+                  mt: 1,
+                  fontWeight: 500,
+                  color: serviceLogisticSection.facilities.restrooms
+                    ? "success.main"
+                    : "action.disabled",
+                }}
               >
                 <WcIcon
-                  sx={{ fontSize: 16, mr: 0.5, verticalAlign: "middle" }}
+                  sx={{
+                    fontSize: 16,
+                    mr: 0.5,
+                    mb: 0.5,
+                    verticalAlign: "middle",
+                    color: serviceLogisticSection.facilities.restrooms
+                      ? "success.main"
+                      : "action.disabled",
+                  }}
                 />
                 Baños
               </Typography>
@@ -400,10 +454,24 @@ const PlaceContent: React.FC<PlaceContentProps> = ({ place }) => {
               <Typography
                 variant='body2'
                 align='center'
-                sx={{ mt: 1, fontWeight: 500 }}
+                sx={{
+                  mt: 1,
+                  fontWeight: 500,
+                  color: serviceLogisticSection.facilities.wheelchairAccess
+                    ? "success.main"
+                    : "action.disabled",
+                }}
               >
                 <AccessibleIcon
-                  sx={{ fontSize: 16, mr: 0.5, verticalAlign: "middle" }}
+                  sx={{
+                    fontSize: 16,
+                    mr: 0.5,
+                    mb: 0.5,
+                    verticalAlign: "middle",
+                    color: serviceLogisticSection.facilities.wheelchairAccess
+                      ? "success.main"
+                      : "action.disabled",
+                  }}
                 />
                 Accesible
               </Typography>
@@ -434,10 +502,24 @@ const PlaceContent: React.FC<PlaceContentProps> = ({ place }) => {
               <Typography
                 variant='body2'
                 align='center'
-                sx={{ mt: 1, fontWeight: 500 }}
+                sx={{
+                  mt: 1,
+                  fontWeight: 500,
+                  color: serviceLogisticSection.facilities.localGuides
+                    ? "success.main"
+                    : "action.disabled",
+                }}
               >
                 <PersonIcon
-                  sx={{ fontSize: 16, mr: 0.5, verticalAlign: "middle" }}
+                  sx={{
+                    fontSize: 16,
+                    mr: 0.5,
+                    mb: 0.5,
+                    verticalAlign: "middle",
+                    color: serviceLogisticSection.facilities.localGuides
+                      ? "success.main"
+                      : "action.disabled",
+                  }}
                 />
                 Guías
               </Typography>
