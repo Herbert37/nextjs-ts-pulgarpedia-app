@@ -47,6 +47,10 @@
           "alt": "Vista del cráter con laguna esmeralda"
         },
         {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763857016/NA-001-0_xl8up8.jpg",
+          "alt": "Vista panorámica del volcán"
+        },
+        {
           "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763857015/NA-001-2_o7octf.jpg",
           "alt": "Sendero de ascenso"
         },
@@ -156,6 +160,10 @@
         {
           "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763858074/NA-002-1_jbe3jv.jpg",
           "alt": "Vista del cono volcánico"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763858075/NA-002-0_f1tpka.jpg",
+          "alt": "El 'Faro del Pacífico'"
         },
         {
           "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763858076/NA-002-2_qdildw.jpg",
@@ -314,7 +322,7 @@
       "header": {
         "title": "Cerro Verde",
         "category": "Naturaleza y Aventura",
-        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763858595/NA-003-0_rw2rii.jpg",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763858592/NA-003-2_mazzzs.jpg",
         "subtitle": "Parque nacional con las mejores vistas panorámicas de los tres volcanes."
       },
       "gallery": [
@@ -325,6 +333,10 @@
         {
           "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763858592/NA-003-2_mazzzs.jpg",
           "alt": "Sendero forestal"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763858595/NA-003-0_rw2rii.jpg",
+          "alt": "Vista panorámica del cerro"
         }
       ],
       "generalHistorySection": {
@@ -399,6 +411,10 @@
         {
           "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763859078/NA-004-2_q9wsbq.jpg",
           "alt": "Atardecer en el lago"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763859082/NA-004-0_pqd0p8.jpg",
+          "alt": "Postales de ensueño en el lago"
         }
       ],
       "generalHistorySection": {
@@ -477,6 +493,10 @@
         {
           "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763859351/NA-005-2_dgnhog.jpg",
           "alt": "Cascada interior"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763859351/NA-005-0_annzeu.jpg",
+          "alt": "Vista panorámica del bosque"
         }
       ],
       "generalHistorySection": {
@@ -614,7 +634,7 @@
       "header": {
         "title": "Parque Nacional Montecristo",
         "category": "Naturaleza y Aventura",
-        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763860094/NA-007-0_amj8zs.jpg",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763860090/NA-007-2_y9xex7.jpg",
         "subtitle": "Bosque nuboso en el punto donde convergen tres países."
       },
       "gallery": [
@@ -629,6 +649,10 @@
         {
           "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763860094/NA-007-3_kxgsq2.jpg",
           "alt": "Cascada interior"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763860094/NA-007-0_amj8zs.jpg",
+          "alt": "Postales de ensueño en el bosque"
         }
       ],
       "generalHistorySection": {
@@ -688,10 +712,14 @@
       "header": {
         "title": "Parque Nacional El Boquerón",
         "category": "Naturaleza y Aventura",
-        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763860498/NA-008-0_kaymks.jpg",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763860494/NA-008-1_aetczs.jpg",
         "subtitle": "Cráter del Volcán de San Salvador con vistas panorámicas de la capital."
       },
       "gallery": [
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763860498/NA-008-0_kaymks.jpg",
+          "alt": "Vista panorámica del parque"
+        },
         {
           "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1763860494/NA-008-1_aetczs.jpg",
           "alt": "Vista del cráter"
@@ -1497,20 +1525,28 @@
       "header": {
         "title": "Suchitoto",
         "category": "Ciudades y Pueblos",
-        "mainImageURL": "/images/suchitoto-1.jpg",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764133049/CT-001-0_gikldr.jpg",
         "subtitle": "La joya colonial de El Salvador, cuna de arte y cultura."
       },
       "gallery": [
         {
-          "imageUrl": "/images/suchitoto-2.jpg",
-          "alt": "Iglesia colonial de Suchitoto"
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764133056/CT-001-1_svbyna.jpg",
+          "alt": "Vista panorámica de Suchitoto"
         },
         {
-          "imageUrl": "/images/suchitoto-3.jpg",
-          "alt": "Calles empedradas"
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764133049/CT-001-0_gikldr.jpg",
+          "alt": "Amanecer en Suchitoto"
         },
         {
-          "imageUrl": "/images/suchitoto-4.jpg",
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764133058/CT-001-3_wdqizr.jpg",
+          "alt": "Calles coloniales"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764133050/CT-001-4_h5pgay.jpg",
+          "alt": "Cascada Los Tercios en Suchitoto"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764133173/CT-001-5_lz1t6r.jpg",
           "alt": "Lago Suchitlán"
         }
       ],
@@ -1595,22 +1631,116 @@
       }
     },
     {
+      "placeId": "CT-007",
+      "categoryId": "cities-towns",
+      "header": {
+        "title": "La Palma",
+        "category": "Ciudades y Pueblos",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764135806/CT-007-0_qaxzrf.jpg",
+        "subtitle": "Pueblo del arte naïf con artesanías coloridas únicas."
+      },
+      "gallery": [
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764135806/CT-007-1_hngmkf.jpg",
+          "alt": "Plaza central de La Palma"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764135806/CT-007-0_qaxzrf.jpg",
+          "alt": "Pueblo pintoresco"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764135810/CT-007-3_fozose.jpg",
+          "alt": "Artesanías naïf"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764135812/CT-007-4_pda8dk.jpg",
+          "alt": "Valles de La Palma"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "La Palma es famosa por su distintivo estilo artístico naïf de colores vibrantes creado por el artista Fernando Llort en los años 70. Todo el pueblo está decorado con este arte en murales, artesanías de madera, semillas y tejidos. Es el mejor lugar para comprar souvenirs auténticos.",
+        "historyCulture": "Fernando Llort llegó en 1972 y enseñó a los habitantes a pintar escenas campesinas con colores brillantes y formas simples. Este estilo se convirtió en la identidad del pueblo y fuente de ingresos para cientos de familias artesanas.",
+        "locationClimate": {
+          "address": "Municipio de La Palma, Departamento de Chalatenango, El Salvador.",
+          "coordinates": {
+            "latitude": 14.3,
+            "longitude": -89.1667
+          },
+          "mapUrl": "https://maps.google.com/?q=14.3000,-89.1667",
+          "typicalHours": "Talleres y tiendas de 8:00 AM a 6:00 PM.",
+          "bestSeason": "Todo el año. Clima fresco de montaña."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Pueblo artesanal con múltiples talleres y tiendas.",
+        "howToGetThere": [
+          {
+            "option": "Bus",
+            "details": "Bus #119 desde Terminal de Oriente (San Salvador) hacia La Palma. 2.5 horas."
+          },
+          {
+            "option": "Transporte Privado",
+            "details": "Carretera Troncal del Norte hacia Chalatenango, continuar a La Palma. 2 horas."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Artesanías pequeñas",
+            "price": "USD 3-15"
+          },
+          {
+            "item": "Artesanías grandes",
+            "price": "USD 20-100"
+          },
+          {
+            "item": "Hospedaje",
+            "price": "USD 25-50 por noche"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": true,
+          "localGuides": false,
+          "notes": "Decenas de talleres artesanales, hoteles pequeños y restaurantes."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": true,
+        "premiumTitle": "Guía de Artesanías de La Palma",
+        "contentSnippet": "Los mejores talleres, técnicas de regateo y artesanos más talentosos.",
+        "callToAction": "Desbloquea con Pulgarpedia Premium",
+        "premiumRecommendations": []
+      }
+    },
+    {
       "placeId": "CT-002",
       "categoryId": "cities-towns",
       "header": {
         "title": "Concepción de Ataco",
         "category": "Ciudades y Pueblos",
-        "mainImageURL": "/images/ataco-1.jpg",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764133644/CT-002-1_lnbfyn.jpg",
         "subtitle": "Pueblo de murales coloridos en la Ruta de las Flores."
       },
       "gallery": [
         {
-          "imageUrl": "/images/ataco-2.jpg",
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764133644/CT-002-2_zk0tjr.jpg",
           "alt": "Murales de Ataco"
         },
         {
-          "imageUrl": "/images/ataco-3.jpg",
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764133644/CT-002-1_lnbfyn.jpg",
           "alt": "Calles coloniales"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764133646/CT-002-3_xmlqlp.jpg",
+          "alt": "Hostales acogedores en Ataco"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764133783/CT-002-4_pp8npi.jpg",
+          "alt": "Aire libre y naturaleza en Ataco"
         }
       ],
       "generalHistorySection": {
@@ -1678,17 +1808,25 @@
       "header": {
         "title": "Juayúa",
         "category": "Ciudades y Pueblos",
-        "mainImageURL": "/images/juayua-1.jpg",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764134134/CT-003-0_f3x8hb.jpg",
         "subtitle": "Capital gastronómica de la Ruta de las Flores."
       },
       "gallery": [
         {
-          "imageUrl": "/images/juayua-2.jpg",
-          "alt": "Feria gastronómica"
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764134135/CT-003-1_lfsk1n.jpg",
+          "alt": "Atardecer en Juayúa"
         },
         {
-          "imageUrl": "/images/juayua-3.jpg",
-          "alt": "Iglesia del Cristo Negro"
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764134134/CT-003-0_f3x8hb.jpg",
+          "alt": "Catedral de Juayúa"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764134138/CT-003-3_n9uosf.jpg",
+          "alt": "Chorros de la Calera"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764134140/CT-003-4_cnyzhg.jpg",
+          "alt": "Parque central de Juayúa"
         }
       ],
       "generalHistorySection": {
@@ -1756,17 +1894,25 @@
       "header": {
         "title": "Apaneca",
         "category": "Ciudades y Pueblos",
-        "mainImageURL": "/images/apaneca-1.jpg",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764134511/CT-004-0_plvtos.jpg",
         "subtitle": "Pueblo de montaña con lagunas de cráter y café de altura."
       },
       "gallery": [
         {
-          "imageUrl": "/images/apaneca-2.jpg",
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764134582/CT-004-4_hdkq0u.jpg",
           "alt": "Laguna Verde"
         },
         {
-          "imageUrl": "/images/apaneca-3.jpg",
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764134511/CT-004-1_mzz767.jpg",
           "alt": "Plantación de café"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764134514/CT-004-2_ie8zn9.jpg",
+          "alt": "Calle principal de Apaneca"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764134517/CT-004-3_r2yyrf.jpg",
+          "alt": "Sierra de Apaneca"
         }
       ],
       "generalHistorySection": {
@@ -1834,17 +1980,25 @@
       "header": {
         "title": "Nahuizalco",
         "category": "Ciudades y Pueblos",
-        "mainImageURL": "/images/nahuizalco-1.jpg",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764134905/CT-005-0_eahshp.jpg",
         "subtitle": "Pueblo indígena con artesanías y mercado nocturno tradicional."
       },
       "gallery": [
         {
-          "imageUrl": "/images/nahuizalco-2.jpg",
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764134906/CT-005-1_konso0.jpg",
           "alt": "Artesanías de mimbre"
         },
         {
-          "imageUrl": "/images/nahuizalco-3.jpg",
-          "alt": "Mercado nocturno"
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764134905/CT-005-0_eahshp.jpg",
+          "alt": "Plaza central de Nahuizalco"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764134912/CT-005-3_cexced.jpg",
+          "alt": "Mercado de Nahuizalco"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764134910/CT-005-2_je0dge.jpg",
+          "alt": "Cascada La Golondrinera"
         }
       ],
       "generalHistorySection": {
@@ -1908,17 +2062,29 @@
       "header": {
         "title": "Panchimalco",
         "category": "Ciudades y Pueblos",
-        "mainImageURL": "/images/panchimalco-1.jpg",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764135310/CT-006-1_hyzjzc.jpg",
         "subtitle": "Pueblo indígena con tradiciones ancestrales vivas."
       },
       "gallery": [
         {
-          "imageUrl": "/images/panchimalco-2.jpg",
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764135307/CT-006-0_o5rsl0.jpg",
+          "alt": "Fiestas tradicionales"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764135310/CT-006-1_hyzjzc.jpg",
           "alt": "Iglesia colonial"
         },
         {
-          "imageUrl": "/images/panchimalco-3.jpg",
-          "alt": "Fiestas tradicionales"
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764136188/CT-006-5_rad3ll.jpg",
+          "alt": "Mirador Planes de Renderos"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764135344/CT-006-3_y3jttf.jpg",
+          "alt": "Puerta del Diablo"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764135348/CT-006-4_wb618g.jpg",
+          "alt": "Parque Balboa"
         }
       ],
       "generalHistorySection": {
@@ -1977,173 +2143,25 @@
       }
     },
     {
-      "placeId": "CT-007",
-      "categoryId": "cities-towns",
-      "header": {
-        "title": "Alegría",
-        "category": "Ciudades y Pueblos",
-        "mainImageURL": "/images/alegria-pueblo-1.jpg",
-        "subtitle": "Pueblo de flores con mirador a laguna de cráter."
-      },
-      "gallery": [
-        {
-          "imageUrl": "/images/alegria-pueblo-2.jpg",
-          "alt": "Vivero de flores"
-        }
-      ],
-      "generalHistorySection": {
-        "title": "Visión General e Historia",
-        "description": "Alegría es un pintoresco pueblo de montaña famoso por sus viveros de flores que adornan cada calle. Su mayor atracción es la Laguna de Alegría, un cráter volcánico con aguas sulfurosas a 15 minutos del pueblo. Es sede del Festival del Maíz cada agosto.",
-        "historyCulture": "Fundado en 1892. Su economía se basa en la floricultura y agricultura. El Festival del Maíz celebra la cosecha con platillos tradicionales, música y danzas folklóricas.",
-        "locationClimate": {
-          "address": "Municipio de Alegría, Departamento de Usulután, El Salvador.",
-          "coordinates": {
-            "latitude": 13.5089,
-            "longitude": -88.4956
-          },
-          "mapUrl": "https://maps.google.com/?q=13.5089,-88.4956",
-          "typicalHours": "Pueblo accesible 24/7.",
-          "bestSeason": "Agosto para el Festival del Maíz. Todo el año tiene buen clima."
-        }
-      },
-      "serviceLogisticSection": {
-        "title": "Servicios y Logística",
-        "description": "Pueblo pequeño con servicios básicos.",
-        "howToGetThere": [
-          {
-            "option": "Bus",
-            "details": "Bus desde Santiago de María o Berlín hacia Alegría. Desde San Salvador: 3 horas."
-          },
-          {
-            "option": "Transporte Privado",
-            "details": "Carretera hacia oriente, desvío en Santiago de María."
-          }
-        ],
-        "costs": [
-          {
-            "item": "Entrada a laguna",
-            "price": "USD 1.00"
-          },
-          {
-            "item": "Hospedaje básico",
-            "price": "USD 20-40 por noche"
-          }
-        ],
-        "facilities": {
-          "parking": true,
-          "restrooms": true,
-          "wheelchairAccess": false,
-          "localGuides": true,
-          "notes": "Pueblo pequeño y tranquilo. Ideal para escapada de fin de semana."
-        }
-      },
-      "premiumSection": {
-        "title": "Recomendaciones Exclusivas",
-        "isLocked": true,
-        "premiumTitle": "",
-        "contentSnippet": "",
-        "callToAction": "",
-        "premiumRecommendations": []
-      }
-    },
-    {
-      "placeId": "CT-010",
-      "categoryId": "cities-towns",
-      "header": {
-        "title": "La Palma",
-        "category": "Ciudades y Pueblos",
-        "mainImageURL": "/images/la-palma-1.jpg",
-        "subtitle": "Pueblo del arte naïf con artesanías coloridas únicas."
-      },
-      "gallery": [
-        {
-          "imageUrl": "/images/la-palma-2.jpg",
-          "alt": "Artesanías naïf"
-        },
-        {
-          "imageUrl": "/images/la-palma-3.jpg",
-          "alt": "Murales y tiendas"
-        }
-      ],
-      "generalHistorySection": {
-        "title": "Visión General e Historia",
-        "description": "La Palma es famosa por su distintivo estilo artístico naïf de colores vibrantes creado por el artista Fernando Llort en los años 70. Todo el pueblo está decorado con este arte en murales, artesanías de madera, semillas y tejidos. Es el mejor lugar para comprar souvenirs auténticos.",
-        "historyCulture": "Fernando Llort llegó en 1972 y enseñó a los habitantes a pintar escenas campesinas con colores brillantes y formas simples. Este estilo se convirtió en la identidad del pueblo y fuente de ingresos para cientos de familias artesanas.",
-        "locationClimate": {
-          "address": "Municipio de La Palma, Departamento de Chalatenango, El Salvador.",
-          "coordinates": {
-            "latitude": 14.3,
-            "longitude": -89.1667
-          },
-          "mapUrl": "https://maps.google.com/?q=14.3000,-89.1667",
-          "typicalHours": "Talleres y tiendas de 8:00 AM a 6:00 PM.",
-          "bestSeason": "Todo el año. Clima fresco de montaña."
-        }
-      },
-      "serviceLogisticSection": {
-        "title": "Servicios y Logística",
-        "description": "Pueblo artesanal con múltiples talleres y tiendas.",
-        "howToGetThere": [
-          {
-            "option": "Bus",
-            "details": "Bus #119 desde Terminal de Oriente (San Salvador) hacia La Palma. 2.5 horas."
-          },
-          {
-            "option": "Transporte Privado",
-            "details": "Carretera Troncal del Norte hacia Chalatenango, continuar a La Palma. 2 horas."
-          }
-        ],
-        "costs": [
-          {
-            "item": "Artesanías pequeñas",
-            "price": "USD 3-15"
-          },
-          {
-            "item": "Artesanías grandes",
-            "price": "USD 20-100"
-          },
-          {
-            "item": "Hospedaje",
-            "price": "USD 25-50 por noche"
-          }
-        ],
-        "facilities": {
-          "parking": true,
-          "restrooms": true,
-          "wheelchairAccess": true,
-          "localGuides": false,
-          "notes": "Decenas de talleres artesanales, hoteles pequeños y restaurantes."
-        }
-      },
-      "premiumSection": {
-        "title": "Recomendaciones Exclusivas",
-        "isLocked": true,
-        "premiumTitle": "Guía de Artesanías de La Palma",
-        "contentSnippet": "Los mejores talleres, técnicas de regateo y artesanos más talentosos.",
-        "callToAction": "Desbloquea con Pulgarpedia Premium",
-        "premiumRecommendations": []
-      }
-    },
-    {
       "placeId": "GA-001",
       "categoryId": "gastronomy",
       "header": {
         "title": "Ruta del Café (Apaneca-Ilamatepec)",
         "category": "Gastronomía",
-        "mainImageURL": "/images/ruta-cafe-1.jpg",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764136515/GA-001-0_h07rvd.jpg",
         "subtitle": "Descubre el proceso del café salvadoreño de altura en fincas tradicionales."
       },
       "gallery": [
         {
-          "imageUrl": "/images/ruta-cafe-2.jpg",
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764136517/GA-001-1_efex1t.jpg",
           "alt": "Plantación de café"
         },
         {
-          "imageUrl": "/images/ruta-cafe-3.jpg",
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764136515/GA-001-0_h07rvd.jpg",
           "alt": "Proceso de tostado"
         },
         {
-          "imageUrl": "/images/ruta-cafe-4.jpg",
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764136519/GA-001-2_k2ehgu.jpg",
           "alt": "Cata de café"
         }
       ],
@@ -2225,17 +2243,21 @@
       "header": {
         "title": "Feria Gastronómica de Juayúa",
         "category": "Gastronomía",
-        "mainImageURL": "/images/feria-juayua-1.jpg",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764136695/GA-002-0_nncpie.jpg",
         "subtitle": "El evento culinario más famoso de El Salvador cada fin de semana."
       },
       "gallery": [
         {
-          "imageUrl": "/images/feria-juayua-2.jpg",
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764136699/GA-002-2_yr2fzc.jpg",
           "alt": "Puestos de comida"
         },
         {
-          "imageUrl": "/images/feria-juayua-3.jpg",
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764136695/GA-002-0_nncpie.jpg",
           "alt": "Platillos típicos"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764136697/GA-002-1_xuti5s.jpg",
+          "alt": "Antojitos típicos"
         }
       ],
       "generalHistorySection": {

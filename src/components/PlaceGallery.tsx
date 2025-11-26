@@ -33,20 +33,72 @@ const PlaceGallery: React.FC<PlaceGalleryProps> = ({ images, placeName }) => {
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [lightboxOpen, setLightboxOpen] = useState(false);
+  const containerRef = React.useRef<HTMLDivElement>(null);
+
+  // Función para navegar a una imagen específica con scroll suave
+  const goToImage = React.useCallback((index: number) => {
+    const el = containerRef.current;
+    if (!el) return;
+    const slideWidth = el.clientWidth;
+    el.scrollTo({
+      left: slideWidth * index,
+      behavior: "smooth",
+    });
+    setCurrentIndex(index);
+  }, []);
+
+  // Detectar el scroll manual para actualizar el índice
+  React.useEffect(() => {
+    const container = containerRef.current;
+    if (!container || !images || images.length === 0) return;
+
+    const handleScroll = () => {
+      const scrollLeft = container.scrollLeft;
+      const slideWidth = container.clientWidth;
+      const newIndex = Math.round(scrollLeft / slideWidth);
+      if (
+        newIndex !== currentIndex &&
+        newIndex >= 0 &&
+        newIndex < images.length
+      ) {
+        setCurrentIndex(newIndex);
+      }
+    };
+
+    container.addEventListener("scroll", handleScroll);
+    return () => container.removeEventListener("scroll", handleScroll);
+  }, [currentIndex, images]);
+
+  // Precargar imágenes adyacentes cuando cambia el índice
+  React.useEffect(() => {
+    if (!images || images.length === 0) return;
+
+    // Precargar imagen siguiente
+    const nextIndex = (currentIndex + 1) % images.length;
+    const nextImage = new window.Image();
+    nextImage.src = images[nextIndex].imageUrl;
+
+    // Precargar imagen anterior
+    const prevIndex = currentIndex === 0 ? images.length - 1 : currentIndex - 1;
+    const prevImage = new window.Image();
+    prevImage.src = images[prevIndex].imageUrl;
+  }, [currentIndex, images]);
 
   // Si no hay imágenes, no renderizar nada
   if (!images || images.length === 0) return null;
 
   const handlePrevious = () => {
-    setCurrentIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));
+    const prevIndex = currentIndex === 0 ? images.length - 1 : currentIndex - 1;
+    goToImage(prevIndex);
   };
 
   const handleNext = () => {
-    setCurrentIndex((prev) => (prev === images.length - 1 ? 0 : prev + 1));
+    const nextIndex = currentIndex === images.length - 1 ? 0 : currentIndex + 1;
+    goToImage(nextIndex);
   };
 
   const handleThumbnailClick = (index: number) => {
-    setCurrentIndex(index);
+    goToImage(index);
   };
 
   const handleOpenLightbox = () => {
@@ -74,35 +126,72 @@ const PlaceGallery: React.FC<PlaceGalleryProps> = ({ images, placeName }) => {
         Galería de imágenes
       </Typography>
 
-      {/* Imagen principal */}
+      {/* Contenedor wrapper para posicionamiento de controles */}
       <Box
         sx={{
           position: "relative",
           width: "100%",
           height: { xs: "300px", sm: "400px", md: "500px" },
           borderRadius: 2,
-          overflow: "hidden",
           mb: 2,
-          boxShadow: 3,
           "&:hover .gallery-controls": {
             opacity: 1,
           },
         }}
       >
-        {/* Imagen con next/image */}
-        <Image
-          src={currentImage.imageUrl}
-          alt={currentImage.alt || `${placeName} - Imagen ${currentIndex + 1}`}
-          fill
-          sizes='(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px'
-          style={{
-            objectFit: "cover",
+        {/* Contenedor con scroll horizontal */}
+        <Box
+          ref={containerRef}
+          sx={{
+            width: "100%",
+            height: "100%",
+            borderRadius: 2,
+            overflow: "hidden",
+            boxShadow: 3,
+            display: "flex",
+            overflowX: "auto",
+            scrollSnapType: "x mandatory",
+            scrollBehavior: "smooth",
+            "&::-webkit-scrollbar": {
+              display: "none",
+            },
+            msOverflowStyle: "none",
+            scrollbarWidth: "none",
           }}
-          priority={currentIndex === 0}
-          quality={85}
-        />
+        >
+          {/* Renderizar todas las imágenes en un carrusel */}
+          {images.map((image, index) => (
+            <Box
+              key={index}
+              sx={{
+                minWidth: "100%",
+                width: "100%",
+                height: "100%",
+                position: "relative",
+                scrollSnapAlign: "start",
+              }}
+            >
+              <Image
+                src={image.imageUrl}
+                alt={image.alt || `${placeName} - Imagen ${index + 1}`}
+                fill
+                sizes='(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px'
+                style={{
+                  objectFit: "cover",
+                }}
+                // Prioridad para las primeras 5 imágenes
+                priority={index < 5}
+                // Carga eager para imágenes cercanas
+                loading={index < 5 ? "eager" : "lazy"}
+                quality={85}
+                placeholder='blur'
+                blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mN8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=='
+              />
+            </Box>
+          ))}
+        </Box>
 
-        {/* Controles del carrusel */}
+        {/* Controles del carrusel - fuera del contenedor de scroll */}
         {images.length > 1 && (
           <>
             {/* Botón anterior */}
@@ -122,6 +211,7 @@ const PlaceGallery: React.FC<PlaceGalleryProps> = ({ images, placeName }) => {
                   bgcolor: "rgba(0, 0, 0, 0.8)",
                   transform: "translateY(-50%) scale(1.1)",
                 },
+                zIndex: 1,
               }}
               aria-label='Imagen anterior'
             >
@@ -145,6 +235,7 @@ const PlaceGallery: React.FC<PlaceGalleryProps> = ({ images, placeName }) => {
                   bgcolor: "rgba(0, 0, 0, 0.8)",
                   transform: "translateY(-50%) scale(1.1)",
                 },
+                zIndex: 1,
               }}
               aria-label='Imagen siguiente'
             >
@@ -169,6 +260,7 @@ const PlaceGallery: React.FC<PlaceGalleryProps> = ({ images, placeName }) => {
               bgcolor: "rgba(0, 0, 0, 0.8)",
               transform: "scale(1.1)",
             },
+            zIndex: 1,
           }}
           aria-label='Ver en pantalla completa'
         >
@@ -190,6 +282,7 @@ const PlaceGallery: React.FC<PlaceGalleryProps> = ({ images, placeName }) => {
               borderRadius: 2,
               fontSize: "0.875rem",
               fontWeight: 500,
+              zIndex: 1,
             }}
           >
             {currentIndex + 1} / {images.length}
@@ -304,49 +397,6 @@ const PlaceGallery: React.FC<PlaceGalleryProps> = ({ images, placeName }) => {
             <CloseIcon />
           </IconButton>
 
-          {/* Controles de navegación en lightbox */}
-          {images.length > 1 && (
-            <>
-              <IconButton
-                onClick={handlePrevious}
-                sx={{
-                  position: "absolute",
-                  left: 16,
-                  top: "50%",
-                  transform: "translateY(-50%)",
-                  color: "white",
-                  bgcolor: "rgba(255, 255, 255, 0.1)",
-                  "&:hover": {
-                    bgcolor: "rgba(255, 255, 255, 0.2)",
-                  },
-                  zIndex: 2,
-                }}
-                aria-label='Imagen anterior'
-              >
-                <ChevronLeftIcon fontSize='large' />
-              </IconButton>
-
-              <IconButton
-                onClick={handleNext}
-                sx={{
-                  position: "absolute",
-                  right: 16,
-                  top: "50%",
-                  transform: "translateY(-50%)",
-                  color: "white",
-                  bgcolor: "rgba(255, 255, 255, 0.1)",
-                  "&:hover": {
-                    bgcolor: "rgba(255, 255, 255, 0.2)",
-                  },
-                  zIndex: 2,
-                }}
-                aria-label='Imagen siguiente'
-              >
-                <ChevronRightIcon fontSize='large' />
-              </IconButton>
-            </>
-          )}
-
           {/* Imagen fullscreen con next/image */}
           <Box
             sx={{
@@ -365,8 +415,11 @@ const PlaceGallery: React.FC<PlaceGalleryProps> = ({ images, placeName }) => {
               style={{
                 objectFit: "contain",
               }}
-              quality={95}
+              quality={90}
               priority
+              loading='eager'
+              placeholder='blur'
+              blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mN8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=='
             />
           </Box>
 
