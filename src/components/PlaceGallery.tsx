@@ -73,16 +73,40 @@ const PlaceGallery: React.FC<PlaceGalleryProps> = ({ images, placeName }) => {
   React.useEffect(() => {
     if (!images || images.length === 0) return;
 
-    // Precargar imagen siguiente
-    const nextIndex = (currentIndex + 1) % images.length;
-    const nextImage = new window.Image();
-    nextImage.src = images[nextIndex].imageUrl;
+    // Validar que el índice actual sea válido
+    if (currentIndex >= images.length) return;
 
-    // Precargar imagen anterior
+    // Precargar imagen siguiente (si existe)
+    const nextIndex = (currentIndex + 1) % images.length;
+    if (images[nextIndex] && images[nextIndex].imageUrl) {
+      const nextImage = new window.Image();
+      nextImage.src = images[nextIndex].imageUrl;
+    }
+
+    // Precargar imagen anterior (si existe)
     const prevIndex = currentIndex === 0 ? images.length - 1 : currentIndex - 1;
-    const prevImage = new window.Image();
-    prevImage.src = images[prevIndex].imageUrl;
+    if (images[prevIndex] && images[prevIndex].imageUrl) {
+      const prevImage = new window.Image();
+      prevImage.src = images[prevIndex].imageUrl;
+    }
   }, [currentIndex, images]);
+
+  // Resetear el índice cuando cambian las imágenes (cambio de lugar)
+  React.useEffect(() => {
+    if (!images || images.length === 0) return;
+
+    // Si el índice actual excede el número de imágenes del nuevo lugar, resetear a 0
+    if (currentIndex >= images.length) {
+      setCurrentIndex(0);
+      // También resetear el scroll del contenedor
+      if (containerRef.current) {
+        containerRef.current.scrollTo({
+          left: 0,
+          behavior: "auto", // Sin animación para cambios de página
+        });
+      }
+    }
+  }, [images, currentIndex]);
 
   // Si no hay imágenes, no renderizar nada
   if (!images || images.length === 0) return null;
@@ -109,7 +133,12 @@ const PlaceGallery: React.FC<PlaceGalleryProps> = ({ images, placeName }) => {
     setLightboxOpen(false);
   };
 
-  const currentImage = images[currentIndex];
+  // Validar que el índice actual sea válido antes de acceder a la imagen
+  const safeCurrentIndex = Math.min(currentIndex, images.length - 1);
+  const currentImage = images[safeCurrentIndex];
+
+  // Si por alguna razón no hay imagen actual, no renderizar
+  if (!currentImage) return null;
 
   return (
     <Box sx={{ mb: 6 }}>
