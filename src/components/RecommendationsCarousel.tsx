@@ -36,7 +36,9 @@ const RecommendationsCarousel: React.FC<Props> = ({
   const { places, isLoading, isReady } = usePulgarpediaContent();
   const [recommended, setRecommended] = useState<Place[]>([]);
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [isUserInteracting, setIsUserInteracting] = useState(false);
   const containerRef = React.useRef<HTMLDivElement | null>(null);
+  const autoplayTimeoutRef = React.useRef<NodeJS.Timeout | null>(null);
 
   // Helper: mezclar y seleccionar n elementos únicos
   const sampleRandom = (items: Place[], n: number) => {
@@ -86,6 +88,60 @@ const RecommendationsCarousel: React.FC<Props> = ({
     setCurrentSlide(0);
   }, [isMobile]);
 
+  // Detectar scroll manual para pausar autoplay
+  useEffect(() => {
+    const container = containerRef.current;
+    if (!container) return;
+
+    let isScrolling = false;
+    let scrollTimeout: NodeJS.Timeout;
+
+    const handleScroll = () => {
+      // Pausar autoplay cuando el usuario hace scroll
+      if (!isScrolling) {
+        setIsUserInteracting(true);
+        isScrolling = true;
+      }
+
+      // Limpiar timeout anterior
+      clearTimeout(scrollTimeout);
+
+      // Reanudar autoplay 3 segundos después de que el usuario deje de hacer scroll
+      scrollTimeout = setTimeout(() => {
+        setIsUserInteracting(false);
+        isScrolling = false;
+      }, 3000);
+    };
+
+    const handleTouchStart = () => {
+      setIsUserInteracting(true);
+    };
+
+    const handleTouchEnd = () => {
+      // Reanudar autoplay 3 segundos después del touch
+      if (autoplayTimeoutRef.current) {
+        clearTimeout(autoplayTimeoutRef.current);
+      }
+      autoplayTimeoutRef.current = setTimeout(() => {
+        setIsUserInteracting(false);
+      }, 3000);
+    };
+
+    container.addEventListener("scroll", handleScroll);
+    container.addEventListener("touchstart", handleTouchStart);
+    container.addEventListener("touchend", handleTouchEnd);
+
+    return () => {
+      container.removeEventListener("scroll", handleScroll);
+      container.removeEventListener("touchstart", handleTouchStart);
+      container.removeEventListener("touchend", handleTouchEnd);
+      clearTimeout(scrollTimeout);
+      if (autoplayTimeoutRef.current) {
+        clearTimeout(autoplayTimeoutRef.current);
+      }
+    };
+  }, []);
+
   // Navigate to specific slide
   const goToSlide = React.useCallback((index: number) => {
     const el = containerRef.current;
@@ -108,19 +164,37 @@ const RecommendationsCarousel: React.FC<Props> = ({
     goToSlide(prev);
   }, [currentSlide, slides.length, goToSlide]);
 
-  // Auto-advance every 5 seconds
+  // Pausar autoplay cuando el usuario usa los botones de navegación
+  const handleManualNavigation = (direction: "next" | "prev") => {
+    setIsUserInteracting(true);
+    if (direction === "next") {
+      nextSlide();
+    } else {
+      prevSlide();
+    }
+    // Reanudar autoplay después de 5 segundos
+    if (autoplayTimeoutRef.current) {
+      clearTimeout(autoplayTimeoutRef.current);
+    }
+    autoplayTimeoutRef.current = setTimeout(() => {
+      setIsUserInteracting(false);
+    }, 5000);
+  };
+
+  // Auto-advance every 5 seconds (pausado durante interacción manual)
   useEffect(() => {
-    if (!isReady || slides.length === 0) return;
+    if (!isReady || slides.length === 0 || isUserInteracting) return;
+
     const interval = setInterval(nextSlide, 5000);
     return () => clearInterval(interval);
-  }, [currentSlide, slides.length, isReady, nextSlide]);
+  }, [currentSlide, slides.length, isReady, isUserInteracting, nextSlide]);
 
   if (isLoading || !isReady) {
     // simple placeholder while content loads
     return (
       <Box sx={{ my: 4 }}>
         <Typography variant='h6' sx={{ mb: 2 }}>
-          Lugares recomendados
+          Recomendaciones
         </Typography>
         <Box sx={{ height: 400 }}>
           <PlaceCard place={null} loading />
@@ -141,11 +215,11 @@ const RecommendationsCarousel: React.FC<Props> = ({
           mb: 2,
         }}
       >
-        <Typography variant='h6'>Lugares recomendados</Typography>
+        <Typography variant='h6'>Recomendaciones</Typography>
         <Box sx={{ display: "flex", gap: 1, alignItems: "center" }}>
           <IconButton
             aria-label='anterior'
-            onClick={prevSlide}
+            onClick={() => handleManualNavigation("prev")}
             size='small'
             sx={{
               bgcolor: "background.paper",
@@ -157,7 +231,7 @@ const RecommendationsCarousel: React.FC<Props> = ({
           </IconButton>
           <IconButton
             aria-label='siguiente'
-            onClick={nextSlide}
+            onClick={() => handleManualNavigation("next")}
             size='small'
             sx={{
               bgcolor: "background.paper",
@@ -241,7 +315,17 @@ const RecommendationsCarousel: React.FC<Props> = ({
             <IconButton
               key={index}
               size='small'
-              onClick={() => goToSlide(index)}
+              onClick={() => {
+                setIsUserInteracting(true);
+                goToSlide(index);
+                // Reanudar autoplay después de 5 segundos
+                if (autoplayTimeoutRef.current) {
+                  clearTimeout(autoplayTimeoutRef.current);
+                }
+                autoplayTimeoutRef.current = setTimeout(() => {
+                  setIsUserInteracting(false);
+                }, 5000);
+              }}
               sx={{ p: 0.5 }}
               aria-label={`Ir a slide ${index + 1}`}
             >
