@@ -2323,78 +2323,113 @@
       "placeId": "GA-003",
       "categoryId": "gastronomy",
       "header": {
-        "title": "Mercado Central de San Salvador",
+        "title": "Pupuserías de Los Planes de Renderos",
         "category": "Gastronomía",
-        "mainImageURL": "/images/mercado-central-1.jpg",
-        "subtitle": "El corazón de la comida típica salvadoreña auténtica."
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764195795/GA-003-0_s78m6z.jpg",
+        "subtitle": "Pupusas con vista panorámica de San Salvador en las montañas."
       },
       "gallery": [
         {
-          "imageUrl": "/images/mercado-central-2.jpg",
-          "alt": "Comedores del mercado"
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764195885/GA-003-3_ok6hwa.jpg",
+          "alt": "Vista panorámica desde Los Planes"
         },
         {
-          "imageUrl": "/images/mercado-central-3.jpg",
-          "alt": "Pupusas frescas"
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764195795/GA-003-0_s78m6z.jpg",
+          "alt": "Pupuserías en Los Planes"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764195796/GA-003-1_c61ejx.jpg",
+          "alt": "Pupusas artesanales"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764195812/GA-003-2_aylkyu.jpg",
+          "alt": "Servicio al aire libre"
         }
       ],
       "generalHistorySection": {
         "title": "Visión General e Historia",
-        "description": "El Mercado Central de San Salvador es el mercado más grande y antiguo de la capital. Su sección de comedores ofrece la comida más auténtica y económica: pupusas, yuca frita, sopa de pata, tamales y más. Es el lugar donde los salvadoreños van cuando extrañan la comida de su abuela.",
-        "historyCulture": "Fundado en el siglo XIX, es el centro comercial popular más importante. Los comedores son administrados por familias que han pasado recetas de generación en generación. Es un lugar vibrante y caótico que muestra la vida cotidiana salvadoreña.",
+        "description": "Los Planes de Renderos es un mirador natural a 1,000 metros de altura que ofrece vistas espectaculares de San Salvador y el volcán de San Salvador. La zona está llena de pupuserías tradicionales donde las familias capitalinas van los fines de semana a disfrutar pupusas frescas con clima fresco de montaña. Es una tradición dominical combinar pupusas, vistas y naturaleza.",
+        "historyCulture": "Desde los años 60, Los Planes se convirtió en destino de fin de semana para familias salvadoreñas. Las pupuserías familiares se han pasado de generación en generación. Es famoso por sus pupusas de chicharrón, queso, loroco y revueltas. Muchos capitalinos tienen su pupusería favorita aquí.",
         "locationClimate": {
-          "address": "Centro Histórico de San Salvador, entre 1ª y 3ª Avenida Sur.",
+          "address": "Los Planes de Renderos, Municipio de Panchimalco, Departamento de San Salvador, El Salvador.",
           "coordinates": {
-            "latitude": 13.6989,
-            "longitude": -89.1914
+            "latitude": 13.6333,
+            "longitude": -89.1667
           },
-          "mapUrl": "https://maps.google.com/?q=13.6989,-89.1914",
-          "typicalHours": "Comedores de 6:00 AM a 5:00 PM. Mejor horario: desayuno (7-9 AM) o almuerzo (12-2 PM).",
-          "bestSeason": "Todo el año. Evitar ir con objetos de valor."
+          "mapUrl": "https://maps.google.com/?q=13.6333,-89.1667",
+          "typicalHours": "Pupuserías de 10:00 AM a 8:00 PM. Domingos más concurrido.",
+          "bestSeason": "Todo el año. Clima fresco 18-24°C. Vistas despejadas en verano (noviembre-abril)."
         }
       },
       "serviceLogisticSection": {
         "title": "Servicios y Logística",
-        "description": "Mercado tradicional con ambiente local.",
+        "description": "Área recreativa con múltiples pupuserías y miradores.",
         "howToGetThere": [
           {
-            "option": "Bus",
-            "details": "Múltiples rutas de bus llegan al centro de San Salvador. Preguntar por 'Mercado Central'."
+            "option": "Bus #17",
+            "details": "Desde el centro de San Salvador hacia Panchimalco, bajar en Los Planes. 45 minutos."
+          },
+          {
+            "option": "Transporte Privado",
+            "details": "Carretera Panamericana Sur, desvío a Los Planes de Renderos. 25 minutos desde San Salvador."
           },
           {
             "option": "Uber/Taxi",
-            "details": "Opción más segura para turistas. Pedir que te dejen en la entrada principal."
+            "details": "Opción más cómoda. USD 8-12 desde el centro de San Salvador."
           }
         ],
         "costs": [
           {
-            "item": "Desayuno típico",
-            "price": "USD 2-4"
+            "item": "Pupusas",
+            "price": "USD 0.50-0.75 cada una"
           },
           {
-            "item": "Almuerzo completo",
-            "price": "USD 3-6"
+            "item": "Bebidas típicas",
+            "price": "USD 1-2"
           },
           {
-            "item": "Pupusas (3 unidades)",
-            "price": "USD 1.50-2"
+            "item": "Comida completa (3-4 pupusas + bebida)",
+            "price": "USD 3-5"
+          },
+          {
+            "item": "Entrada a miradores",
+            "price": "USD 0.50-1"
           }
         ],
         "facilities": {
-          "parking": false,
+          "parking": true,
           "restrooms": true,
-          "wheelchairAccess": false,
+          "wheelchairAccess": true,
           "localGuides": false,
-          "notes": "Ambiente popular. Llevar solo efectivo necesario. No es recomendable ir solo si eres extranjero."
+          "notes": "Ambiente familiar y seguro. Parqueos amplios. Combinar con visita al Parque Balboa o Puerta del Diablo cercanos."
         }
       },
       "premiumSection": {
         "title": "Recomendaciones Exclusivas",
         "isLocked": true,
-        "premiumTitle": "Guía de Supervivencia del Mercado Central",
-        "contentSnippet": "Comedores más limpios, qué ordenar, consejos de seguridad y horarios ideales.",
+        "premiumTitle": "Las Mejores Pupuserías de Los Planes",
+        "contentSnippet": "Top 3 pupuserías según locales, mejores mesas con vista y horarios ideales para evitar multitudes.",
         "callToAction": "Desbloquea con Pulgarpedia Premium",
-        "premiumRecommendations": []
+        "premiumRecommendations": [
+          {
+            "id": 1,
+            "type": "food",
+            "headline": "Pupusería El Mirador",
+            "body": "La favorita de locales. Pide la mesa en la terraza con vista. Sus pupusas de loroco con queso son las mejores. Llega antes de las 12 PM los domingos."
+          },
+          {
+            "id": 2,
+            "type": "tip",
+            "headline": "Momento perfecto",
+            "body": "Visita al atardecer (4-6 PM) para pupusas con puesta de sol sobre la ciudad. Menos gente que al mediodía y vistas espectaculares."
+          },
+          {
+            "id": 3,
+            "type": "food",
+            "headline": "Combo local",
+            "body": "Pide pupusas revueltas (chicharrón, queso y frijoles) con curtido extra picante y una horchata bien fría. El combo clásico salvadoreño."
+          }
+        ]
       }
     },
     {
@@ -2403,16 +2438,28 @@
       "header": {
         "title": "Puerto de La Libertad - Mariscos",
         "category": "Gastronomía",
-        "mainImageURL": "/images/mariscos-libertad-1.jpg",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764196667/GA-004-3_wsxdu2.jpg",
         "subtitle": "Los mariscos más frescos de El Salvador directo del puerto."
       },
       "gallery": [
         {
-          "imageUrl": "/images/mariscos-libertad-2.jpg",
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764196663/GA-004-2_oq2wdu.jpg",
+          "alt": "Mariscos frescos en el mercado del mar"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764196667/GA-004-3_wsxdu2.jpg",
+          "alt": "Variedad de cocteles de mariscos"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764196659/GA-004-0_pabctm.jpg",
           "alt": "Ceviche fresco"
         },
         {
-          "imageUrl": "/images/mariscos-libertad-3.jpg",
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764196660/GA-004-1_k0mbao.jpg",
+          "alt": "Instalaciones fotográficas"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764196667/GA-004-3_wsxdu2.jpg",
           "alt": "Restaurante frente al mar"
         }
       ],
@@ -2481,17 +2528,21 @@
       "header": {
         "title": "Pupuserías de Olocuilta",
         "category": "Gastronomía",
-        "mainImageURL": "/images/olocuilta-1.jpg",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764197060/GA-005-0_fkwvzk.jpg",
         "subtitle": "La capital de la pupusa con las mejores pupuserías de El Salvador."
       },
       "gallery": [
         {
-          "imageUrl": "/images/olocuilta-2.jpg",
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764197066/GA-005-1_zuelyn.jpg",
+          "alt": "Pupusodromo en Olocuilta"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764197061/GA-005-2_zkyl0y.jpg",
           "alt": "Pupusas en comal"
         },
         {
-          "imageUrl": "/images/olocuilta-3.jpg",
-          "alt": "Pupusería tradicional"
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764197060/GA-005-0_fkwvzk.jpg",
+          "alt": "Festival de la pupusa"
         }
       ],
       "generalHistorySection": {
@@ -2559,13 +2610,21 @@
       "header": {
         "title": "Restaurantes de Suchitoto",
         "category": "Gastronomía",
-        "mainImageURL": "/images/restaurantes-suchitoto-1.jpg",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764197613/GA-006-0_egt9xm.jpg",
         "subtitle": "Cocina tradicional elevada con ingredientes locales."
       },
       "gallery": [
         {
-          "imageUrl": "/images/restaurantes-suchitoto-2.jpg",
-          "alt": "Platillo gourmet"
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764197614/GA-006-1_h4nvod.jpg",
+          "alt": "Restaurantes con miradores en Suchitoto"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764197614/GA-006-2_tmowuf.jpg",
+          "alt": "Restaurantes de altura en Suchitoto"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764197613/GA-006-0_egt9xm.jpg",
+          "alt": "Sopa de gallina salvadoreña en Suchitoto"
         }
       ],
       "generalHistorySection": {
@@ -2620,56 +2679,154 @@
       }
     },
     {
-      "placeId": "GA-007",
-      "categoryId": "gastronomy",
+      "placeId": "FE-004",
+      "categoryId": "festivals-events",
       "header": {
-        "title": "Mercado de Santa Tecla",
-        "category": "Gastronomía",
-        "mainImageURL": "/images/mercado-santa-tecla-1.jpg",
-        "subtitle": "Comida callejera auténtica y económica."
+        "title": "Semana Santa",
+        "category": "Festividades y Eventos",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764219689/FE-004-0_sacl63.jpg",
+        "subtitle": "Procesiones y alfombras de aserrín en todo el país."
       },
       "gallery": [
         {
-          "imageUrl": "/images/mercado-santa-tecla-2.jpg",
-          "alt": "Puestos de comida"
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764219772/FE-004-3_kqcty8.jpg",
+          "alt": "Procesión del Santo Entierro"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764219690/FE-004-1_buwxy5.png",
+          "alt": "Alfombra de aserrín"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764219690/FE-004-2_iy5mcv.jpg",
+          "alt": "Alfombra de sal"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764219689/FE-004-0_sacl63.jpg",
+          "alt": "Procesión del Viernes Santo"
         }
       ],
       "generalHistorySection": {
         "title": "Visión General e Historia",
-        "description": "El Mercado de Santa Tecla es uno de los mercados más grandes del área metropolitana de San Salvador. Su sección de comida ofrece una increíble variedad de platillos típicos a precios populares. Es donde los trabajadores locales comen a diario.",
-        "historyCulture": "Santa Tecla es la segunda ciudad más importante del área metropolitana. Su mercado refleja la diversidad culinaria salvadoreña con influencias de todo el país.",
+        "description": "La Semana Santa en El Salvador es la celebración religiosa más importante del año. Se caracteriza por procesiones con imágenes religiosas, elaboradas alfombras de aserrín de colores en las calles, y tradiciones gastronómicas como la sopa de pescado y los dulces típicos. Las procesiones más importantes son en San Salvador, Sonsonate y Izalco.",
+        "historyCulture": "Tradición que data de la época colonial. Las alfombras de aserrín son arte efímero que las familias preparan durante días. La Procesión del Santo Entierro en San Salvador reúne cientos de miles de fieles.",
         "locationClimate": {
-          "address": "Santa Tecla (Nueva San Salvador), Departamento de La Libertad, El Salvador.",
+          "address": "Todo El Salvador. Principales procesiones en San Salvador, Sonsonate e Izalco.",
           "coordinates": {
-            "latitude": 13.6764,
-            "longitude": -89.2797
+            "latitude": 13.6989,
+            "longitude": -89.1914
           },
-          "mapUrl": "https://maps.google.com/?q=13.6764,-89.2797",
-          "typicalHours": "Comedores de 6:00 AM a 6:00 PM.",
-          "bestSeason": "Todo el año. Horarios pico: desayuno y almuerzo."
+          "mapUrl": "https://maps.google.com/?q=13.6989,-89.1914",
+          "typicalHours": "Semana completa. Procesiones principales: Viernes Santo.",
+          "bestSeason": "Marzo o Abril (fecha variable cada año)."
         }
       },
       "serviceLogisticSection": {
         "title": "Servicios y Logística",
-        "description": "Mercado tradicional muy concurrido.",
+        "description": "Celebración nacional con eventos en todos los pueblos.",
         "howToGetThere": [
           {
-            "option": "Bus",
-            "details": "Múltiples rutas desde San Salvador hacia Santa Tecla."
-          },
-          {
-            "option": "Uber/Taxi",
-            "details": "15 minutos desde San Salvador."
+            "option": "Depende del lugar",
+            "details": "San Salvador: centro histórico. Izalco: procesiones más tradicionales."
           }
         ],
         "costs": [
           {
-            "item": "Desayuno típico",
-            "price": "USD 2-3"
+            "item": "Asistir a procesiones",
+            "price": "Gratuito"
           },
           {
-            "item": "Almuerzo",
-            "price": "USD 3-5"
+            "item": "Comida típica",
+            "price": "USD 5-15"
+          }
+        ],
+        "facilities": {
+          "parking": false,
+          "restrooms": true,
+          "wheelchairAccess": false,
+          "localGuides": false,
+          "notes": "Semana de feriados. Todo cierra. Reservar hoteles con anticipación."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": true,
+        "premiumTitle": "Guía Completa de Semana Santa",
+        "contentSnippet": "Mejores procesiones, dónde ver las alfombras más elaboradas y tradiciones gastronómicas.",
+        "callToAction": "Desbloquea con Pulgarpedia Premium",
+        "premiumRecommendations": []
+      }
+    },
+    {
+      "placeId": "FE-005",
+      "categoryId": "festivals-events",
+      "header": {
+        "title": "Festival de las Bolas de Fuego",
+        "category": "Festividades y Eventos",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764220176/FE-005-0_xj32ky.jpg",
+        "subtitle": "La batalla de bolas de fuego más extrema y única de Centroamérica."
+      },
+      "gallery": [
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764220177/FE-005-1_v1zfpw.jpg",
+          "alt": "Batalla de bolas de fuego"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764220176/FE-005-0_xj32ky.jpg",
+          "alt": "Explosión de bolas de fuego"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764220178/FE-005-3_kfiawd.png",
+          "alt": "Participantes con bolas de fuego"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764220177/FE-005-2_wqcog1.jpg",
+          "alt": "Participantes con bolas de fuego"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "El Festival de las Bolas de Fuego se celebra cada 31 de agosto en Nejapa, a 20 km de San Salvador. Durante esta tradición única, dos bandos de participantes se lanzan bolas de tela empapadas en queroseno encendidas entre sí, en una batalla simbólica que conmemora la erupción del Volcán de San Salvador en 1658 y la lucha entre San Jerónimo y el Diablo. Es considerado uno de los festivales más extremos y peligrosos del mundo.",
+        "historyCulture": "La tradición comenzó en 1658 cuando el Volcán Playón erupcionó lanzando bolas de fuego. Los habitantes interpretaron esto como una batalla entre San Jerónimo (patrón del pueblo) y el Diablo. Desde entonces, cada año los nejapanecos recrean esta batalla. Los dos barrios del pueblo (Norte y Sur) compiten lanzándose bolas de fuego. Participar es considerado un honor y acto de valentía. A pesar del peligro, no se reportan heridos graves gracias a la experiencia de los participantes.",
+        "locationClimate": {
+          "address": "Municipio de Nejapa, Departamento de San Salvador, El Salvador.",
+          "coordinates": {
+            "latitude": 13.8167,
+            "longitude": -89.2167
+          },
+          "mapUrl": "https://maps.google.com/?q=13.8167,-89.2167",
+          "typicalHours": "31 de agosto. La batalla principal es de 8:00 PM a 10:00 PM.",
+          "bestSeason": "31 de agosto (única fecha del año). Evento nocturno."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Evento extremo con miles de espectadores. Solo para valientes.",
+        "howToGetThere": [
+          {
+            "option": "Bus #33",
+            "details": "Desde Terminal de Oriente (San Salvador) hacia Nejapa. 30 minutos."
+          },
+          {
+            "option": "Transporte Privado",
+            "details": "Carretera Troncal del Norte, desvío a Nejapa. 25 minutos desde San Salvador."
+          },
+          {
+            "option": "Tour organizado",
+            "details": "Varias operadoras ofrecen tours con transporte y guía desde San Salvador. Más seguro para turistas."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Entrada al evento",
+            "price": "Gratuito"
+          },
+          {
+            "item": "Participar en la batalla",
+            "price": "Gratuito (traer tu propia ropa de protección)"
+          },
+          {
+            "item": "Comida callejera",
+            "price": "USD 2-5"
           }
         ],
         "facilities": {
@@ -2677,7 +2834,112 @@
           "restrooms": true,
           "wheelchairAccess": false,
           "localGuides": false,
-          "notes": "Ambiente local. Llevar solo efectivo necesario."
+          "notes": "Evento EXTREMO. Usar ropa vieja de algodón, capucha y guantes. Mojar la ropa antes. NO llevar sintéticos (se derriten). Mantener distancia si solo observas. Llevar agua. Ir en grupo. Ambiente festivo pero caótico."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": true,
+        "premiumTitle": "Guía de Supervivencia para las Bolas de Fuego",
+        "contentSnippet": "Cómo participar sin quemarte, mejores puntos de observación seguros y protocolo local.",
+        "callToAction": "Desbloquea con Pulgarpedia Premium",
+        "premiumRecommendations": [
+          {
+            "id": 1,
+            "type": "safety",
+            "headline": "Equipo de protección",
+            "body": "Usa camisa de manga larga, pantalón grueso, capucha y guantes EMPAPADOS en agua. La ropa húmeda no se quema tan fácil. Los locales usan jeans viejos y sudaderas de algodón. NUNCA poliéster o sintéticos."
+          },
+          {
+            "id": 2,
+            "type": "tip",
+            "headline": "Mejor zona para observar",
+            "body": "Posiciónate en la acera de la Calle Principal, cerca de la iglesia pero con espacio de escape. Llegarás temprano (6 PM) para buenos lugares. Los fotógrafos profesionales se quedan ahí."
+          },
+          {
+            "id": 3,
+            "type": "experience",
+            "headline": "Si vas a participar",
+            "body": "Únete al bando del Barrio Sur (más organizado). Los locales te darán consejos y bolas de fuego. Mantén distancia corta al lanzar (3-5 metros) para precisión. Si te cae una bola, NO CORRAS, apágala con las manos mojadas rápidamente."
+          }
+        ]
+      }
+    },
+    {
+      "placeId": "FE-006",
+      "categoryId": "festivals-events",
+      "header": {
+        "title": "Día de los Farolitos",
+        "category": "Festividades y Eventos",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764220502/FE-006-0_v15too.jpg",
+        "subtitle": "Tradición única de Ahuachapán con farolitos iluminando las calles."
+      },
+      "gallery": [
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764220502/FE-006-1_qspfch.jpg",
+          "alt": "Parroquia de Ahuachapán con farolitos"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764220502/FE-006-0_v15too.jpg",
+          "alt": "Farolitos de colores"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764220503/FE-006-3_fpcoai.jpg",
+          "alt": "Parroquia de Ahuachapán con farolitos"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764220503/FE-006-2_whwr3z.jpg",
+          "alt": "Pueblo pintoresco"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764220506/FE-006-4_ga2laj.jpg",
+          "alt": "Farolitos de colores"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "El Día de los Farolitos se celebra el 7 de septiembre en Ahuachapán. Las familias elaboran farolitos de papel de colores con velas en su interior y los colocan en las calles, ventanas y aceras, creando un espectáculo mágico de luces. Es una tradición única en El Salvador.",
+        "historyCulture": "Tradición que data del siglo XIX relacionada con la independencia centroamericana. Representa la luz de la libertad. Ahuachapán es el único lugar donde se mantiene viva esta costumbre.",
+        "locationClimate": {
+          "address": "Ciudad de Ahuachapán, Departamento de Ahuachapán, El Salvador.",
+          "coordinates": {
+            "latitude": 13.9214,
+            "longitude": -89.8453
+          },
+          "mapUrl": "https://maps.google.com/?q=13.9214,-89.8453",
+          "typicalHours": "7 de septiembre desde las 6:00 PM.",
+          "bestSeason": "Septiembre (solo este día)."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Celebración nocturna en toda la ciudad.",
+        "howToGetThere": [
+          {
+            "option": "Bus",
+            "details": "Bus #202 desde San Salvador hacia Ahuachapán. 2.5 horas."
+          },
+          {
+            "option": "Transporte Privado",
+            "details": "Carretera CA-1 hacia occidente. 2 horas desde San Salvador."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Celebración",
+            "price": "Gratuita"
+          },
+          {
+            "item": "Comprar farolito",
+            "price": "USD 1-3"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": true,
+          "localGuides": false,
+          "notes": "Evento familiar muy fotogénico. Llevar cámara."
         }
       },
       "premiumSection": {
@@ -2690,26 +2952,108 @@
       }
     },
     {
+      "placeId": "FE-007",
+      "categoryId": "festivals-events",
+      "header": {
+        "title": "Festival Internacional de Arte y Cultura",
+        "category": "Festividades y Eventos",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764220810/FE-007-0_fvk4ra.jpg",
+        "subtitle": "El evento cultural más importante de Suchitoto en febrero."
+      },
+      "gallery": [
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764220812/FE-007-3_xx0beo.jpg",
+          "alt": "Linaje de danzantes"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764220810/FE-007-0_fvk4ra.jpg",
+          "alt": "Sinfónica cultural"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764220811/FE-007-1_igqpru.jpg",
+          "alt": "Homenajes a las culturas internacionales"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764220811/FE-007-2_sv7u3e.jpg",
+          "alt": "Eventos culturales"
+        }
+      ],
+      "generalHistorySection": {
+        "title": "Visión General e Historia",
+        "description": "El Festival Permanente de Arte y Cultura de Suchitoto se realiza cada febrero. Durante una semana, el pueblo se llena de conciertos, obras de teatro, exposiciones de arte, talleres, presentaciones de libros y danzas. Participan artistas nacionales e internacionales. Es el evento cultural más importante de El Salvador.",
+        "historyCulture": "Creado para posicionar a Suchitoto como capital cultural del país. Ha logrado atraer artistas de renombre internacional y proyectar la cultura salvadoreña.",
+        "locationClimate": {
+          "address": "Centro Histórico de Suchitoto, Departamento de Cuscatlán, El Salvador.",
+          "coordinates": {
+            "latitude": 13.9369,
+            "longitude": -89.0294
+          },
+          "mapUrl": "https://maps.google.com/?q=13.9369,-89.0294",
+          "typicalHours": "Una semana en febrero. Eventos de 9:00 AM a 10:00 PM.",
+          "bestSeason": "Febrero (consultar fechas exactas cada año)."
+        }
+      },
+      "serviceLogisticSection": {
+        "title": "Servicios y Logística",
+        "description": "Festival cultural de alta calidad.",
+        "howToGetThere": [
+          {
+            "option": "Transporte Privado",
+            "details": "Carretera Troncal del Norte desde San Salvador. 1.5 horas. Reservar hospedaje con meses de anticipación."
+          }
+        ],
+        "costs": [
+          {
+            "item": "Mayoría de eventos",
+            "price": "Gratuitos"
+          },
+          {
+            "item": "Algunos espectáculos",
+            "price": "USD 5-15"
+          }
+        ],
+        "facilities": {
+          "parking": true,
+          "restrooms": true,
+          "wheelchairAccess": true,
+          "localGuides": false,
+          "notes": "Evento de clase mundial. Ambiente cultural y sofisticado."
+        }
+      },
+      "premiumSection": {
+        "title": "Recomendaciones Exclusivas",
+        "isLocked": true,
+        "premiumTitle": "Guía Insider del Festival",
+        "contentSnippet": "Eventos imperdibles, cómo conseguir entradas limitadas y alojamiento recomendado.",
+        "callToAction": "Desbloquea con Pulgarpedia Premium",
+        "premiumRecommendations": []
+      }
+    },
+    {
       "placeId": "FE-001",
       "categoryId": "festivals-events",
       "header": {
         "title": "Fiestas Agostinas",
         "category": "Festividades y Eventos",
-        "mainImageURL": "/images/fiestas-agostinas-1.jpg",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764218498/FE-001-2_se1vjj.jpg",
         "subtitle": "La celebración más grande de El Salvador en honor al Divino Salvador del Mundo."
       },
       "gallery": [
         {
-          "imageUrl": "/images/fiestas-agostinas-2.jpg",
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764218498/FE-001-1_ba3irh.jpg",
           "alt": "Desfile del Correo"
         },
         {
-          "imageUrl": "/images/fiestas-agostinas-3.jpg",
-          "alt": "Procesión religiosa"
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764218498/FE-001-2_se1vjj.jpg",
+          "alt": "Feria de atracciones"
         },
         {
-          "imageUrl": "/images/fiestas-agostinas-4.jpg",
-          "alt": "Feria de atracciones"
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764218498/FE-001-3_hwizek.jpg",
+          "alt": "Los viejos de agosto"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764218498/FE-001-0_bprig6.jpg",
+          "alt": "Ambiente nocturno en las fiestas"
         }
       ],
       "generalHistorySection": {
@@ -2790,16 +3134,24 @@
       "header": {
         "title": "Festival del Maíz",
         "category": "Festividades y Eventos",
-        "mainImageURL": "/images/festival-maiz-1.jpg",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764195796/GA-003-1_c61ejx.jpg",
         "subtitle": "Celebración de la cosecha con platillos tradicionales de maíz en Alegría."
       },
       "gallery": [
         {
-          "imageUrl": "/images/festival-maiz-2.jpg",
-          "alt": "Platillos de maíz"
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764219067/FE-002-2_fzqqzu.jpg",
+          "alt": "Elotes locos salvadoreños"
         },
         {
-          "imageUrl": "/images/festival-maiz-3.jpg",
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764195796/GA-003-1_c61ejx.jpg",
+          "alt": "Pupusas de maíz"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764219068/FE-002-3_ctqyb4.jpg",
+          "alt": "Riguas salvadoreñas"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764219067/FE-002-1_qaffdg.jpg",
           "alt": "Danzas folklóricas"
         }
       ],
@@ -2868,13 +3220,25 @@
       "header": {
         "title": "Festival de Invierno de Juayúa",
         "category": "Festividades y Eventos",
-        "mainImageURL": "/images/festival-invierno-1.jpg",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764134140/CT-003-4_cnyzhg.jpg",
         "subtitle": "Celebración de año nuevo con música, arte y gastronomía."
       },
       "gallery": [
         {
-          "imageUrl": "/images/festival-invierno-2.jpg",
-          "alt": "Conciertos en vivo"
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764134135/CT-003-1_lfsk1n.jpg",
+          "alt": "Atardecer en Juayúa"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764134134/CT-003-0_f3x8hb.jpg",
+          "alt": "Catedral de Juayúa"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764134138/CT-003-3_n9uosf.jpg",
+          "alt": "Chorros de la Calera"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764134140/CT-003-4_cnyzhg.jpg",
+          "alt": "Parque central de Juayúa"
         }
       ],
       "generalHistorySection": {
@@ -2929,294 +3293,30 @@
       }
     },
     {
-      "placeId": "FE-004",
-      "categoryId": "festivals-events",
-      "header": {
-        "title": "Semana Santa",
-        "category": "Festividades y Eventos",
-        "mainImageURL": "/images/semana-santa-1.jpg",
-        "subtitle": "Procesiones y alfombras de aserrín en todo el país."
-      },
-      "gallery": [
-        {
-          "imageUrl": "/images/semana-santa-2.jpg",
-          "alt": "Alfombra de aserrín"
-        },
-        {
-          "imageUrl": "/images/semana-santa-3.jpg",
-          "alt": "Procesión del Santo Entierro"
-        }
-      ],
-      "generalHistorySection": {
-        "title": "Visión General e Historia",
-        "description": "La Semana Santa en El Salvador es la celebración religiosa más importante del año. Se caracteriza por procesiones con imágenes religiosas, elaboradas alfombras de aserrín de colores en las calles, y tradiciones gastronómicas como la sopa de pescado y los dulces típicos. Las procesiones más importantes son en San Salvador, Sonsonate y Izalco.",
-        "historyCulture": "Tradición que data de la época colonial. Las alfombras de aserrín son arte efímero que las familias preparan durante días. La Procesión del Santo Entierro en San Salvador reúne cientos de miles de fieles.",
-        "locationClimate": {
-          "address": "Todo El Salvador. Principales procesiones en San Salvador, Sonsonate e Izalco.",
-          "coordinates": {
-            "latitude": 13.6989,
-            "longitude": -89.1914
-          },
-          "mapUrl": "https://maps.google.com/?q=13.6989,-89.1914",
-          "typicalHours": "Semana completa. Procesiones principales: Viernes Santo.",
-          "bestSeason": "Marzo o Abril (fecha variable cada año)."
-        }
-      },
-      "serviceLogisticSection": {
-        "title": "Servicios y Logística",
-        "description": "Celebración nacional con eventos en todos los pueblos.",
-        "howToGetThere": [
-          {
-            "option": "Depende del lugar",
-            "details": "San Salvador: centro histórico. Izalco: procesiones más tradicionales."
-          }
-        ],
-        "costs": [
-          {
-            "item": "Asistir a procesiones",
-            "price": "Gratuito"
-          },
-          {
-            "item": "Comida típica",
-            "price": "USD 5-15"
-          }
-        ],
-        "facilities": {
-          "parking": false,
-          "restrooms": true,
-          "wheelchairAccess": false,
-          "localGuides": false,
-          "notes": "Semana de feriados. Todo cierra. Reservar hoteles con anticipación."
-        }
-      },
-      "premiumSection": {
-        "title": "Recomendaciones Exclusivas",
-        "isLocked": true,
-        "premiumTitle": "Guía Completa de Semana Santa",
-        "contentSnippet": "Mejores procesiones, dónde ver las alfombras más elaboradas y tradiciones gastronómicas.",
-        "callToAction": "Desbloquea con Pulgarpedia Premium",
-        "premiumRecommendations": []
-      }
-    },
-    {
-      "placeId": "FE-005",
-      "categoryId": "festivals-events",
-      "header": {
-        "title": "Feria de Santa Ana",
-        "category": "Festividades y Eventos",
-        "mainImageURL": "/images/feria-santa-ana-1.jpg",
-        "subtitle": "Fiestas Julias de la segunda ciudad de El Salvador."
-      },
-      "gallery": [
-        {
-          "imageUrl": "/images/feria-santa-ana-2.jpg",
-          "alt": "Desfile de faroles"
-        }
-      ],
-      "generalHistorySection": {
-        "title": "Visión General e Historia",
-        "description": "La Feria de Santa Ana, también conocida como Fiestas Julias, se celebra del 17 al 26 de julio en honor a Santa Ana, patrona de la ciudad. Incluye desfiles, conciertos, feria con juegos mecánicos, eventos deportivos y el tradicional 'Desfile de Faroles'. Es la segunda feria más grande del país.",
-        "historyCulture": "Santa Ana es la segunda ciudad más importante de El Salvador. Sus fiestas reflejan la riqueza cultural del occidente del país con tradiciones propias.",
-        "locationClimate": {
-          "address": "Centro de Santa Ana, Departamento de Santa Ana, El Salvador.",
-          "coordinates": {
-            "latitude": 13.9942,
-            "longitude": -89.5597
-          },
-          "mapUrl": "https://maps.google.com/?q=13.9942,-89.5597",
-          "typicalHours": "Del 17 al 26 de julio. Feria de 3:00 PM a 11:00 PM.",
-          "bestSeason": "Julio (única época del año)."
-        }
-      },
-      "serviceLogisticSection": {
-        "title": "Servicios y Logística",
-        "description": "Feria urbana con gran asistencia.",
-        "howToGetThere": [
-          {
-            "option": "Bus",
-            "details": "Bus #201 desde San Salvador. 1.5 horas."
-          },
-          {
-            "option": "Transporte Privado",
-            "details": "Carretera CA-1 hacia Santa Ana. 1 hora desde San Salvador."
-          }
-        ],
-        "costs": [
-          {
-            "item": "Eventos culturales",
-            "price": "Mayoría gratuitos"
-          },
-          {
-            "item": "Juegos mecánicos",
-            "price": "USD 0.50-2.00"
-          }
-        ],
-        "facilities": {
-          "parking": true,
-          "restrooms": true,
-          "wheelchairAccess": false,
-          "localGuides": false,
-          "notes": "Ciudad con buena infraestructura hotelera y gastronómica."
-        }
-      },
-      "premiumSection": {
-        "title": "Recomendaciones Exclusivas",
-        "isLocked": true,
-        "premiumTitle": "",
-        "contentSnippet": "",
-        "callToAction": "",
-        "premiumRecommendations": []
-      }
-    },
-    {
-      "placeId": "FE-006",
-      "categoryId": "festivals-events",
-      "header": {
-        "title": "Día de los Farolitos",
-        "category": "Festividades y Eventos",
-        "mainImageURL": "/images/farolitos-1.jpg",
-        "subtitle": "Tradición única de Ahuachapán con farolitos iluminando las calles."
-      },
-      "gallery": [
-        {
-          "imageUrl": "/images/farolitos-2.jpg",
-          "alt": "Farolitos de colores"
-        }
-      ],
-      "generalHistorySection": {
-        "title": "Visión General e Historia",
-        "description": "El Día de los Farolitos se celebra el 7 de septiembre en Ahuachapán. Las familias elaboran farolitos de papel de colores con velas en su interior y los colocan en las calles, ventanas y aceras, creando un espectáculo mágico de luces. Es una tradición única en El Salvador.",
-        "historyCulture": "Tradición que data del siglo XIX relacionada con la independencia centroamericana. Representa la luz de la libertad. Ahuachapán es el único lugar donde se mantiene viva esta costumbre.",
-        "locationClimate": {
-          "address": "Ciudad de Ahuachapán, Departamento de Ahuachapán, El Salvador.",
-          "coordinates": {
-            "latitude": 13.9214,
-            "longitude": -89.8453
-          },
-          "mapUrl": "https://maps.google.com/?q=13.9214,-89.8453",
-          "typicalHours": "7 de septiembre desde las 6:00 PM.",
-          "bestSeason": "Septiembre (solo este día)."
-        }
-      },
-      "serviceLogisticSection": {
-        "title": "Servicios y Logística",
-        "description": "Celebración nocturna en toda la ciudad.",
-        "howToGetThere": [
-          {
-            "option": "Bus",
-            "details": "Bus #202 desde San Salvador hacia Ahuachapán. 2.5 horas."
-          },
-          {
-            "option": "Transporte Privado",
-            "details": "Carretera CA-1 hacia occidente. 2 horas desde San Salvador."
-          }
-        ],
-        "costs": [
-          {
-            "item": "Celebración",
-            "price": "Gratuita"
-          },
-          {
-            "item": "Comprar farolito",
-            "price": "USD 1-3"
-          }
-        ],
-        "facilities": {
-          "parking": true,
-          "restrooms": true,
-          "wheelchairAccess": true,
-          "localGuides": false,
-          "notes": "Evento familiar muy fotogénico. Llevar cámara."
-        }
-      },
-      "premiumSection": {
-        "title": "Recomendaciones Exclusivas",
-        "isLocked": true,
-        "premiumTitle": "",
-        "contentSnippet": "",
-        "callToAction": "",
-        "premiumRecommendations": []
-      }
-    },
-    {
-      "placeId": "FE-007",
-      "categoryId": "festivals-events",
-      "header": {
-        "title": "Festival Internacional de Arte y Cultura",
-        "category": "Festividades y Eventos",
-        "mainImageURL": "/images/festival-suchitoto-1.jpg",
-        "subtitle": "El evento cultural más importante de Suchitoto en febrero."
-      },
-      "gallery": [
-        {
-          "imageUrl": "/images/festival-suchitoto-2.jpg",
-          "alt": "Evento cultural"
-        }
-      ],
-      "generalHistorySection": {
-        "title": "Visión General e Historia",
-        "description": "El Festival Permanente de Arte y Cultura de Suchitoto se realiza cada febrero. Durante una semana, el pueblo se llena de conciertos, obras de teatro, exposiciones de arte, talleres, presentaciones de libros y danzas. Participan artistas nacionales e internacionales. Es el evento cultural más importante de El Salvador.",
-        "historyCulture": "Creado para posicionar a Suchitoto como capital cultural del país. Ha logrado atraer artistas de renombre internacional y proyectar la cultura salvadoreña.",
-        "locationClimate": {
-          "address": "Centro Histórico de Suchitoto, Departamento de Cuscatlán, El Salvador.",
-          "coordinates": {
-            "latitude": 13.9369,
-            "longitude": -89.0294
-          },
-          "mapUrl": "https://maps.google.com/?q=13.9369,-89.0294",
-          "typicalHours": "Una semana en febrero. Eventos de 9:00 AM a 10:00 PM.",
-          "bestSeason": "Febrero (consultar fechas exactas cada año)."
-        }
-      },
-      "serviceLogisticSection": {
-        "title": "Servicios y Logística",
-        "description": "Festival cultural de alta calidad.",
-        "howToGetThere": [
-          {
-            "option": "Transporte Privado",
-            "details": "Carretera Troncal del Norte desde San Salvador. 1.5 horas. Reservar hospedaje con meses de anticipación."
-          }
-        ],
-        "costs": [
-          {
-            "item": "Mayoría de eventos",
-            "price": "Gratuitos"
-          },
-          {
-            "item": "Algunos espectáculos",
-            "price": "USD 5-15"
-          }
-        ],
-        "facilities": {
-          "parking": true,
-          "restrooms": true,
-          "wheelchairAccess": true,
-          "localGuides": false,
-          "notes": "Evento de clase mundial. Ambiente cultural y sofisticado."
-        }
-      },
-      "premiumSection": {
-        "title": "Recomendaciones Exclusivas",
-        "isLocked": true,
-        "premiumTitle": "Guía Insider del Festival",
-        "contentSnippet": "Eventos imperdibles, cómo conseguir entradas limitadas y alojamiento recomendado.",
-        "callToAction": "Desbloquea con Pulgarpedia Premium",
-        "premiumRecommendations": []
-      }
-    },
-    {
       "placeId": "FE-008",
       "categoryId": "festivals-events",
       "header": {
         "title": "Fiestas Patronales",
         "category": "Festividades y Eventos",
-        "mainImageURL": "/images/fiestas-patronales-1.jpg",
+        "mainImageURL": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764221092/FE-008-0_p2wugr.jpg",
         "subtitle": "Cada pueblo celebra a su santo patrono con feria y tradición."
       },
       "gallery": [
         {
-          "imageUrl": "/images/fiestas-patronales-2.jpg",
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764221096/FE-008-3_im8ije.png",
+          "alt": "Monumento al divino salvador del mundo"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764221092/FE-008-0_p2wugr.jpg",
+          "alt": "Desfile del Correo"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764221093/FE-008-2_kielk3.jpg",
           "alt": "Celebración tradicional"
+        },
+        {
+          "imageUrl": "https://res.cloudinary.com/djnj9ykgj/image/upload/v1764221093/FE-008-1_mmhd5u.jpg",
+          "alt": "Arte y cultura local"
         }
       ],
       "generalHistorySection": {
