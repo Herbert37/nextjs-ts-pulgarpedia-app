@@ -75,7 +75,7 @@ const Home: React.FC = () => {
         router.push(`/?category=${categoryId}`, undefined, { shallow: true });
       }
     },
-    [setSelectedCategory, router]
+    [setSelectedCategory, router],
   );
 
   // Función wrapper para resetear filtros y limpiar URL
@@ -95,7 +95,7 @@ const Home: React.FC = () => {
   const { title, description, canonical } = React.useMemo(() => {
     if (hasActiveFilters) {
       const categoryName = categories.find(
-        (c) => c.id === selectedCategory
+        (c) => c.id === selectedCategory,
       )?.name;
       if (categoryName) {
         return {
@@ -125,7 +125,7 @@ const Home: React.FC = () => {
     totalResults,
   ]);
 
-  // Mostrar estado de carga si el contenido no está listo
+  // Show loading state if content is ready
   if (!isReady) {
     return (
       <>
@@ -144,7 +144,7 @@ const Home: React.FC = () => {
           }}
         >
           <CircularProgress size={60} />
-          <Typography variant='body1' color='text.secondary'>
+          <Typography variant="body1" color="text.secondary">
             Cargando lugares chivos...
           </Typography>
         </Box>
@@ -156,61 +156,61 @@ const Home: React.FC = () => {
     <>
       <Head>
         <title>{title}</title>
-        <meta name='description' content={description} />
+        <meta name="description" content={description} />
         <meta
-          name='keywords'
-          content='El Salvador, turismo, lugares turísticos, volcanes, playas, gastronomía, festividades, pueblos coloniales, naturaleza, aventura'
+          name="keywords"
+          content="El Salvador, turismo, lugares turísticos, volcanes, playas, gastronomía, festividades, pueblos coloniales, naturaleza, aventura"
         />
         <meta
-          name='viewport'
-          content='width=device-width, initial-scale=1, maximum-scale=5'
+          name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=5"
         />
-        <link rel='canonical' href={canonical} />
+        <link rel="canonical" href={canonical} />
 
         {/* Open Graph */}
-        <meta property='og:type' content='website' />
-        <meta property='og:locale' content='es_SV' />
-        <meta property='og:site_name' content='Pulgarpedia' />
-        <meta property='og:title' content={title} />
-        <meta property='og:description' content={description} />
-        <meta property='og:url' content={canonical} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="es_SV" />
+        <meta property="og:site_name" content="Pulgarpedia" />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:url" content={canonical} />
         <meta
-          property='og:image'
-          content='https://pulgarpedia.com/og-image.jpg'
+          property="og:image"
+          content="https://pulgarpedia.com/og-image.jpg"
         />
-        <meta property='og:image:width' content='1200' />
-        <meta property='og:image:height' content='630' />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
         <meta
-          property='og:image:alt'
-          content='Pulgarpedia - Descubre El Salvador'
+          property="og:image:alt"
+          content="Pulgarpedia - Descubre El Salvador"
         />
 
         {/* Twitter */}
-        <meta name='twitter:card' content='summary_large_image' />
-        <meta name='twitter:title' content={title} />
-        <meta name='twitter:description' content={description} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={title} />
+        <meta name="twitter:description" content={description} />
         <meta
-          name='twitter:image'
-          content='https://pulgarpedia.com/og-image.jpg'
+          name="twitter:image"
+          content="https://pulgarpedia.com/og-image.jpg"
         />
 
         {/* Adicionales */}
-        <meta name='author' content='Pulgarpedia' />
-        <meta name='geo.region' content='SV' />
-        <meta name='geo.placename' content='El Salvador' />
+        <meta name="author" content="Pulgarpedia" />
+        <meta name="geo.region" content="SV" />
+        <meta name="geo.placename" content="El Salvador" />
         <meta
-          name='robots'
+          name="robots"
           content={
             hasActiveFilters && searchQuery
               ? "noindex, follow"
               : "index, follow"
           }
         />
-        <meta httpEquiv='Content-Language' content='es' />
+        <meta httpEquiv="Content-Language" content="es" />
 
         {/* JSON-LD Schema Markup */}
         <script
-          type='application/ld+json'
+          type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
@@ -233,7 +233,7 @@ const Home: React.FC = () => {
           }}
         />
         <script
-          type='application/ld+json'
+          type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
@@ -258,7 +258,7 @@ const Home: React.FC = () => {
         />
       </Head>
       <Header />
-      <Container maxWidth='lg' sx={{ mt: 4, mb: 8 }}>
+      <Container maxWidth="lg" sx={{ mt: 4, mb: 8 }}>
         {/* Carrusel de recomendaciones - filtra por categoría si hay una seleccionada */}
         <RecommendationsCarousel
           categoryId={selectedCategory !== "all" ? selectedCategory : undefined}
@@ -295,13 +295,13 @@ const Home: React.FC = () => {
         )}
 
         {/* Sección de Filtros */}
-        <Box sx={{ mb: 4 }} id='results-section'>
-          <Grid container spacing={2} alignItems='stretch'>
+        <Box sx={{ mb: 4 }} id="results-section">
+          <Grid container spacing={2} alignItems="stretch">
             {/* Barra de búsqueda */}
             <Grid item xs={12} md={7}>
               <SearchBar
                 onSearch={setSearchQuery}
-                placeholder='Buscar por nombre, ubicación o descripción...'
+                placeholder="Buscar por nombre, ubicación o descripción..."
                 initialValue={searchQuery}
               />
             </Grid>
@@ -329,7 +329,7 @@ const Home: React.FC = () => {
                 gap: 2,
               }}
             >
-              <Typography variant='body2' color='text.secondary'>
+              <Typography variant="body2" color="text.secondary">
                 {totalResults === 0
                   ? "No se encontraron lugares que coincidan con tu búsqueda"
                   : `Mostrando ${displayedItems.length} de ${totalResults} ${
@@ -339,7 +339,7 @@ const Home: React.FC = () => {
 
               {hasActiveFilters && (
                 <Button
-                  size='small'
+                  size="small"
                   startIcon={<FilterAltOffIcon />}
                   onClick={handleResetFilters}
                   sx={{ textTransform: "none" }}
@@ -392,8 +392,8 @@ const Home: React.FC = () => {
               {hasActiveFilters ? "🔍" : "📍"}
             </Box>
             <Typography
-              variant='h5'
-              color='text.secondary'
+              variant="h5"
+              color="text.secondary"
               gutterBottom
               sx={{ mb: 2, fontWeight: 600 }}
             >
@@ -402,8 +402,8 @@ const Home: React.FC = () => {
                 : "No hay lugares disponibles"}
             </Typography>
             <Typography
-              variant='body1'
-              color='text.secondary'
+              variant="body1"
+              color="text.secondary"
               paragraph
               sx={{ maxWidth: 500, mx: "auto" }}
             >
@@ -413,7 +413,7 @@ const Home: React.FC = () => {
             </Typography>
             {hasActiveFilters && (
               <Button
-                variant='contained'
+                variant="contained"
                 onClick={handleResetFilters}
                 sx={{
                   mt: 2,
@@ -483,8 +483,8 @@ const Home: React.FC = () => {
                   <Box sx={{ textAlign: "center" }}>
                     <CircularProgress size={32} />
                     <Typography
-                      variant='body2'
-                      color='text.secondary'
+                      variant="body2"
+                      color="text.secondary"
                       sx={{ mt: 2 }}
                     >
                       Cargando más lugares...
@@ -497,7 +497,7 @@ const Home: React.FC = () => {
             {/* Indicador de fin de resultados */}
             {!hasMore && displayedItems.length > 12 && (
               <Box sx={{ textAlign: "center", py: 4 }}>
-                <Typography variant='body2' color='text.secondary'>
+                <Typography variant="body2" color="text.secondary">
                   ✨ Has visto todos los lugares disponibles
                 </Typography>
               </Box>
